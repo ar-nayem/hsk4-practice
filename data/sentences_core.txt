@@ -1,0 +1,308 @@
+# One example sentence per line.
+# Format:  NO  chunk/chunk/chunk。 | English
+#   NO   = word number from words.json (the target word must appear in the sentence)
+#   /    = splits the sentence into chunks used by 连词成句 (build) mode; the last chunk keeps end punctuation
+#   The target word should be its own chunk. Keep sentences <= 28 chars for build mode.
+# ---- HSK 1 ----
+2 我/爱/我的/家人。 | I love my family.
+12 我们/班/有/八/个/学生。 | Our class has eight students.
+15 我/爸爸/是/老师。 | My father is a teacher.
+76 我/想/吃/中国/菜。 | I want to eat Chinese food.
+103 你/想/吃/什么？ | What do you want to eat?
+131 这个/西瓜/很/大。 | This watermelon is very big.
+164 这/是/我/的/书。 | This is my book.
+173 现在/几/点？ | What time is it now?
+174 我/用/电脑/工作。 | I use a computer to work.
+177 我们/晚上/看/电影/吧。 | Let's watch a movie tonight.
+194 我/要/买/一些/东西。 | I want to buy some things.
+209 你/有/多/少/钱？ | How much money do you have?
+274 认识/你/我/很/高兴。 | I'm very glad to meet you.
+292 他/在/医院/工作。 | He works at a hospital.
+333 我/在/学习/汉语。 | I am studying Chinese.
+335 今天/天气/很/好。 | The weather is very good today.
+341 我/喜欢/喝/茶。 | I like to drink tea.
+345 这/本/书/很/有意思。 | This book is very interesting.
+364 他/会/说/一点儿/汉语。 | He can speak a little Chinese.
+401 大家/都/叫/我/小王。 | Everyone calls me Xiao Wang.
+458 今天/是/星期一。 | Today is Monday.
+487 我/看/见/他/了。 | I saw him.
+525 请/明天/来/我/家。 | Please come to my home tomorrow.
+536 我们/的/老师/很/热情。 | Our teacher is very warm.
+584 我/想/买/一件/衣服。 | I want to buy a piece of clothing.
+613 你/叫/什么/名字？ | What is your name?
+635 明/年/我/要/去/中国。 | I will go to China next year.
+665 桌子/上/有/几/个/苹果。 | There are some apples on the table.
+694 请/给/我/一杯/水。 | Please give me a glass of water.
+726 我/很/高兴/认识/你。 | I am very glad to know you.
+768 现在/是/十/点。 | It is ten o'clock now.
+797 我/在/看/一本/书。 | I am reading a book.
+806 孩子/已经/睡觉/了。 | The child is already asleep.
+826 我/女儿/今年/五/岁。 | My daughter is five years old this year.
+857 今天/天气/很/热。 | The weather is hot today.
+864 我/喜欢/听/音乐。 | I like listening to music.
+910 我/是/中国人。 | I am Chinese.
+938 这个/孩子/很/小。 | This child is very small.
+954 请/在/这里/写/名字。 | Please write your name here.
+959 我/很/喜欢/这/个/城市。 | I really like this city.
+970 这个/星期/我/很/忙。 | I am very busy this week.
+991 我/在/学校/学习/汉语。 | I study Chinese at school.
+1053 他/去/医院/看病/了。 | He went to the hospital to see a doctor.
+1060 我/有/两/个/哥哥。 | I have two older brothers.
+1099 老师/现在/在/教室/里。 | The teacher is in the classroom now.
+1123 这/是/谁/的/手机？ | Whose phone is this?
+1160 我/住/在/学校/附近。 | I live near the school.
+1190 你/在/做/什么？ | What are you doing?
+1191 请/坐/这里。 | Please sit here.
+# ---- HSK 2 ----
+26 谢谢/你/的/帮助。 | Thank you for your help.
+44 今天/比/昨天/冷。 | Today is colder than yesterday.
+121 请/再/说/一/次。 | Please say it one more time.
+128 这个/字/我/写/错/了。 | I wrote this character wrong.
+148 我/等/一下/就/到。 | I'll arrive in a moment.
+188 他/是/我/第一/个/朋友。 | He is my first friend.
+191 你/懂/我/的/意思/吗？ | Do you understand what I mean?
+203 你/的/回答/对/吗？ | Is your answer correct?
+240 这里/的/东西/非常/便宜。 | The things here are very cheap.
+271 那/座/山/很/高。 | That mountain is very tall.
+314 你/去/过/北京/吗？ | Have you been to Beijing?
+329 这个/孩子/很/可爱。 | This child is very cute.
+408 老师/在/教室/等/我们。 | The teacher is waiting for us in the classroom.
+442 我/家/离/这里/很/近。 | My home is close to here.
+468 你/到/了/就/给/我/打电话。 | Call me as soon as you arrive.
+484 电影/几/点/开始？ | What time does the movie start?
+491 明天/我/有/一个/考试。 | I have an exam tomorrow.
+500 明天/可能/会/下雨。 | It may rain tomorrow.
+507 你/可以/用/我/的/电脑。 | You can use my computer.
+516 时间/过/得/真/快。 | Time really passes quickly.
+538 走/了/一天/我/很/累。 | I am tired after walking all day.
+546 我/买/了/两/本/书。 | I bought two books.
+589 他/最近/工作/很/忙。 | He has been very busy with work lately.
+596 我/每/天/都/跑步。 | I run every day.
+660 这/件/衣服/很/便宜。 | This piece of clothing is very cheap.
+687 我/每天/六/点/起床。 | I get up at six every day.
+718 请/让/我/看/一下。 | Please let me have a look.
+779 我/没有/时间/休息。 | I don't have time to rest.
+813 我/想/跟/你/说话。 | I want to talk with you.
+823 我/送/你/回家。 | I'll see you home.
+860 她/唱歌/跳舞/都/很/好。 | She sings and dances very well.
+885 请/把/作业/做/完。 | Please finish the homework.
+905 我/想/问/你/一个/问题。 | I want to ask you a question.
+918 饭/前/要/洗/手。 | Wash your hands before eating.
+956 夏天/我/爱/吃/西瓜。 | In summer I love eating watermelon.
+981 你/累/了/就/休息/一下。 | Rest a while if you are tired.
+1010 我/要/一/杯/咖啡。 | I would like a cup of coffee.
+1031 他/已经/回家/了。 | He has already gone home.
+1044 我们/一起/去/吃饭/吧。 | Let's go eat together.
+1049 我/不/明白/你/的/意思。 | I don't understand your meaning.
+1073 他/游泳/游/得/很/好。 | He swims very well.
+1093 我/每天/做/运动。 | I exercise every day.
+1113 她/丈夫/是/医生。 | Her husband is a doctor.
+1122 门/开/着，/你/进来/吧。 | The door is open, come in.
+1138 我/不/知道/他/的/名字。 | I don't know his name.
+1167 你/准备/好/了/吗？ | Are you ready?
+1185 这/是/我/最/喜欢/的/歌。 | This is my favorite song.
+# ---- HSK 3 ----
+4 画画/是/我/的/爱好。 | Painting is my hobby.
+6 图书馆/里/很/安静。 | It is very quiet in the library.
+21 你/有/好/办法/吗？ | Do you have a good method?
+24 谢谢/你/来/帮忙。 | Thank you for coming to help.
+46 这里/的/变化/很/大。 | The changes here are very big.
+61 明天/有/一/场/足球/比赛。 | There is a soccer match tomorrow.
+104 对不起，/我/迟到/了。 | Sorry, I'm late.
+126 他/是/一个/聪明/的/孩子。 | He is a clever child.
+143 我/当然/愿意/帮/你。 | Of course I'm willing to help you.
+145 别/担心，/一切/都/会/好/的。 | Don't worry, everything will be fine.
+154 妈妈/在/打扫/房间。 | Mom is cleaning the room.
+200 每天/锻炼/对/身体/好。 | Exercising every day is good for the body.
+225 坐/地铁/很/方便。 | Taking the subway is very convenient.
+267 他/感冒/了，/没/来/上课。 | He caught a cold and didn't come to class.
+270 我/对/中国/文化/很/感兴趣。 | I am very interested in Chinese culture.
+297 今天/外面/刮风。 | It's windy outside today.
+319 中国/是/一个/大/国家。 | China is a big country.
+366 请/回答/我/的/问题。 | Please answer my question.
+389 这个/问题/很/简单。 | This question is very simple.
+396 多/运动/才/能/健康。 | You can only be healthy by exercising more.
+402 老师/教/我们/汉语。 | The teacher teaches us Chinese.
+417 我/不/记得/他/的/名字/了。 | I don't remember his name anymore.
+426 这个/问题/很/难/解决。 | This problem is hard to solve.
+446 他/经常/去/图书馆/看书。 | He often goes to the library to read.
+447 经过/努力，/他/成功/了。 | After hard work, he succeeded.
+476 我们/决定/明天/出发。 | We decided to set out tomorrow.
+501 家里/来/客人/了。 | Guests have come to our home.
+518 请/用/筷子/吃饭。 | Please eat with chopsticks.
+534 他/是/我/的/老/朋友。 | He is my old friend.
+552 我/喜欢/和/朋友/聊天。 | I like chatting with friends.
+557 他/明天/离开/北京。 | He is leaving Beijing tomorrow.
+562 我/和/邻居/关系/很/好。 | I have a good relationship with my neighbors.
+570 他/去/中国/留学/了。 | He went to China to study abroad.
+595 我/马上/就/来。 | I'll come right away.
+611 我/终于/明白/了。 | I finally understand.
+623 这个/汉字/很/难/写。 | This Chinese character is hard to write.
+646 只要/努力，/就/会/进步。 | As long as you work hard, you will improve.
+690 这/件/事/很/奇怪。 | This matter is very strange.
+696 我/没/听/清楚，/请/再/说/一遍。 | I didn't hear clearly, please say it again.
+702 其实/我/也/不/知道。 | Actually, I don't know either.
+719 先/洗手，/然后/吃饭。 | Wash your hands first, then eat.
+734 如果/下雨，/我们/就/不/去。 | If it rains, we won't go.
+759 他/生气/地/走/了。 | He left angrily.
+770 你/可以/试/一下/这/件/衣服。 | You can try on this piece of clothing.
+780 我/想/去/世界/各地/旅游。 | I want to travel around the world.
+802 我/每天/早上/刷牙。 | I brush my teeth every morning.
+807 他/的/汉语/水平/很/高。 | His Chinese level is very high.
+849 我/特别/喜欢/中国/菜。 | I especially like Chinese food.
+861 我/想/提高/我/的/成绩。 | I want to raise my grades.
+884 这个/城市/有/一/百/万/人。 | This city has a million people.
+907 我/对/中国/文化/很/感兴趣。 | I am very interested in Chinese culture.
+923 他/长/得/像/他/爸爸。 | He looks like his father.
+933 我/相信/你/能/做/到。 | I believe you can do it.
+948 过/马路/要/小心。 | Be careful when crossing the road.
+957 我/习惯/早/睡/早/起。 | I am used to sleeping and rising early.
+985 你/可以/自己/选择。 | You can choose by yourself.
+992 我/需要/你/的/帮助。 | I need your help.
+1026 我/一定/会/来。 | I will definitely come.
+1035 你/应该/多/休息。 | You should rest more.
+1045 我/以前/来/过/这里。 | I have been here before.
+1054 他/一直/在/等/你。 | He has been waiting for you all along.
+1085 天气/越/来/越/热/了。 | The weather is getting hotter and hotter.
+1117 请/照顾/好/自己。 | Please take good care of yourself.
+1118 别/着急，/时间/还/早。 | Don't rush, there's still time.
+1157 这/是/一/件/重要/的/事。 | This is an important matter.
+1158 周末/我/常常/在/家/休息。 | I usually rest at home on weekends.
+1173 开车/要/注意/安全。 | Pay attention to safety when driving.
+1175 这/是/我/自己/做/的。 | I made this myself.
+1188 他/最近/很/忙。 | He has been very busy lately.
+1197 我/还/没/做/完/作业。 | I haven't finished my homework yet.
+# ---- HSK 4 ----
+7 请/帮/我/安排/一下/时间。 | Please help me arrange the time.
+8 这里/很/安全，/别/担心。 | It's very safe here, don't worry.
+30 我们/要/保护/环境。 | We must protect the environment.
+43 本来/我/想/去，/后来/没/去。 | Originally I wanted to go, but later I didn't.
+57 他/很/聪明，/并且/很/努力。 | He is smart, and also hard-working.
+60 比如/苹果、/香蕉/都/是/水果。 | For example, apples and bananas are both fruit.
+63 他/去年/大学/毕业。 | He graduated from university last year.
+68 我/不得不/说/实话。 | I have no choice but to tell the truth.
+81 我们/在/餐厅/吃饭。 | We eat in the restaurant.
+96 只要/努力，/就/能/成功。 | As long as you try hard, you can succeed.
+100 他/成为/了/一名/医生。 | He became a doctor.
+114 我/明天/早上/出发。 | I will set off tomorrow morning.
+136 大概/还/有/十/分钟。 | There are probably about ten minutes left.
+158 从/这里/到/机场/大约/要/一/小时。 | It takes about an hour from here to the airport.
+195 请/仔细/看/这/个/动作。 | Please watch this movement carefully.
+229 这/两/个/方面/都/很/重要。 | Both of these aspects are important.
+235 这/篇/文章/需要/翻译。 | This article needs to be translated.
+244 中国/的/文化/很/丰富。 | Chinese culture is very rich.
+255 这个/问题/有点儿/复杂。 | This problem is a bit complicated.
+257 我/想/改变/自己/的/生活。 | I want to change my life.
+266 我/感觉/这个/主意/不错。 | I feel this idea is good.
+268 谢谢/你/的/感情/和/支持。 | Thanks for your feelings and support.
+293 这些/钱/够/买/一/台/电脑。 | This money is enough to buy a computer.
+303 时间/是/最/关键/的/问题。 | Time is the key issue.
+304 他/负责/管理/这个/公司。 | He is in charge of managing this company.
+310 公司/有/新/的/规定。 | The company has new rules.
+316 学习/是/一/个/长/的/过程。 | Learning is a long process.
+322 请/给/我/讲/一个/故事。 | Please tell me a story.
+339 外面/好像/在/下雨。 | It looks like it's raining outside.
+345 这/本/书/很/厚。 | This book is very thick.
+376 医院/需要/很/多/护士。 | The hospital needs many nurses.
+388 只要/坚持，/就/会/进步。 | As long as you persist, you will improve.
+394 我/相信/将来/会/更/好。 | I believe the future will be better.
+398 医生/让/他/减少/运动。 | The doctor told him to reduce exercise.
+406 我们/需要/多/交流。 | We need to communicate more.
+410 这里/的/交通/很/方便。 | The transportation here is convenient.
+411 教育/对/孩子/很/重要。 | Education is very important for children.
+418 他/学习/很/激动/地/说话。 | He spoke excitedly about his studies.
+430 请/你/解释/一下/原因。 | Please explain the reason.
+444 昨天/的/演出/非常/精彩。 | Yesterday's performance was wonderful.
+448 这个/城市/经济/发展/很/快。 | This city's economy develops fast.
+455 他/有/很/多/工作/经验。 | He has a lot of work experience.
+459 我们/明天/进行/考试。 | We will hold an exam tomorrow.
+460 考试/前/我/有点儿/紧张。 | I'm a bit nervous before the exam.
+471 请/继续/努力。 | Please keep working hard.
+490 我/需要/考虑/一下。 | I need to think about it.
+499 这个/办法/肯定/有效。 | This method is definitely effective.
+502 我/想/去，/可是/没/时间。 | I want to go, but I don't have time.
+521 学习/汉语/有/一点儿/困难。 | Learning Chinese has some difficulties.
+528 这/些/礼物/都/来自/中国。 | These gifts all come from China.
+532 不要/浪费/时间。 | Don't waste time.
+545 我/连/他/的/名字/都/不/知道。 | I don’t even know his name.
+550 我们/常/用/微信/联系。 | We often keep in touch on WeChat.
+555 这个/问题/很/厉害。 | This problem is serious.
+556 我/完全/理解/你/的/想法。 | I completely understand your idea.
+564 这/是/一个/好/例如/的/句子。 | This is a good example sentence.
+567 请/留/下/你/的/电话/号码。 | Please leave your phone number.
+568 他/汉语/说/得/很/流利。 | He speaks Chinese fluently.
+572 我/理想/的/工作/是/老师。 | My ideal job is being a teacher.
+591 天/太/冷，/我/穿/了/毛/衣。 | It's too cold, I put on a sweater.
+605 这里/上网/是/免费/的。 | The internet here is free.
+614 中国/有/五十六/个/民族。 | China has fifty-six ethnic groups.
+615 我/学/汉语/的/目的/很/清楚。 | My purpose for learning Chinese is clear.
+630 请/输入/内/的/密码。 | Please enter the inner password.
+631 这/篇/文章/的/内容/很/好。 | The content of this article is very good.
+637 请问/你/的/年龄/多/大？ | May I ask how old you are?
+667 平时/我/喜欢/看书。 | I usually like reading.
+673 这/是/一个/普遍/的/问题。 | This is a common problem.
+698 请/说明/一下/情况。 | Please explain the situation.
+231 周末/我/想/放松/一下。 | I want to relax on the weekend.
+714 这个/消息/确实/是/真/的。 | This news is indeed true.
+725 你/可以/问/任何/问题。 | You can ask any question.
+728 我/今天/的/任务/完成/了。 | I finished today's task.
+749 请/稍微/等/一下。 | Please wait a moment.
+751 语言/是/社会/的/一部分。 | Language is a part of society.
+757 我/喜欢/现在/的/生活。 | I like my current life.
+775 这/双/鞋/很/适合/你。 | This pair of shoes suits you well.
+783 我/慢慢/适应/了/这里/的/生活。 | I gradually got used to life here.
+790 他/的/话/让/我/受到/影响。 | His words influenced me.
+796 我们/首先/要/做/计划。 | First, we need to make a plan.
+814 请/看/说明/书。 | Please read the instructions.
+817 我/对/这里/很/熟悉。 | I am very familiar with this place.
+827 你/可以/随便/坐。 | You can sit anywhere you like.
+832 所有/的/学生/都/来/了。 | All the students have come.
+839 服务员/的/态度/很/好。 | The waiter's attitude is very good.
+850 每个/人/都/有/自己/的/特点。 | Everyone has their own characteristics.
+862 学校/提供/免费/的/午饭。 | The school provides free lunch.
+866 会议/提前/到/明天。 | The meeting was moved up to tomorrow.
+869 通过/努力，/他/进步/了。 | Through hard work, he improved.
+875 请/通知/大家/来/开会。 | Please notify everyone to come to the meeting.
+894 我/完全/同意/你/的/看法。 | I completely agree with your view.
+900 这个/菜/的/味道/很/好。 | This dish tastes very good.
+909 这/篇/文章/写/得/很/好。 | This article is well written.
+915 一个人/在/家/很/无聊。 | Being home alone is boring.
+916 无论/多/难，/我/都/不/放弃。 | No matter how hard, I won't give up.
+935 我/很/羡慕/你/的/生活。 | I really envy your life.
+942 他/给/我们/讲/了/一个/笑话。 | He told us a joke.
+947 我/收到/一个/好/消息。 | I received good news.
+966 得到/这个/机会/我/很/兴奋。 | I'm excited to get this chance.
+967 他/的/生活/很/幸福。 | His life is very happy.
+974 请/把/这个/信息/告诉/他。 | Please tell him this information.
+976 你/要/对/自己/有/信心。 | You should have confidence in yourself.
+995 工作/让/我/有/很/大/压力。 | Work gives me a lot of pressure.
+998 我们/要/养成/好/习惯。 | We should form good habits.
+999 这个/老师/对/学生/很/严格。 | This teacher is very strict with students.
+1005 他/在/大学/做/研究/工作。 | He does research work at the university.
+1011 我/想/邀请/你/来/我/家。 | I want to invite you to my home.
+1013 要是/有/时间，/我/一定/去。 | If I have time, I'll definitely go.
+1030 我/想/听/你/的/意见。 | I want to hear your opinion.
+1034 我们/队/终于/赢/了。 | Our team finally won.
+1042 他/给/我/留下/了/好/印象。 | He left me a good impression.
+1046 我/想/把/一切/都/告诉/你。 | I want to tell you everything.
+1058 我/永远/不/会/忘记/你。 | I will never forget you.
+1069 这/本/书/很/有趣。 | This book is very interesting.
+1071 他/是/一个/优秀/的/学生。 | He is an excellent student.
+1082 请/告诉/我/原因。 | Please tell me the reason.
+1086 我/每天/阅读/半/小时。 | I read for half an hour every day.
+1090 祝/你/有/一个/愉快/的/周末。 | Wish you a pleasant weekend.
+1097 汉语/是/一/门/难/的/语言。 | Chinese is a difficult language.
+1106 这个/月/工资/增加/了。 | This month's salary increased.
+1109 每个/人/都/有/自己/的/责任。 | Everyone has their own responsibility.
+1128 请/证明/这/是/你/的。 | Please prove this is yours.
+1129 你/的/答案/完全/正确。 | Your answer is completely correct.
+1139 这/本/书/值得/一/读。 | This book is worth reading.
+1144 学习/让/我/得到/很/多/知识。 | Studying gives me a lot of knowledge.
+1147 医生/是/一个/好/职业。 | Doctor is a good profession.
+1151 这/是/今天/的/重点。 | This is today's key point.
+1154 我们/要/重视/这个/问题。 | We should take this problem seriously.
+1163 他/是/一名/专门/的/医生。 | He is a specialized doctor.
+1164 他/的/专业/是/汉语。 | His major is Chinese.
+1189 我们/要/尊重/别人。 | We should respect others.
+1198 这个/词/有/很/多/作用。 | This word has many uses.
+1200 这/本/书/的/作者/是/谁？ | Who is the author of this book?

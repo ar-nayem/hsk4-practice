@@ -1,0 +1,273 @@
+# HSK 3 (part 2) — extra example sentences (2 more per word).  Format: NO chunk/chunk/chunk。 | English
+604 我/早上/吃了/两个/面包。 | I had two bread rolls this morning.
+604 这家/店的/面包/很/好吃。 | The bread in this shop is very good.
+611 我/明白/你的/意思了。 | I understand what you mean.
+611 你/明白/了吗？ | Do you understand?
+618 请/帮/我/拿/一杯/水。 | Please get me a glass of water.
+618 他/手里/拿着/一本书。 | He's holding a book.
+620 我/每个/周末/都/去/看/奶奶。 | I visit my grandma every weekend.
+620 奶奶/做的/饺子/最/好吃。 | Grandma's dumplings are the best.
+623 汉语/难/不/难？ | Is Chinese hard?
+623 这个/问题/太/难了。 | This question is too hard.
+625 我/是/南方人。 | I'm from the south.
+625 南方/经常/下雨。 | It often rains in the south.
+626 你/别/难过了。 | Don't be sad.
+626 他/考得/不好，/很/难过。 | He did badly in the exam and is very upset.
+636 你/上/几年级？ | What grade are you in?
+636 我/是/大学/二年级的/学生。 | I'm a second-year university student.
+638 我们的/老师/很/年轻。 | Our teacher is very young.
+638 年轻人/都/喜欢/上网。 | Young people all like going online.
+639 树上/有/一只/鸟。 | There's a bird in the tree.
+639 我/喜欢/听/鸟/叫。 | I like listening to the birds sing.
+646 他/学习/非常/努力。 | He studies very hard.
+646 只要/努力，/就/能/成功。 | As long as you work hard, you can succeed.
+651 我/最近/胖了。 | I've put on weight recently.
+651 这只/猫/太/胖了。 | This cat is too fat.
+653 请/把/盘子/拿/过来。 | Please bring the plates over.
+653 盘子里/有/很多/水果。 | There's a lot of fruit on the plate.
+655 我/喜欢/爬山。 | I like hiking.
+655 他们/上个/周末/去/爬山了。 | They went hiking last weekend.
+664 你/喝/啤酒/吗？ | Do you drink beer?
+664 冰箱里/有/几瓶/啤酒。 | There are a few bottles of beer in the fridge.
+668 这个/瓶子/是/空的。 | This bottle is empty.
+668 他/把/瓶子/扔了。 | He threw the bottle away.
+671 这双/皮鞋/很/贵。 | These leather shoes are expensive.
+671 他/每天/都/穿/皮鞋/上班。 | He wears leather shoes to work every day.
+677 你/会/骑/自行车/吗？ | Can you ride a bike?
+677 他/骑着/车/去/学校。 | He rides to school.
+689 飞机/几点/起飞？ | What time does the plane take off?
+689 因为/下雨，/飞机/不能/起飞。 | The plane can't take off because of the rain.
+690 这件/事/很/奇怪。 | This is very strange.
+690 他/今天/有点儿/奇怪。 | He's a bit odd today.
+692 他/从/椅子上/站了/起来。 | He stood up from his chair.
+692 快/起来，/已经/八点了！ | Get up, it's already eight o'clock!
+696 我/听/不/清楚。 | I can't hear clearly.
+696 请/你/说/清楚/一点儿。 | Please say it a bit more clearly.
+697 我/想/请假/去/看/病。 | I'd like to take time off to see a doctor.
+697 他/今天/请假/了。 | He has taken today off.
+702 其实/我/也/不/知道。 | Actually, I don't know either.
+702 这个/问题/其实/很/简单。 | This question is actually very simple.
+703 你/还有/其他/问题/吗？ | Do you have any other questions?
+703 其他/人/都/走了。 | Everyone else has left.
+704 我/最/喜欢/秋天。 | Autumn is my favorite season.
+704 秋天/的/天气/很/凉快。 | The weather in autumn is nice and cool.
+716 她/买了/一条/新/裙子。 | She bought a new skirt.
+716 这条/裙子/太/短了。 | This skirt is too short.
+719 我们/先/吃饭，/然后/去/看/电影。 | Let's eat first and then go and see a movie.
+719 他/先/洗/手，/然后/吃饭。 | He washes his hands first, then eats.
+727 你/认为/怎么样？ | What do you think?
+727 我/认为/这个/办法/很好。 | I think this is a good way to do it.
+729 他/工作/很/认真。 | He works very conscientiously.
+729 请/认真/听/老师/讲。 | Please listen carefully to the teacher.
+730 她/对/客人/很/热情。 | She's very welcoming to guests.
+730 谢谢/你的/热情/帮助。 | Thank you for your kind help.
+733 这个/字/很/容易/写。 | This character is easy to write.
+733 学/汉语/不/容易。 | Learning Chinese isn't easy.
+734 如果/明天/下雨，/我们/就/不/去了。 | If it rains tomorrow, we won't go.
+734 如果/你/有/时间，/就/来/我家/吧。 | If you have time, come over to my place.
+737 我/忘了/带/伞。 | I forgot to bring an umbrella.
+737 这把/伞/是/谁的？ | Whose umbrella is this?
+745 我/每天/晚上/上网/一个/小时。 | I go online for an hour every evening.
+745 你/可以/上网/查/一下。 | You can look it up online.
+759 妈妈/生气/了。 | Mom is angry.
+759 别/生气，/我/不是/故意的。 | Don't be angry, I didn't mean it.
+762 我/听到/了/奇怪的/声音。 | I heard a strange sound.
+762 她的/声音/很/好听。 | She has a lovely voice.
+770 这件/衣服/我/可以/试/一下/吗？ | May I try this on?
+770 你/可以/试/一下/这个/办法。 | You could try this way.
+780 世界/上/有/很多/国家。 | There are many countries in the world.
+780 他/想/去/世界/各地/旅行。 | He wants to travel around the world.
+787 他/又/高/又/瘦。 | He's tall and thin.
+787 她/比/以前/瘦了。 | She's thinner than before.
+798 路/两边/有/很多/树。 | There are lots of trees along both sides of the road.
+798 这棵/树/很/高。 | This tree is very tall.
+801 我/买了/一双/新/鞋。 | I bought a new pair of shoes.
+801 这双/袜子/是/谁的？ | Whose socks are these?
+802 我/每天/早上/起床/后/刷牙。 | I brush my teeth every morning after getting up.
+802 孩子/不/喜欢/刷牙。 | Children don't like brushing their teeth.
+803 我/今天/不/舒服。 | I don't feel well today.
+803 这张/床/很/舒服。 | This bed is very comfortable.
+807 他的/汉语/水平/很/高。 | His level of Chinese is very high.
+807 我/想/提高/我的/汉语/水平。 | I want to improve my Chinese.
+816 我/叔叔/是/一名/警察。 | My uncle is a police officer.
+816 叔叔/给/我/买了/一个/礼物。 | My uncle bought me a present.
+818 我/不/喜欢/数学。 | I don't like maths.
+818 他的/数学/很/好。 | He's very good at maths.
+822 司机/开车/开得/很/快。 | The driver drives very fast.
+822 我/爸爸/以前/是/司机。 | My dad used to be a driver.
+840 今天/太阳/很/大。 | The sun is strong today.
+840 太阳/下山了。 | The sun has gone down.
+849 今天/特别/热。 | It's especially hot today.
+849 我/特别/喜欢/这个/电影。 | I really like this movie.
+851 我的/牙/很/疼。 | My tooth really hurts.
+851 你/哪儿/疼？ | Where does it hurt?
+855 这个/蛋糕/很/甜。 | This cake is very sweet.
+855 她/喜欢/吃/甜的/东西。 | She likes sweet things.
+858 他/家/有/一条/小狗。 | His family has a little dog.
+858 这条/河/很/干净。 | This river is very clean.
+861 我的/汉语/水平/提高了/很多。 | My Chinese has improved a lot.
+861 他/想/提高/自己的/能力。 | He wants to improve his abilities.
+868 我/喜欢/体育。 | I like sport.
+868 学校/有/很大的/体育馆。 | The school has a big gym.
+871 我的/同事/都/很/好。 | My colleagues are all very nice.
+871 他/和/同事/一起/吃/午饭。 | He has lunch with his colleagues.
+874 我/同意/你的/看法。 | I agree with your view.
+874 妈妈/不/同意/我/去。 | Mom won't let me go.
+876 她的/头发/又/黑/又/长。 | Her hair is long and black.
+876 他/每天/洗/头发。 | He washes his hair every day.
+878 他的/腿/很/长。 | He has long legs.
+878 他/跑步/时/伤了/腿。 | He hurt his leg while running.
+881 他/突然/哭了。 | He suddenly burst into tears.
+881 突然/下起了/大雨。 | It suddenly started pouring with rain.
+882 我/在/图书馆/看书。 | I'm reading in the library.
+882 图书馆/几点/开门？ | What time does the library open?
+884 这个/城市/有/一千万/人。 | This city has ten million people.
+884 他/买/车/花了/十万/块。 | He spent a hundred thousand yuan on the car.
+887 请/再/给/我/一碗/米饭。 | Please give me another bowl of rice.
+887 他/把/碗/洗/干净了。 | He washed the bowls clean.
+888 你/完成/作业/了吗？ | Have you finished your homework?
+888 这个/工作/很/难/完成。 | This job is hard to finish.
+890 别/忘记/带/护照。 | Don't forget your passport.
+890 我/忘记/他的/名字了。 | I've forgotten his name.
+897 大家/都/为/他/高兴。 | Everyone is happy for him.
+897 我/为/你/准备了/一个/礼物。 | I've got a present ready for you.
+898 请问/您/几位？ | How many of you are there, please?
+898 那位/老师/是/谁？ | Who is that teacher?
+901 为了/健康，/他/每天/跑步。 | He runs every day to stay healthy.
+901 为了/考试，/他/每天/复习/到/很晚。 | He revises late every night for the exam.
+907 我/对/中国/文化/很/感兴趣。 | I'm very interested in Chinese culture.
+907 每个/国家的/文化/都/不一样。 | Every country's culture is different.
+919 太阳/从/西边/下山。 | The sun sets in the west.
+919 我家/在/学校的/西边。 | My home is to the west of the school.
+921 我/先/走了，/再见！ | I'm off now, bye!
+921 你/先/吃，/我/等/一会儿/再/吃。 | You eat first; I'll eat in a bit.
+923 他/长得/很/像/他/爸爸。 | He looks a lot like his dad.
+923 今天/像/春天/一样/暖和。 | Today is as warm as spring.
+924 请/向/左/走。 | Please go to the left.
+924 他/向/我/笑了笑。 | He smiled at me.
+929 我/买了/一些/香蕉。 | I bought some bananas.
+929 猴子/喜欢/吃/香蕉。 | Monkeys like eating bananas.
+933 我/相信/你。 | I believe you.
+933 你/相信/他/说的/话/吗？ | Do you believe what he said?
+948 过/马路/要/小心。 | Be careful crossing the road.
+948 小心/别/感冒了。 | Be careful not to catch a cold.
+949 校长/在/办公室。 | The principal is in the office.
+949 我们/学校的/校长/很/年轻。 | Our school principal is very young.
+950 今年/夏天/特别/热。 | This summer is especially hot.
+950 夏天/我们/去/海边/游泳。 | In summer we go swimming at the seaside.
+957 我/已经/习惯了/这里的/生活。 | I'm used to life here now.
+957 早睡早起/是/好/习惯。 | Early to bed and early to rise is a good habit.
+969 我的/行李箱/是/红色的。 | My suitcase is red.
+969 请/帮/我/拿/一下/行李箱。 | Please help me with my suitcase.
+973 你/看/今天的/新闻/了吗？ | Have you seen today's news?
+973 我/每天/上网/看/新闻。 | I read the news online every day.
+975 这里的/空气/很/新鲜。 | The air here is very fresh.
+975 我/喜欢/吃/新鲜的/水果。 | I like eating fresh fruit.
+977 我/没/带/信用卡。 | I didn't bring my credit card.
+977 这里/可以/用/信用卡/吗？ | Can I use a credit card here?
+978 我/在/动物园/看到了/熊猫。 | I saw pandas at the zoo.
+978 熊猫/喜欢/吃/竹子。 | Pandas like eating bamboo.
+979 洗手间/在/二楼。 | The restroom is on the second floor.
+979 我/去/一下/洗手间。 | I'm just going to the restroom.
+984 我/要/先/洗澡。 | I'm going to have a shower first.
+984 他/正在/洗澡。 | He's in the shower.
+985 我/选择/了/这个/工作。 | I chose this job.
+985 你/可以/自己/选择。 | You can choose for yourself.
+992 我/需要/你的/帮助。 | I need your help.
+992 你/需要/什么/吗？ | Do you need anything?
+1012 我/对/自己/要求/很/高。 | I set high standards for myself.
+1012 公司/要求/我们/八点/到。 | The company requires us to arrive at eight.
+1019 我/爷爷/今年/八十岁。 | My grandpa is eighty this year.
+1019 爷爷/喜欢/喝/茶。 | Grandpa likes drinking tea.
+1023 我/一般/七点/起床。 | I usually get up at seven.
+1023 这家/饭店的/菜/一般。 | The food at this restaurant is so-so.
+1024 他/一边/走，/一边/唱歌。 | He sings as he walks.
+1024 我们/一边/吃/一边/聊。 | We chat as we eat.
+1026 我/一定/会/来。 | I'll definitely come.
+1026 你/一定/要/注意/身体。 | You must look after your health.
+1028 我们班/一共/有/三十个/人。 | There are thirty people in our class altogether.
+1028 一共/多少/钱？ | How much is it altogether?
+1029 请/等/一会儿。 | Please wait a moment.
+1029 我/一会儿/就/回来。 | I'll be back in a moment.
+1035 你/应该/早点儿/睡觉。 | You should go to bed earlier.
+1035 我们/应该/帮助/别人。 | We should help others.
+1037 下雨/影响了/比赛。 | The rain affected the match.
+1037 他/对/我的/影响/很大。 | He has had a big influence on me.
+1038 银行/几点/开门？ | What time does the bank open?
+1038 我/在/银行/工作。 | I work at a bank.
+1039 我/不/喝/饮料。 | I don't drink soft drinks.
+1039 冰箱里/有/很多/饮料。 | There are lots of drinks in the fridge.
+1043 我/每天/听/音乐。 | I listen to music every day.
+1043 你/喜欢/什么/音乐？ | What kind of music do you like?
+1045 以前/我/住在/上海。 | I used to live in Shanghai.
+1045 睡觉/以前/要/刷牙。 | Brush your teeth before going to bed.
+1052 我们/俩/一样/高。 | The two of us are the same height.
+1052 这/两个/字/不/一样。 | These two characters are different.
+1054 雨/一直/下了/三天。 | It rained non-stop for three days.
+1054 他/一直/在/等/你。 | He's been waiting for you the whole time.
+1056 我/可以/用/你的/手机/吗？ | Can I use your phone?
+1056 这个/汉字/怎么/用？ | How is this character used?
+1059 他/又/来了。 | He's here again.
+1059 这个/苹果/又/大/又/红。 | This apple is big and red.
+1066 他/是/一个/有名的/演员。 | He's a famous actor.
+1066 这里/最/有名的/菜/是/什么？ | What's the most famous dish here?
+1070 我们/来/玩/个/游戏/吧。 | Let's play a game.
+1070 孩子/每天/玩/游戏/太/久/不好。 | It's not good for children to play games too long every day.
+1077 一共/五十/元。 | That's fifty yuan altogether.
+1077 这张/票/八十/元。 | This ticket is eighty yuan.
+1081 我/愿意/帮助/你。 | I'm willing to help you.
+1081 他/不/愿意/去。 | He doesn't want to go.
+1083 我/遇到了/一个/问题。 | I've run into a problem.
+1083 你/遇到/困难/可以/找/我。 | Come to me if you run into difficulties.
+1085 天气/越来越/冷了。 | It's getting colder and colder.
+1085 他的/汉语/越来越/好。 | His Chinese is getting better and better.
+1088 你/看，/月亮/出来了。 | Look, the moon has come out.
+1088 我/喜欢/看/月亮。 | I like looking at the moon.
+1110 请/站/起来。 | Please stand up.
+1110 他/站在/我/后面。 | He's standing behind me.
+1111 请/给/我/一张/纸。 | Please give me a sheet of paper.
+1111 他/有/一张/很/大的/床。 | He has a very big bed.
+1112 小狗/长大了。 | The puppy has grown up.
+1112 他/长得/很/帅。 | He's very handsome.
+1117 谢谢/你/照顾/我。 | Thank you for looking after me.
+1117 她/在家/照顾/孩子。 | She stays at home looking after the children.
+1118 别/着急，/慢慢/来。 | Don't rush; take your time.
+1118 他/很/着急/地/找/手机。 | He's anxiously looking for his phone.
+1119 这张/照片/很/漂亮。 | This photo is very beautiful.
+1119 我/给/你/看/我/家人的/照片。 | Let me show you photos of my family.
+1121 我的/照相机/坏了。 | My camera is broken.
+1121 这个/照相机/很/贵。 | This camera is very expensive.
+1134 我/有/一只/小猫。 | I have a kitten.
+1134 桌子上/有/三只/杯子。 | There are three cups on the table.
+1135 我/只/有/十块/钱。 | I only have ten yuan.
+1135 他/只/喝/茶。 | He only drinks tea.
+1148 只有/努力，/才能/成功。 | Only by working hard can you succeed.
+1148 只有/周末/我/才/有/时间。 | I only have time at weekends.
+1149 你/喜欢/哪种/水果？ | What kind of fruit do you like?
+1149 这种/花/很/香。 | This kind of flower smells lovely.
+1153 他/站在/我们/中间。 | He's standing between us.
+1153 房间/中间/有/一张/桌子。 | There's a table in the middle of the room.
+1155 你/会/说/中文/吗？ | Can you speak Chinese?
+1155 这本/中文/书/很/有意思。 | This Chinese book is very interesting.
+1157 这件/事/很/重要。 | This matter is very important.
+1157 健康/比/钱/更/重要。 | Health is more important than money.
+1158 周末/你/做/什么？ | What do you do at weekends?
+1158 这个/周末/我/要/加班。 | I have to work overtime this weekend.
+1171 他/主要/负责/这件/事。 | He's mainly responsible for this.
+1171 我/来/北京/主要/是/为了/学习。 | I came to Beijing mainly to study.
+1173 请/注意/安全。 | Please be careful.
+1173 你/要/注意/身体。 | You must look after your health.
+1175 我/自己/去/吧。 | I'll go by myself.
+1175 他/自己/做了/晚饭。 | He made dinner himself.
+1179 我/每天/骑/自行车/上学。 | I ride my bike to school every day.
+1179 这辆/自行车/是/新的。 | This bike is new.
+1181 他/总是/迟到。 | He's always late.
+1181 她/总是/很/高兴。 | She's always happy.
+1184 他的/嘴/很/大。 | He has a big mouth.
+1184 吃饭/的时候/别/张/嘴/说话。 | Don't talk with your mouth open while eating.
+1187 他/最后/一个/到。 | He was the last to arrive.
+1187 这/是/最后/一次/机会。 | This is the last chance.
+1188 你/最近/怎么样？ | How have you been lately?
+1188 最近/天气/很/好。 | The weather has been nice lately.
+1197 今天的/作业/很/多。 | There's a lot of homework today.
+1197 我/还/没/写完/作业。 | I still haven't finished my homework.

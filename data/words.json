@@ -1,0 +1,8402 @@
+[
+{
+"no": 1,
+"level": "3",
+"zh": "啊",
+"py": "a",
+"en": "particle: used at the end of a sentence to indicate confirmation or defense"
+},
+{
+"no": 2,
+"level": "1",
+"zh": "爱",
+"py": "ài",
+"en": "verb: to love"
+},
+{
+"no": 3,
+"level": "3",
+"zh": "矮",
+"py": "ǎi",
+"en": "adjective: short (often referring to the height of a person or object)"
+},
+{
+"no": 4,
+"level": "3",
+"zh": "爱好",
+"py": "àihào",
+"en": "noun: hobby / interest"
+},
+{
+"no": 5,
+"level": "4",
+"zh": "爱情",
+"py": "àiqíng",
+"en": "noun: romance / love (between a man and a woman)"
+},
+{
+"no": 6,
+"level": "3",
+"zh": "安静",
+"py": "ānjìng",
+"en": "adjective: quiet"
+},
+{
+"no": 7,
+"level": "4",
+"zh": "安排",
+"py": "ānpái",
+"en": "verb: to arrange"
+},
+{
+"no": 8,
+"level": "4",
+"zh": "安全",
+"py": "ānquán",
+"en": "adjective: safe / secure"
+},
+{
+"no": 9,
+"level": "4",
+"zh": "按时",
+"py": "ànshí",
+"en": "adverb: on time / on schedule"
+},
+{
+"no": 10,
+"level": "4",
+"zh": "按照",
+"py": "ànzhào",
+"en": "preposition: according to"
+},
+{
+"no": 11,
+"level": "3",
+"zh": "阿姨",
+"py": "āyí",
+"en": "noun: aunt"
+},
+{
+"no": 12,
+"level": "1",
+"zh": "八",
+"py": "bā",
+"en": "numeral: eight"
+},
+{
+"no": 13,
+"level": "2",
+"zh": "吧",
+"py": "ba",
+"en": "particle: (indicating a suggestion, request or mild command)"
+},
+{
+"no": 14,
+"level": "3",
+"zh": "把",
+"py": "bǎ",
+"en": "classifier: used for things with a handle"
+},
+{
+"no": 15,
+"level": "1",
+"zh": "爸爸",
+"py": "bàba",
+"en": "noun: father"
+},
+{
+"no": 16,
+"level": "2",
+"zh": "白",
+"py": "bái",
+"en": "adjective: white"
+},
+{
+"no": 17,
+"level": "2",
+"zh": "百",
+"py": "bǎi",
+"en": "numeral: hundred"
+},
+{
+"no": 18,
+"level": "4",
+"zh": "百分之",
+"py": "bǎifēnzhī",
+"en": "percent"
+},
+{
+"no": 19,
+"level": "3",
+"zh": "搬",
+"py": "bān",
+"en": "verb: to move (objects or house)"
+},
+{
+"no": 20,
+"level": "3",
+"zh": "班",
+"py": "bān",
+"en": "noun: class"
+},
+{
+"no": 21,
+"level": "3",
+"zh": "办法",
+"py": "bànfǎ",
+"en": "noun: means, method or way (of doing something)"
+},
+{
+"no": 22,
+"level": "4",
+"zh": "棒",
+"py": "bàng",
+"en": "adjective: excellent / awesome"
+},
+{
+"no": 23,
+"level": "3",
+"zh": "半",
+"py": "bàn",
+"en": "numeral: half"
+},
+{
+"no": 24,
+"level": "3",
+"zh": "帮忙",
+"py": "bāngmáng",
+"en": "verb: to help (separable verb)"
+},
+{
+"no": 25,
+"level": "3",
+"zh": "办公室",
+"py": "bàngōngshì",
+"en": "noun: office"
+},
+{
+"no": 26,
+"level": "2",
+"zh": "帮助",
+"py": "bāngzhù",
+"en": "verb: to help / to assist"
+},
+{
+"no": 27,
+"level": "3",
+"zh": "包",
+"py": "bāo",
+"en": "noun: bag / sack"
+},
+{
+"no": 28,
+"level": "4",
+"zh": "抱",
+"py": "bào",
+"en": "verb: to hold in the arms / to hug"
+},
+{
+"no": 29,
+"level": "3",
+"zh": "饱",
+"py": "bǎo",
+"en": "adjective: full (stomach) / to eat one's fill"
+},
+{
+"no": 30,
+"level": "4",
+"zh": "保护",
+"py": "bǎohù",
+"en": "verb: to protect"
+},
+{
+"no": 31,
+"level": "4",
+"zh": "报名",
+"py": "bàomíng",
+"en": "verb: to apply / to sign up"
+},
+{
+"no": 32,
+"level": "4",
+"zh": "抱歉",
+"py": "bàoqiàn",
+"en": "verb: to be sorry"
+},
+{
+"no": 33,
+"level": "4",
+"zh": "保证",
+"py": "bǎozhèng",
+"en": "verb: to guarantee"
+},
+{
+"no": 34,
+"level": "2",
+"zh": "报纸",
+"py": "bàozhǐ",
+"en": "noun: newspaper"
+},
+{
+"no": 35,
+"level": "4",
+"zh": "包子",
+"py": "bāozi",
+"en": "noun: steamed stuffed bun"
+},
+{
+"no": 36,
+"level": "4",
+"zh": "倍",
+"py": "bèi",
+"en": "classifier: times / -fold"
+},
+{
+"no": 37,
+"level": "3",
+"zh": "被",
+"py": "bèi",
+"en": "preposition: used to indicate the passive voice"
+},
+{
+"no": 38,
+"level": "3",
+"zh": "北方",
+"py": "běifāng",
+"en": "noun: north / northern part"
+},
+{
+"no": 39,
+"level": "1",
+"zh": "北京",
+"py": "běijīng",
+"en": "noun: Beijing (capital of China)"
+},
+{
+"no": 40,
+"level": "1",
+"zh": "杯子",
+"py": "bēizi",
+"en": "noun: cup"
+},
+{
+"no": 41,
+"level": "1",
+"zh": "本",
+"py": "běn",
+"en": "measure word: for books"
+},
+{
+"no": 42,
+"level": "4",
+"zh": "笨",
+"py": "bèn",
+"en": "adjective: stupid / foolish"
+},
+{
+"no": 43,
+"level": "4",
+"zh": "本来",
+"py": "běnlái",
+"en": "adverb: originally / at first"
+},
+{
+"no": 44,
+"level": "2",
+"zh": "比",
+"py": "bǐ",
+"en": "preposition: than / to compare"
+},
+{
+"no": 45,
+"level": "4",
+"zh": "遍",
+"py": "biàn",
+"en": "classifier: (denoting an action from beginning to end) time"
+},
+{
+"no": 46,
+"level": "3",
+"zh": "变化",
+"py": "biànhuà",
+"en": "verb: to change"
+},
+{
+"no": 47,
+"level": "4",
+"zh": "表格",
+"py": "biǎogé",
+"en": "noun: form"
+},
+{
+"no": 48,
+"level": "4",
+"zh": "表示",
+"py": "biǎoshì",
+"en": "verb: to express / to indicate"
+},
+{
+"no": 49,
+"level": "4",
+"zh": "表演",
+"py": "biǎoyǎn",
+"en": "verb: to act / to perform"
+},
+{
+"no": 50,
+"level": "4",
+"zh": "表扬",
+"py": "biǎoyáng",
+"en": "verb: to praise"
+},
+{
+"no": 51,
+"level": "4",
+"zh": "标准",
+"py": "biāozhǔn",
+"en": "noun: standard"
+},
+{
+"no": 52,
+"level": "2",
+"zh": "别",
+"py": "bié",
+"en": "adverb: do not"
+},
+{
+"no": 53,
+"level": "3",
+"zh": "别人",
+"py": "biéren",
+"en": "noun: other people / others"
+},
+{
+"no": 54,
+"level": "3",
+"zh": "比较",
+"py": "bǐjiào",
+"en": "adverb: fairly / rather"
+},
+{
+"no": 55,
+"level": "3",
+"zh": "笔记本电脑",
+"py": "bǐjìběn diànnǎo",
+"en": "noun: laptop"
+},
+{
+"no": 56,
+"level": "4",
+"zh": "饼干",
+"py": "bǐnggān",
+"en": "noun: biscuit"
+},
+{
+"no": 57,
+"level": "4",
+"zh": "并且",
+"py": "bìngqiě",
+"en": "conjunction: and"
+},
+{
+"no": 58,
+"level": "2",
+"zh": "宾馆",
+"py": "bīnguǎn",
+"en": "noun: hotel"
+},
+{
+"no": 59,
+"level": "3",
+"zh": "冰箱",
+"py": "bīngxiāng",
+"en": "noun: refrigerator"
+},
+{
+"no": 60,
+"level": "4",
+"zh": "比如",
+"py": "bǐrú",
+"en": "verb: for example / such as"
+},
+{
+"no": 61,
+"level": "3",
+"zh": "比赛",
+"py": "bǐsài",
+"en": "noun: match / competition"
+},
+{
+"no": 62,
+"level": "3",
+"zh": "必须",
+"py": "bìxū",
+"en": "adverb: must"
+},
+{
+"no": 63,
+"level": "4",
+"zh": "毕业",
+"py": "bìyè",
+"en": "verb: to graduate"
+},
+{
+"no": 64,
+"level": "3",
+"zh": "鼻子",
+"py": "bízi",
+"en": "noun: nose"
+},
+{
+"no": 65,
+"level": "4",
+"zh": "博士",
+"py": "bóshì",
+"en": "noun: doctor (academic degree)"
+},
+{
+"no": 66,
+"level": "1",
+"zh": "不",
+"py": "bù",
+"en": "adverb: no, not"
+},
+{
+"no": 67,
+"level": "3",
+"zh": "不但...而且...",
+"py": "búdàn…érqiě…",
+"en": "conjunction: not only… but also…"
+},
+{
+"no": 68,
+"level": "4",
+"zh": "不得不",
+"py": "bùdébù",
+"en": "to have to / to have no choice but"
+},
+{
+"no": 69,
+"level": "4",
+"zh": "部分",
+"py": "bùfen",
+"en": "noun: part"
+},
+{
+"no": 70,
+"level": "4",
+"zh": "不管",
+"py": "bùguǎn",
+"en": "conjunction: no matter (what / how, etc.)"
+},
+{
+"no": 71,
+"level": "4",
+"zh": "不过",
+"py": "búguò",
+"en": "conjunction: but / yet"
+},
+{
+"no": 72,
+"level": "4",
+"zh": "不仅",
+"py": "bùjǐn",
+"en": "conjunction: not only"
+},
+{
+"no": 73,
+"level": "1",
+"zh": "不客气",
+"py": "bùkèqi",
+"en": "you're welcome, don’t mention it"
+},
+{
+"no": 74,
+"level": "4",
+"zh": "擦",
+"py": "cā",
+"en": "verb: to wipe"
+},
+{
+"no": 75,
+"level": "4",
+"zh": "猜",
+"py": "cāi",
+"en": "verb: to guess"
+},
+{
+"no": 76,
+"level": "1",
+"zh": "菜",
+"py": "cài",
+"en": "noun: dish, cuisine"
+},
+{
+"no": 77,
+"level": "3",
+"zh": "菜单",
+"py": "càidān",
+"en": "noun: menu"
+},
+{
+"no": 78,
+"level": "4",
+"zh": "材料",
+"py": "cáiliào",
+"en": "noun: data / material"
+},
+{
+"no": 79,
+"level": "4",
+"zh": "参观",
+"py": "cānguān",
+"en": "verb: to visit / to look around"
+},
+{
+"no": 80,
+"level": "3",
+"zh": "参加",
+"py": "cānjiā",
+"en": "verb: to participate / to attend"
+},
+{
+"no": 81,
+"level": "4",
+"zh": "餐厅",
+"py": "cāntīng",
+"en": "noun: restaurant"
+},
+{
+"no": 82,
+"level": "3",
+"zh": "草",
+"py": "cǎo",
+"en": "noun: grass"
+},
+{
+"no": 83,
+"level": "3",
+"zh": "层",
+"py": "céng",
+"en": "classifier: used for floors (of buildings)"
+},
+{
+"no": 84,
+"level": "4",
+"zh": "厕所",
+"py": "cèsuǒ",
+"en": "noun: toilet"
+},
+{
+"no": 85,
+"level": "3",
+"zh": "差",
+"py": "chà",
+"en": "verb: to be less than / to be short of"
+},
+{
+"no": 86,
+"level": "1",
+"zh": "茶",
+"py": "chá",
+"en": "noun: tea"
+},
+{
+"no": 87,
+"level": "4",
+"zh": "差不多",
+"py": "chàbuduō",
+"en": "adverb: almost / about the same"
+},
+{
+"no": 88,
+"level": "4",
+"zh": "场",
+"py": "chǎng",
+"en": "classifier: used for sports or recreational events, etc."
+},
+{
+"no": 89,
+"level": "4",
+"zh": "尝",
+"py": "cháng",
+"en": "verb: to taste"
+},
+{
+"no": 90,
+"level": "2",
+"zh": "长",
+"py": "cháng",
+"en": "adjective: long"
+},
+{
+"no": 91,
+"level": "4",
+"zh": "长城",
+"py": "Chángchéng",
+"en": "noun: The Great Wall"
+},
+{
+"no": 92,
+"level": "2",
+"zh": "唱歌",
+"py": "chànggē",
+"en": "verb: to sing a song"
+},
+{
+"no": 93,
+"level": "4",
+"zh": "长江",
+"py": "Chángjiāng",
+"en": "noun: The Yangtze River"
+},
+{
+"no": 94,
+"level": "4",
+"zh": "超过",
+"py": "chāoguò",
+"en": "verb: to exceed / to surpass"
+},
+{
+"no": 95,
+"level": "3",
+"zh": "超市",
+"py": "chāoshì",
+"en": "noun: supermarket"
+},
+{
+"no": 96,
+"level": "4",
+"zh": "成功",
+"py": "chénggōng",
+"en": "adjective: successful"
+},
+{
+"no": 97,
+"level": "3",
+"zh": "成绩",
+"py": "chéngjì",
+"en": "noun: grade / performance / achievement"
+},
+{
+"no": 98,
+"level": "3",
+"zh": "城市",
+"py": "chéngshì",
+"en": "noun: city"
+},
+{
+"no": 99,
+"level": "4",
+"zh": "诚实",
+"py": "chéngshí",
+"en": "adjective: honest"
+},
+{
+"no": 100,
+"level": "4",
+"zh": "成为",
+"py": "chéngwéi",
+"en": "verb: to become"
+},
+{
+"no": 101,
+"level": "4",
+"zh": "乘坐",
+"py": "chéngzuò",
+"en": "verb: to take (a vehicle) / to ride (in a vehicle)"
+},
+{
+"no": 102,
+"level": "3",
+"zh": "衬衫",
+"py": "chènshān",
+"en": "noun: shirt"
+},
+{
+"no": 103,
+"level": "1",
+"zh": "吃",
+"py": "chī",
+"en": "verb: to eat"
+},
+{
+"no": 104,
+"level": "3",
+"zh": "迟到",
+"py": "chídào",
+"en": "verb: to be late"
+},
+{
+"no": 105,
+"level": "4",
+"zh": "吃惊",
+"py": "chījīng",
+"en": "verb: to be surprised / to be shocked"
+},
+{
+"no": 106,
+"level": "4",
+"zh": "重新",
+"py": "chóngxīn",
+"en": "adverb: again / once more"
+},
+{
+"no": 107,
+"level": "4",
+"zh": "抽烟",
+"py": "chōuyān",
+"en": "verb: to smoke (a cigarette)"
+},
+{
+"no": 108,
+"level": "2",
+"zh": "出",
+"py": "chū",
+"en": "verb: to come or go out"
+},
+{
+"no": 109,
+"level": "2",
+"zh": "穿",
+"py": "chuān",
+"en": "verb: to wear / to put on"
+},
+{
+"no": 110,
+"level": "3",
+"zh": "船",
+"py": "chuán",
+"en": "noun: boat / ship"
+},
+{
+"no": 111,
+"level": "4",
+"zh": "窗户",
+"py": "chuānghu",
+"en": "noun: window"
+},
+{
+"no": 112,
+"level": "4",
+"zh": "传真",
+"py": "chuánzhēn",
+"en": "verb: to send by fax"
+},
+{
+"no": 113,
+"level": "4",
+"zh": "出差",
+"py": "chūchāi",
+"en": "verb: to go on a business trip"
+},
+{
+"no": 114,
+"level": "4",
+"zh": "出发",
+"py": "chūfā",
+"en": "verb: to depart / to set off"
+},
+{
+"no": 115,
+"level": "4",
+"zh": "厨房",
+"py": "chúfáng",
+"en": "noun: kitchen"
+},
+{
+"no": 116,
+"level": "3",
+"zh": "除了",
+"py": "chúle",
+"en": "preposition: other than / except"
+},
+{
+"no": 117,
+"level": "3",
+"zh": "春天",
+"py": "chūntiān",
+"en": "noun: spring"
+},
+{
+"no": 118,
+"level": "4",
+"zh": "出生",
+"py": "chūshēng",
+"en": "verb: to be born"
+},
+{
+"no": 119,
+"level": "4",
+"zh": "出现",
+"py": "chūxiàn",
+"en": "verb: to appear / to emerge"
+},
+{
+"no": 120,
+"level": "1",
+"zh": "出租车",
+"py": "chūzūchē",
+"en": "noun: taxi, cab"
+},
+{
+"no": 121,
+"level": "2",
+"zh": "次",
+"py": "cì",
+"en": "classifier: for enumerated events, times"
+},
+{
+"no": 122,
+"level": "3",
+"zh": "词典",
+"py": "cídiǎn",
+"en": "noun: dictionary"
+},
+{
+"no": 123,
+"level": "4",
+"zh": "词语",
+"py": "cíyǔ",
+"en": "noun: word / expression"
+},
+{
+"no": 124,
+"level": "2",
+"zh": "从",
+"py": "cóng",
+"en": "preposition: from (a place, a time)"
+},
+{
+"no": 125,
+"level": "4",
+"zh": "从来",
+"py": "cónglái",
+"en": "adverb: always / all along"
+},
+{
+"no": 126,
+"level": "3",
+"zh": "聪明",
+"py": "cōngming",
+"en": "adjective: clever / smart"
+},
+{
+"no": 127,
+"level": "4",
+"zh": "存",
+"py": "cún",
+"en": "verb: to store / to deposit / to keep (money in a bank)"
+},
+{
+"no": 128,
+"level": "2",
+"zh": "错",
+"py": "cuò",
+"en": "adjective: wrong / incorrect"
+},
+{
+"no": 129,
+"level": "4",
+"zh": "错误",
+"py": "cuòwù",
+"en": "adjective: wrong / mistaken"
+},
+{
+"no": 130,
+"level": "4",
+"zh": "粗心",
+"py": "cūxīn",
+"en": "adjective: careless / thoughtless"
+},
+{
+"no": 131,
+"level": "1",
+"zh": "大",
+"py": "dà",
+"en": "adjective: (of age) old"
+},
+{
+"no": 132,
+"level": "2",
+"zh": "打篮球",
+"py": "dǎ lánqiú",
+"en": "to play basketball"
+},
+{
+"no": 133,
+"level": "4",
+"zh": "答案",
+"py": "dá'àn",
+"en": "noun: answer"
+},
+{
+"no": 134,
+"level": "4",
+"zh": "打扮",
+"py": "dǎban",
+"en": "verb: to dress up"
+},
+{
+"no": 135,
+"level": "1",
+"zh": "打电话",
+"py": "dǎdiànhuà",
+"en": "to make a phone call"
+},
+{
+"no": 136,
+"level": "4",
+"zh": "大概",
+"py": "dàgài",
+"en": "adverb: roughly / approximately"
+},
+{
+"no": 137,
+"level": "3",
+"zh": "带",
+"py": "dài",
+"en": "verb: to take along / to bring"
+},
+{
+"no": 138,
+"level": "4",
+"zh": "戴",
+"py": "dài",
+"en": "verb: to wear (accessories)"
+},
+{
+"no": 139,
+"level": "4",
+"zh": "大夫",
+"py": "dàifu",
+"en": "noun: doctor"
+},
+{
+"no": 140,
+"level": "2",
+"zh": "大家",
+"py": "dàjiā",
+"en": "pronoun: all / everybody"
+},
+{
+"no": 141,
+"level": "4",
+"zh": "当",
+"py": "dāng",
+"en": "preposition: when / just at (a time or place)"
+},
+{
+"no": 142,
+"level": "3",
+"zh": "蛋糕",
+"py": "dàngāo",
+"en": "noun: cake"
+},
+{
+"no": 143,
+"level": "3",
+"zh": "当然",
+"py": "dāngrán",
+"en": "adverb: of course"
+},
+{
+"no": 144,
+"level": "4",
+"zh": "当时",
+"py": "dāngshí",
+"en": "noun: then / at that time"
+},
+{
+"no": 145,
+"level": "3",
+"zh": "担心",
+"py": "dānxīn",
+"en": "verb: to worry"
+},
+{
+"no": 146,
+"level": "4",
+"zh": "倒",
+"py": "dào",
+"en": "adverb: yet / actually (used to indicate contrast)"
+},
+{
+"no": 147,
+"level": "4",
+"zh": "刀",
+"py": "dāo",
+"en": "noun: knife"
+},
+{
+"no": 148,
+"level": "2",
+"zh": "到",
+"py": "dào",
+"en": "verb: to arrive / to reach"
+},
+{
+"no": 149,
+"level": "4",
+"zh": "到处",
+"py": "dàochù",
+"en": "adverb: everywhere"
+},
+{
+"no": 150,
+"level": "4",
+"zh": "到底",
+"py": "dàodǐ",
+"en": "adverb: (used in questions for emphasis) on earth / after all"
+},
+{
+"no": 151,
+"level": "4",
+"zh": "道歉",
+"py": "dàoqiàn",
+"en": "verb: to apologize"
+},
+{
+"no": 152,
+"level": "4",
+"zh": "导游",
+"py": "dǎoyóu",
+"en": "noun: tour guide"
+},
+{
+"no": 153,
+"level": "4",
+"zh": "打扰",
+"py": "dǎrǎo",
+"en": "verb: to disturb / to bother"
+},
+{
+"no": 154,
+"level": "3",
+"zh": "打扫",
+"py": "dǎsǎo",
+"en": "verb: to clean / to sweep"
+},
+{
+"no": 155,
+"level": "4",
+"zh": "大使馆",
+"py": "dàshǐguǎn",
+"en": "noun: embassy"
+},
+{
+"no": 156,
+"level": "3",
+"zh": "打算",
+"py": "dǎsuàn",
+"en": "verb: to plan / to intend"
+},
+{
+"no": 157,
+"level": "4",
+"zh": "打印",
+"py": "dǎyìn",
+"en": "verb: to print out"
+},
+{
+"no": 158,
+"level": "4",
+"zh": "大约",
+"py": "dàyuē",
+"en": "adverb: approximately / about"
+},
+{
+"no": 159,
+"level": "4",
+"zh": "打招呼",
+"py": "dǎzhāohu",
+"en": "to greet / to say hello"
+},
+{
+"no": 160,
+"level": "4",
+"zh": "打折",
+"py": "dǎzhé",
+"en": "verb: to give a discount"
+},
+{
+"no": 161,
+"level": "4",
+"zh": "打针",
+"py": "dǎzhēn",
+"en": "verb: to give or to have an injection"
+},
+{
+"no": 162,
+"level": "3",
+"zh": "地",
+"py": "de",
+"en": "particle: used to connect an adverbial modifier and the verb it modifies"
+},
+{
+"no": 163,
+"level": "2",
+"zh": "得",
+"py": "de",
+"en": "particle: (linking a verb or an adjective to a complement which describes the"
+},
+{
+"no": 164,
+"level": "1",
+"zh": "的",
+"py": "de",
+"en": "particle: used after an attribute"
+},
+{
+"no": 165,
+"level": "4",
+"zh": "得",
+"py": "děi",
+"en": "verb: must / have to"
+},
+{
+"no": 166,
+"level": "3",
+"zh": "灯",
+"py": "dēng",
+"en": "noun: light / lamp"
+},
+{
+"no": 167,
+"level": "2",
+"zh": "等",
+"py": "děng",
+"en": "verb: to wait"
+},
+{
+"no": 168,
+"level": "4",
+"zh": "等",
+"py": "děng",
+"en": "particle: etc. / and so on"
+},
+{
+"no": 169,
+"level": "4",
+"zh": "登机牌",
+"py": "dēngjīpái",
+"en": "noun: boarding pass"
+},
+{
+"no": 170,
+"level": "4",
+"zh": "得意",
+"py": "déyì",
+"en": "adjective: proud of oneself / pleased with oneself"
+},
+{
+"no": 171,
+"level": "4",
+"zh": "低",
+"py": "dī",
+"en": "adjective: low"
+},
+{
+"no": 172,
+"level": "4",
+"zh": "底",
+"py": "dǐ",
+"en": "noun: bottom / end of a year or a month"
+},
+{
+"no": 173,
+"level": "1",
+"zh": "点",
+"py": "diǎn",
+"en": "measure word: o'clock"
+},
+{
+"no": 174,
+"level": "1",
+"zh": "电脑",
+"py": "diànnǎo",
+"en": "noun: computer"
+},
+{
+"no": 175,
+"level": "1",
+"zh": "电视",
+"py": "diànshì",
+"en": "noun: television"
+},
+{
+"no": 176,
+"level": "3",
+"zh": "电梯",
+"py": "diàntī",
+"en": "noun: elevator"
+},
+{
+"no": 177,
+"level": "1",
+"zh": "电影",
+"py": "diànyǐng",
+"en": "noun: film, movie"
+},
+{
+"no": 178,
+"level": "3",
+"zh": "电子邮件",
+"py": "diànzǐyóujiàn",
+"en": "e-mail"
+},
+{
+"no": 179,
+"level": "4",
+"zh": "掉",
+"py": "diào",
+"en": "verb: used after certain verbs, indicating the result of an action"
+},
+{
+"no": 180,
+"level": "4",
+"zh": "调查",
+"py": "diàochá",
+"en": "verb: to survey / to investigate"
+},
+{
+"no": 181,
+"level": "2",
+"zh": "弟弟",
+"py": "dìdi",
+"en": "noun: younger brother"
+},
+{
+"no": 182,
+"level": "4",
+"zh": "地点",
+"py": "dìdiǎn",
+"en": "noun: place / site"
+},
+{
+"no": 183,
+"level": "3",
+"zh": "地方",
+"py": "dìfang",
+"en": "noun: place"
+},
+{
+"no": 184,
+"level": "4",
+"zh": "地球",
+"py": "dìqiú",
+"en": "noun: earth / globe"
+},
+{
+"no": 185,
+"level": "3",
+"zh": "地铁",
+"py": "dìtiě",
+"en": "noun: subway"
+},
+{
+"no": 186,
+"level": "3",
+"zh": "地图",
+"py": "dìtú",
+"en": "noun: map"
+},
+{
+"no": 187,
+"level": "4",
+"zh": "丢",
+"py": "diū",
+"en": "verb: to throw / to toss"
+},
+{
+"no": 188,
+"level": "2",
+"zh": "第一",
+"py": "dìyī",
+"en": "numeral: first"
+},
+{
+"no": 189,
+"level": "4",
+"zh": "地址",
+"py": "dìzhǐ",
+"en": "noun: address"
+},
+{
+"no": 190,
+"level": "3",
+"zh": "东",
+"py": "dōng",
+"en": "noun: east"
+},
+{
+"no": 191,
+"level": "2",
+"zh": "懂",
+"py": "dǒng",
+"en": "verb: to understand"
+},
+{
+"no": 192,
+"level": "3",
+"zh": "冬天",
+"py": "dōngtiān",
+"en": "noun: winter"
+},
+{
+"no": 193,
+"level": "3",
+"zh": "动物",
+"py": "dòngwù",
+"en": "noun: animal"
+},
+{
+"no": 194,
+"level": "1",
+"zh": "东西",
+"py": "dōngxi",
+"en": "noun: thing, stuff"
+},
+{
+"no": 195,
+"level": "4",
+"zh": "动作",
+"py": "dòngzuò",
+"en": "noun: action / movement"
+},
+{
+"no": 196,
+"level": "1",
+"zh": "都",
+"py": "dōu",
+"en": "adverb: both, all"
+},
+{
+"no": 197,
+"level": "1",
+"zh": "读",
+"py": "dú",
+"en": "verb: to read"
+},
+{
+"no": 198,
+"level": "3",
+"zh": "段",
+"py": "duàn",
+"en": "classifier: used for sections or periods (of time)"
+},
+{
+"no": 199,
+"level": "3",
+"zh": "短",
+"py": "duǎn",
+"en": "adjective: short"
+},
+{
+"no": 200,
+"level": "3",
+"zh": "锻炼",
+"py": "duànliàn",
+"en": "verb: to do physical exercise"
+},
+{
+"no": 201,
+"level": "4",
+"zh": "短信",
+"py": "duǎnxìn",
+"en": "noun: text message"
+},
+{
+"no": 202,
+"level": "4",
+"zh": "堵车",
+"py": "dǔchē",
+"en": "verb: traffic jam"
+},
+{
+"no": 203,
+"level": "2",
+"zh": "对",
+"py": "duì",
+"en": "preposition: (used before a noun or pronoun) to / for"
+},
+{
+"no": 204,
+"level": "2",
+"zh": "对",
+"py": "duì",
+"en": "adjective: right / correct"
+},
+{
+"no": 205,
+"level": "1",
+"zh": "对不起",
+"py": "duìbuqǐ",
+"en": "verb: to be sorry"
+},
+{
+"no": 206,
+"level": "4",
+"zh": "对话",
+"py": "duìhuà",
+"en": "noun: dialogue / conversation"
+},
+{
+"no": 207,
+"level": "4",
+"zh": "对面",
+"py": "duìmiàn",
+"en": "noun: opposite / across"
+},
+{
+"no": 208,
+"level": "4",
+"zh": "对于",
+"py": "duìyú",
+"en": "preposition: with regard to / for / to"
+},
+{
+"no": 209,
+"level": "1",
+"zh": "多",
+"py": "duō",
+"en": "adverb: (in questions) to what extend"
+},
+{
+"no": 210,
+"level": "3",
+"zh": "多么",
+"py": "duōme",
+"en": "adverb: very / to a great extent"
+},
+{
+"no": 211,
+"level": "1",
+"zh": "多少",
+"py": "duōshao",
+"en": "pronoun: how many, how much"
+},
+{
+"no": 212,
+"level": "4",
+"zh": "肚子",
+"py": "dùzi",
+"en": "noun: belly / stomach"
+},
+{
+"no": 213,
+"level": "3",
+"zh": "饿",
+"py": "è",
+"en": "adjective: hungry"
+},
+{
+"no": 214,
+"level": "1",
+"zh": "二",
+"py": "èr",
+"en": "numeral: two"
+},
+{
+"no": 215,
+"level": "4",
+"zh": "而",
+"py": "ér",
+"en": "conjunction: (showing a contrast) while / yet"
+},
+{
+"no": 216,
+"level": "3",
+"zh": "耳朵",
+"py": "ěrduo",
+"en": "noun: ear"
+},
+{
+"no": 217,
+"level": "4",
+"zh": "儿童",
+"py": "értóng",
+"en": "noun: children"
+},
+{
+"no": 218,
+"level": "1",
+"zh": "儿子",
+"py": "érzi",
+"en": "noun: son"
+},
+{
+"no": 219,
+"level": "3",
+"zh": "发",
+"py": "fā",
+"en": "verb: to send"
+},
+{
+"no": 220,
+"level": "4",
+"zh": "法律",
+"py": "fǎlǜ",
+"en": "noun: law"
+},
+{
+"no": 221,
+"level": "1",
+"zh": "饭店",
+"py": "fàndiàn",
+"en": "noun: restaurant, hotel"
+},
+{
+"no": 222,
+"level": "4",
+"zh": "反对",
+"py": "fǎnduì",
+"en": "verb: to oppose / to object to"
+},
+{
+"no": 223,
+"level": "3",
+"zh": "放",
+"py": "fàng",
+"en": "verb: to put / to place"
+},
+{
+"no": 224,
+"level": "4",
+"zh": "放暑假",
+"py": "fàng shǔjià",
+"en": "to go on summer vacation"
+},
+{
+"no": 225,
+"level": "3",
+"zh": "方便",
+"py": "fāngbiàn",
+"en": "adjective: convenient"
+},
+{
+"no": 226,
+"level": "4",
+"zh": "房东",
+"py": "fángdōng",
+"en": "noun: landlord"
+},
+{
+"no": 227,
+"level": "4",
+"zh": "方法",
+"py": "fāngfǎ",
+"en": "noun: method / way"
+},
+{
+"no": 228,
+"level": "2",
+"zh": "房间",
+"py": "fángjiān",
+"en": "noun: room"
+},
+{
+"no": 229,
+"level": "4",
+"zh": "方面",
+"py": "fāngmiàn",
+"en": "noun: aspect / field"
+},
+{
+"no": 230,
+"level": "4",
+"zh": "放弃",
+"py": "fàngqì",
+"en": "verb: to give up"
+},
+{
+"no": 231,
+"level": "4",
+"zh": "放松",
+"py": "fàngsōng",
+"en": "verb: to relax"
+},
+{
+"no": 232,
+"level": "4",
+"zh": "方向",
+"py": "fāngxiàng",
+"en": "noun: direction / orientation"
+},
+{
+"no": 233,
+"level": "3",
+"zh": "放心",
+"py": "fàngxīn",
+"en": "verb: to ease one's mind / to rest assured"
+},
+{
+"no": 234,
+"level": "4",
+"zh": "烦恼",
+"py": "fánnǎo",
+"en": "verb: worried / bothered"
+},
+{
+"no": 235,
+"level": "4",
+"zh": "翻译",
+"py": "fānyì",
+"en": "noun: translator / interpreter"
+},
+{
+"no": 236,
+"level": "3",
+"zh": "发烧",
+"py": "fāshāo",
+"en": "verb: to have a fever"
+},
+{
+"no": 237,
+"level": "4",
+"zh": "发生",
+"py": "fāshēng",
+"en": "verb: to happen / to take place"
+},
+{
+"no": 238,
+"level": "3",
+"zh": "发现",
+"py": "fāxiàn",
+"en": "verb: to discover"
+},
+{
+"no": 239,
+"level": "4",
+"zh": "发展",
+"py": "fāzhǎn",
+"en": "verb: to develop / to promote"
+},
+{
+"no": 240,
+"level": "2",
+"zh": "非常",
+"py": "fēicháng",
+"en": "adverb: very / extremely"
+},
+{
+"no": 241,
+"level": "1",
+"zh": "飞机",
+"py": "fēijī",
+"en": "noun: airplane"
+},
+{
+"no": 242,
+"level": "4",
+"zh": "份",
+"py": "fèn",
+"en": "classifier: used for jobs / a portion of (eg,. meal)"
+},
+{
+"no": 243,
+"level": "3",
+"zh": "分",
+"py": "fēn",
+"en": "verb: to distinguish"
+},
+{
+"no": 244,
+"level": "4",
+"zh": "丰富",
+"py": "fēngfù",
+"en": "adjective: rich / abundant"
+},
+{
+"no": 245,
+"level": "1",
+"zh": "分钟",
+"py": "fēnzhōng",
+"en": "noun: minute"
+},
+{
+"no": 246,
+"level": "4",
+"zh": "否则",
+"py": "fǒuzé",
+"en": "conjunction: or else / otherwise"
+},
+{
+"no": 247,
+"level": "4",
+"zh": "富",
+"py": "fù",
+"en": "adjective: rich / wealthy"
+},
+{
+"no": 248,
+"level": "4",
+"zh": "符合",
+"py": "fúhé",
+"en": "verb: to accord with / to conform to"
+},
+{
+"no": 249,
+"level": "3",
+"zh": "附近",
+"py": "fùjìn",
+"en": "noun: nearby / vicinity"
+},
+{
+"no": 250,
+"level": "4",
+"zh": "付款",
+"py": "fùkuǎn",
+"en": "to pay a sum of money"
+},
+{
+"no": 251,
+"level": "4",
+"zh": "父亲",
+"py": "fùqīn",
+"en": "noun: father"
+},
+{
+"no": 252,
+"level": "2",
+"zh": "服务员",
+"py": "fúwùyuán",
+"en": "noun: attendant / waiter / waitress"
+},
+{
+"no": 253,
+"level": "3",
+"zh": "复习",
+"py": "fùxí",
+"en": "verb: to review"
+},
+{
+"no": 254,
+"level": "4",
+"zh": "复印",
+"py": "fùyìn",
+"en": "verb: to duplicate a document"
+},
+{
+"no": 255,
+"level": "4",
+"zh": "复杂",
+"py": "fùzá",
+"en": "adjective: complicated"
+},
+{
+"no": 256,
+"level": "4",
+"zh": "负责",
+"py": "fùzé",
+"en": "verb: to be in charge of"
+},
+{
+"no": 257,
+"level": "4",
+"zh": "改变",
+"py": "gǎibiàn",
+"en": "verb: to change"
+},
+{
+"no": 258,
+"level": "4",
+"zh": "干",
+"py": "gàn",
+"en": "verb: to do / to act"
+},
+{
+"no": 259,
+"level": "4",
+"zh": "敢",
+"py": "gǎn",
+"en": "verb: to dare"
+},
+{
+"no": 260,
+"level": "4",
+"zh": "赶",
+"py": "gǎn",
+"en": "verb: to rush for / to hurry"
+},
+{
+"no": 261,
+"level": "4",
+"zh": "干杯",
+"py": "gānbēi",
+"en": "verb: to drink a toast"
+},
+{
+"no": 262,
+"level": "4",
+"zh": "感动",
+"py": "gǎndòng",
+"en": "verb: to touch / to move"
+},
+{
+"no": 263,
+"level": "4",
+"zh": "刚",
+"py": "gāng",
+"en": "adverb: just / not long ago"
+},
+{
+"no": 264,
+"level": "3",
+"zh": "刚才",
+"py": "gāngcái",
+"en": "noun: just now"
+},
+{
+"no": 265,
+"level": "3",
+"zh": "干净",
+"py": "gānjìng",
+"en": "adjective: clean"
+},
+{
+"no": 266,
+"level": "4",
+"zh": "感觉",
+"py": "gǎnjué",
+"en": "noun: feeling"
+},
+{
+"no": 267,
+"level": "3",
+"zh": "感冒",
+"py": "gǎnmào",
+"en": "verb: to catch a cold"
+},
+{
+"no": 268,
+"level": "4",
+"zh": "感情",
+"py": "gǎnqíng",
+"en": "noun: affection / feeling"
+},
+{
+"no": 269,
+"level": "4",
+"zh": "感谢",
+"py": "gǎnxiè",
+"en": "verb: to thank"
+},
+{
+"no": 270,
+"level": "3",
+"zh": "感兴趣",
+"py": "gǎnxìngqù",
+"en": "to be interested in"
+},
+{
+"no": 271,
+"level": "2",
+"zh": "高",
+"py": "gāo",
+"en": "adjective: tall / high"
+},
+{
+"no": 272,
+"level": "2",
+"zh": "告诉",
+"py": "gàosu",
+"en": "verb: to tell"
+},
+{
+"no": 273,
+"level": "4",
+"zh": "高速公路",
+"py": "gāosùgōnglù",
+"en": "expressway / highway"
+},
+{
+"no": 274,
+"level": "1",
+"zh": "高兴",
+"py": "gāoxìng",
+"en": "adjective: glad, happy"
+},
+{
+"no": 275,
+"level": "1",
+"zh": "个",
+"py": "gè",
+"en": "measure word: for people or objects"
+},
+{
+"no": 276,
+"level": "4",
+"zh": "各",
+"py": "gè",
+"en": "pronoun: various / different / all / every"
+},
+{
+"no": 277,
+"level": "4",
+"zh": "胳膊",
+"py": "gēbo",
+"en": "noun: arm"
+},
+{
+"no": 278,
+"level": "2",
+"zh": "哥哥",
+"py": "gēge",
+"en": "noun: older brother"
+},
+{
+"no": 279,
+"level": "2",
+"zh": "给",
+"py": "gěi",
+"en": "preposition: to / for"
+},
+{
+"no": 280,
+"level": "3",
+"zh": "跟",
+"py": "gēn",
+"en": "preposition: with"
+},
+{
+"no": 281,
+"level": "3",
+"zh": "更",
+"py": "gèng",
+"en": "adverb: more / even more"
+},
+{
+"no": 282,
+"level": "3",
+"zh": "根据",
+"py": "gēnjù",
+"en": "preposition: according to / based on"
+},
+{
+"no": 283,
+"level": "3",
+"zh": "个子",
+"py": "gèzi",
+"en": "noun: height"
+},
+{
+"no": 284,
+"level": "4",
+"zh": "功夫",
+"py": "gōngfu",
+"en": "noun: Kung Fu"
+},
+{
+"no": 285,
+"level": "2",
+"zh": "公共汽车",
+"py": "gōnggòngqìchē",
+"en": "public bus"
+},
+{
+"no": 286,
+"level": "3",
+"zh": "公斤",
+"py": "gōngjīn",
+"en": "noun: kilogram"
+},
+{
+"no": 287,
+"level": "4",
+"zh": "公里",
+"py": "gōnglǐ",
+"en": "classifier: kilometer"
+},
+{
+"no": 288,
+"level": "2",
+"zh": "公司",
+"py": "gōngsī",
+"en": "noun: company / firm"
+},
+{
+"no": 289,
+"level": "4",
+"zh": "共同",
+"py": "gòngtóng",
+"en": "adjective: common / shared"
+},
+{
+"no": 290,
+"level": "3",
+"zh": "公园",
+"py": "gōngyuán",
+"en": "noun: park"
+},
+{
+"no": 291,
+"level": "4",
+"zh": "工资",
+"py": "gōngzī",
+"en": "noun: pay / salary"
+},
+{
+"no": 292,
+"level": "1",
+"zh": "工作",
+"py": "gōngzuò",
+"en": "noun: job"
+},
+{
+"no": 293,
+"level": "4",
+"zh": "够",
+"py": "gòu",
+"en": "verb: to be enough"
+},
+{
+"no": 294,
+"level": "1",
+"zh": "狗",
+"py": "gǒu",
+"en": "noun: dog"
+},
+{
+"no": 295,
+"level": "4",
+"zh": "购物",
+"py": "gòuwù",
+"en": "verb: to shop / to buy things"
+},
+{
+"no": 296,
+"level": "4",
+"zh": "挂",
+"py": "guà",
+"en": "verb: to hang / to put up"
+},
+{
+"no": 297,
+"level": "3",
+"zh": "刮风",
+"py": "guāfēng",
+"en": "verb: to be windy"
+},
+{
+"no": 298,
+"level": "3",
+"zh": "关",
+"py": "guān",
+"en": "verb: to turn off / to close"
+},
+{
+"no": 299,
+"level": "4",
+"zh": "光",
+"py": "guāng",
+"en": "adverb: only / merely"
+},
+{
+"no": 300,
+"level": "4",
+"zh": "逛",
+"py": "guàng",
+"en": "verb: to stroll"
+},
+{
+"no": 301,
+"level": "4",
+"zh": "广播",
+"py": "guǎngbō",
+"en": "noun: broadcast / radio program"
+},
+{
+"no": 302,
+"level": "4",
+"zh": "广告",
+"py": "guǎnggào",
+"en": "noun: advertisement"
+},
+{
+"no": 303,
+"level": "4",
+"zh": "关键",
+"py": "guānjiàn",
+"en": "noun: key / crux"
+},
+{
+"no": 304,
+"level": "4",
+"zh": "管理",
+"py": "guǎnlǐ",
+"en": "verb: to manage / to administer"
+},
+{
+"no": 305,
+"level": "3",
+"zh": "关系",
+"py": "guānxi",
+"en": "noun: relationship"
+},
+{
+"no": 306,
+"level": "3",
+"zh": "关心",
+"py": "guānxīn",
+"en": "verb: to care for / to be interested in"
+},
+{
+"no": 307,
+"level": "3",
+"zh": "关于",
+"py": "guānyú",
+"en": "preposition: about / regarding"
+},
+{
+"no": 308,
+"level": "4",
+"zh": "观众",
+"py": "guānzhòng",
+"en": "noun: audience"
+},
+{
+"no": 309,
+"level": "2",
+"zh": "贵",
+"py": "guì",
+"en": "adjective: expensive"
+},
+{
+"no": 310,
+"level": "4",
+"zh": "规定",
+"py": "guīdìng",
+"en": "noun / verb: rule / regulation / to stipulate"
+},
+{
+"no": 311,
+"level": "4",
+"zh": "估计",
+"py": "gūjì",
+"en": "verb: to estimate"
+},
+{
+"no": 312,
+"level": "4",
+"zh": "顾客",
+"py": "gùkè",
+"en": "noun: customer / client"
+},
+{
+"no": 313,
+"level": "4",
+"zh": "鼓励",
+"py": "gǔlì",
+"en": "verb: to encourage"
+},
+{
+"no": 314,
+"level": "2",
+"zh": "过",
+"py": "guo",
+"en": "(used after a verb) to indicate the completion of an action"
+},
+{
+"no": 315,
+"level": "3",
+"zh": "过",
+"py": "guò",
+"en": "verb: to spend / to pass"
+},
+{
+"no": 316,
+"level": "4",
+"zh": "过程",
+"py": "guòchéng",
+"en": "noun: process"
+},
+{
+"no": 317,
+"level": "4",
+"zh": "国籍",
+"py": "guójí",
+"en": "noun: nationality / citizenship"
+},
+{
+"no": 318,
+"level": "4",
+"zh": "国际",
+"py": "guójì",
+"en": "noun: international"
+},
+{
+"no": 319,
+"level": "3",
+"zh": "国家",
+"py": "guójiā",
+"en": "noun: country / nation"
+},
+{
+"no": 320,
+"level": "3",
+"zh": "过去",
+"py": "guòqù",
+"en": "noun: past"
+},
+{
+"no": 321,
+"level": "4",
+"zh": "果汁",
+"py": "guǒzhī",
+"en": "noun: fruit juice"
+},
+{
+"no": 322,
+"level": "3",
+"zh": "故事",
+"py": "gùshi",
+"en": "noun: story"
+},
+{
+"no": 323,
+"level": "4",
+"zh": "故意",
+"py": "gùyì",
+"en": "adverb: intentionally / on purpose"
+},
+{
+"no": 324,
+"level": "2",
+"zh": "还",
+"py": "hái",
+"en": "adverb: fairly / rather"
+},
+{
+"no": 325,
+"level": "3",
+"zh": "害怕",
+"py": "hàipà",
+"en": "verb: to be afraid / to be scared"
+},
+{
+"no": 326,
+"level": "3",
+"zh": "还是",
+"py": "háishi",
+"en": "conjunction: or"
+},
+{
+"no": 327,
+"level": "4",
+"zh": "害羞",
+"py": "hàixiū",
+"en": "verb: to be shy / to be timid"
+},
+{
+"no": 328,
+"level": "4",
+"zh": "海洋",
+"py": "hǎiyáng",
+"en": "noun: sea / ocean"
+},
+{
+"no": 329,
+"level": "2",
+"zh": "孩子",
+"py": "háizi",
+"en": "noun: child / kid"
+},
+{
+"no": 330,
+"level": "4",
+"zh": "汗",
+"py": "hàn",
+"en": "noun: sweat"
+},
+{
+"no": 331,
+"level": "4",
+"zh": "航班",
+"py": "hángbān",
+"en": "noun: scheduled flight"
+},
+{
+"no": 332,
+"level": "4",
+"zh": "寒假",
+"py": "hánjià",
+"en": "noun: winter vacation"
+},
+{
+"no": 333,
+"level": "1",
+"zh": "汉语",
+"py": "Hànyǔ",
+"en": "noun: Chinese (language), Mandarin (language)"
+},
+{
+"no": 334,
+"level": "1",
+"zh": "号",
+"py": "hào",
+"en": "noun: number (for date of month)"
+},
+{
+"no": 335,
+"level": "1",
+"zh": "好",
+"py": "hǎo",
+"en": "adjective: good, fine"
+},
+{
+"no": 336,
+"level": "2",
+"zh": "好吃",
+"py": "hǎochī",
+"en": "adjective: tasty / delicious"
+},
+{
+"no": 337,
+"level": "4",
+"zh": "好处",
+"py": "hǎochu",
+"en": "noun: benefit"
+},
+{
+"no": 338,
+"level": "4",
+"zh": "号码",
+"py": "hàomǎ",
+"en": "noun: number"
+},
+{
+"no": 339,
+"level": "4",
+"zh": "好像",
+"py": "hǎoxiàng",
+"en": "verb: to seem / to look like"
+},
+{
+"no": 340,
+"level": "1",
+"zh": "和",
+"py": "hé",
+"en": "conjunction: and"
+},
+{
+"no": 341,
+"level": "1",
+"zh": "喝",
+"py": "hē",
+"en": "verb: to drink"
+},
+{
+"no": 342,
+"level": "4",
+"zh": "合格",
+"py": "hégé",
+"en": "adjective: qualified / up to standard"
+},
+{
+"no": 343,
+"level": "2",
+"zh": "黑",
+"py": "hēi",
+"en": "adjective: black"
+},
+{
+"no": 344,
+"level": "3",
+"zh": "黑板",
+"py": "hēibǎn",
+"en": "noun: blackboard"
+},
+{
+"no": 345,
+"level": "1",
+"zh": "很",
+"py": "hěn",
+"en": "adverb: very, quite"
+},
+{
+"no": 346,
+"level": "4",
+"zh": "合适",
+"py": "héshì",
+"en": "adjective: suitable / appropriate"
+},
+{
+"no": 347,
+"level": "4",
+"zh": "盒子",
+"py": "hézi",
+"en": "noun: box"
+},
+{
+"no": 348,
+"level": "2",
+"zh": "红",
+"py": "hóng",
+"en": "adjective: red"
+},
+{
+"no": 349,
+"level": "3",
+"zh": "终于",
+"py": "hōngyú",
+"en": "adverb: finally"
+},
+{
+"no": 350,
+"level": "4",
+"zh": "厚",
+"py": "hòu",
+"en": "adjective: thick"
+},
+{
+"no": 351,
+"level": "4",
+"zh": "后悔",
+"py": "hòuhuǐ",
+"en": "verb: to regret"
+},
+{
+"no": 352,
+"level": "3",
+"zh": "后来",
+"py": "hòulái",
+"en": "noun: later / afterwards"
+},
+{
+"no": 353,
+"level": "1",
+"zh": "后面",
+"py": "hòumian",
+"en": "noun: back"
+},
+{
+"no": 354,
+"level": "3",
+"zh": "画",
+"py": "huà",
+"en": "verb / noun: to draw / to paint /drawing / painting"
+},
+{
+"no": 355,
+"level": "3",
+"zh": "花",
+"py": "huā",
+"en": "noun: flower"
+},
+{
+"no": 356,
+"level": "3",
+"zh": "花",
+"py": "huā",
+"en": "verb: to spend"
+},
+{
+"no": 357,
+"level": "3",
+"zh": "坏",
+"py": "huài",
+"en": "adjective: broken / ruined"
+},
+{
+"no": 358,
+"level": "4",
+"zh": "怀疑",
+"py": "huáiyí",
+"en": "verb: to suspect / to doubt"
+},
+{
+"no": 359,
+"level": "3",
+"zh": "换",
+"py": "huàn",
+"en": "verb: to change / to substitute"
+},
+{
+"no": 360,
+"level": "3",
+"zh": "还",
+"py": "huán",
+"en": "verb: to return"
+},
+{
+"no": 361,
+"level": "3",
+"zh": "黄河",
+"py": "Huáng Hé",
+"en": "noun: The Yellow River"
+},
+{
+"no": 362,
+"level": "3",
+"zh": "环境",
+"py": "huánjìng",
+"en": "noun: environment"
+},
+{
+"no": 363,
+"level": "3",
+"zh": "欢迎",
+"py": "huānyíng",
+"en": "verb: to welcome"
+},
+{
+"no": 364,
+"level": "1",
+"zh": "会",
+"py": "huì",
+"en": "modal verb: can, to be able to"
+},
+{
+"no": 365,
+"level": "1",
+"zh": "回",
+"py": "huí",
+"en": "verb: to come, to go back, to return"
+},
+{
+"no": 366,
+"level": "3",
+"zh": "回答",
+"py": "huídá",
+"en": "verb: to answer"
+},
+{
+"no": 367,
+"level": "3",
+"zh": "会议",
+"py": "huìyì",
+"en": "noun: meeting / conference"
+},
+{
+"no": 368,
+"level": "4",
+"zh": "回忆",
+"py": "huíyì",
+"en": "verb: to call to mind / to recall"
+},
+{
+"no": 369,
+"level": "4",
+"zh": "互联网",
+"py": "hùliánwǎng",
+"en": "noun: Internet"
+},
+{
+"no": 370,
+"level": "4",
+"zh": "火",
+"py": "huǒ",
+"en": "adjective: hot / popular"
+},
+{
+"no": 371,
+"level": "2",
+"zh": "火车站",
+"py": "huǒchēzhàn",
+"en": "noun: railway station"
+},
+{
+"no": 372,
+"level": "4",
+"zh": "获得",
+"py": "huòdé",
+"en": "verb: to get / to obtain"
+},
+{
+"no": 373,
+"level": "4",
+"zh": "活动",
+"py": "huódòng",
+"en": "noun: activity / event"
+},
+{
+"no": 374,
+"level": "4",
+"zh": "活泼",
+"py": "huópo",
+"en": "adjective: lively / vivacious"
+},
+{
+"no": 375,
+"level": "3",
+"zh": "或者",
+"py": "huòzhě",
+"en": "conjunction: or"
+},
+{
+"no": 376,
+"level": "4",
+"zh": "护士",
+"py": "hùshi",
+"en": "noun: nurse"
+},
+{
+"no": 377,
+"level": "4",
+"zh": "互相",
+"py": "hùxiāng",
+"en": "adverb: mutually"
+},
+{
+"no": 378,
+"level": "3",
+"zh": "护照",
+"py": "hùzhào",
+"en": "noun: passport"
+},
+{
+"no": 379,
+"level": "1",
+"zh": "几",
+"py": "jǐ",
+"en": "pronoun: how many"
+},
+{
+"no": 380,
+"level": "4",
+"zh": "寄",
+"py": "jì",
+"en": "verb: to mail / to send"
+},
+{
+"no": 381,
+"level": "4",
+"zh": "假",
+"py": "jiǎ",
+"en": "adjective: false / fake"
+},
+{
+"no": 382,
+"level": "1",
+"zh": "家",
+"py": "jiā",
+"en": "noun: family"
+},
+{
+"no": 383,
+"level": "4",
+"zh": "加班",
+"py": "jiābān",
+"en": "verb: to work overtime"
+},
+{
+"no": 384,
+"level": "4",
+"zh": "价格",
+"py": "jiàgé",
+"en": "noun: price"
+},
+{
+"no": 385,
+"level": "4",
+"zh": "家具",
+"py": "jiājù",
+"en": "noun: furniture"
+},
+{
+"no": 386,
+"level": "2",
+"zh": "件",
+"py": "jiàn",
+"en": "classifier: for clothes, for matters in general"
+},
+{
+"no": 387,
+"level": "3",
+"zh": "检查",
+"py": "jiǎnchá",
+"en": "verb: to check / to examine"
+},
+{
+"no": 388,
+"level": "4",
+"zh": "坚持",
+"py": "jiānchí",
+"en": "verb: to insist / to persist"
+},
+{
+"no": 389,
+"level": "3",
+"zh": "简单",
+"py": "jiǎndān",
+"en": "adjective: simple"
+},
+{
+"no": 390,
+"level": "4",
+"zh": "减肥",
+"py": "jiǎnféi",
+"en": "verb: to lose weight"
+},
+{
+"no": 391,
+"level": "3",
+"zh": "讲",
+"py": "jiǎng",
+"en": "verb: to explain"
+},
+{
+"no": 392,
+"level": "4",
+"zh": "降低",
+"py": "jiàngdī",
+"en": "verb: to lower / to reduce"
+},
+{
+"no": 393,
+"level": "4",
+"zh": "奖金",
+"py": "jiǎngjīn",
+"en": "noun: money award / bonus"
+},
+{
+"no": 394,
+"level": "4",
+"zh": "将来",
+"py": "jiānglái",
+"en": "noun: future"
+},
+{
+"no": 395,
+"level": "4",
+"zh": "降落",
+"py": "jiàngluò",
+"en": "verb: to descend / to land"
+},
+{
+"no": 396,
+"level": "3",
+"zh": "健康",
+"py": "jiànkāng",
+"en": "adjective: healthy"
+},
+{
+"no": 397,
+"level": "3",
+"zh": "见面",
+"py": "jiànmiàn",
+"en": "verb: to meet"
+},
+{
+"no": 398,
+"level": "4",
+"zh": "减少",
+"py": "jiǎnshǎo",
+"en": "verb: to reduce / to decrease"
+},
+{
+"no": 399,
+"level": "4",
+"zh": "建议",
+"py": "jiànyì",
+"en": "noun: suggestion / advice"
+},
+{
+"no": 400,
+"level": "4",
+"zh": "交",
+"py": "jiāo",
+"en": "verb: to make (friends)"
+},
+{
+"no": 401,
+"level": "1",
+"zh": "叫",
+"py": "jiào",
+"en": "verb: to call, to be called"
+},
+{
+"no": 402,
+"level": "3",
+"zh": "教",
+"py": "jiāo",
+"en": "verb: to teach"
+},
+{
+"no": 403,
+"level": "3",
+"zh": "脚",
+"py": "jiǎo",
+"en": "noun: foot"
+},
+{
+"no": 404,
+"level": "3",
+"zh": "角",
+"py": "jiǎo",
+"en": "classifier: jiao (1 jiao = 1 mao), a unit of money (=1/10 yuan)"
+},
+{
+"no": 405,
+"level": "4",
+"zh": "骄傲",
+"py": "jiāo'ào",
+"en": "adjective: proud / arrogant"
+},
+{
+"no": 406,
+"level": "4",
+"zh": "交流",
+"py": "jiāoliú",
+"en": "verb: to exchange / to communicate"
+},
+{
+"no": 407,
+"level": "4",
+"zh": "郊区",
+"py": "jiāoqū",
+"en": "noun: suburb"
+},
+{
+"no": 408,
+"level": "2",
+"zh": "教室",
+"py": "jiàoshì",
+"en": "noun: classroom"
+},
+{
+"no": 409,
+"level": "4",
+"zh": "教授",
+"py": "jiàoshòu",
+"en": "noun: professor"
+},
+{
+"no": 410,
+"level": "4",
+"zh": "交通",
+"py": "jiāotōng",
+"en": "noun: traffic / communication"
+},
+{
+"no": 411,
+"level": "4",
+"zh": "教育",
+"py": "jiàoyù",
+"en": "verb: to educate"
+},
+{
+"no": 412,
+"level": "4",
+"zh": "饺子",
+"py": "jiǎozi",
+"en": "noun: dumpling"
+},
+{
+"no": 413,
+"level": "4",
+"zh": "加油站",
+"py": "jiāyóuzhàn",
+"en": "noun: gas station"
+},
+{
+"no": 414,
+"level": "2",
+"zh": "机场",
+"py": "jīchǎng",
+"en": "noun: airport"
+},
+{
+"no": 415,
+"level": "4",
+"zh": "基础",
+"py": "jīchǔ",
+"en": "noun: basis / foundation"
+},
+{
+"no": 416,
+"level": "2",
+"zh": "鸡蛋",
+"py": "jīdàn",
+"en": "noun: chicken egg"
+},
+{
+"no": 417,
+"level": "3",
+"zh": "记得",
+"py": "jìde",
+"en": "verb: to remember"
+},
+{
+"no": 418,
+"level": "4",
+"zh": "激动",
+"py": "jīdòng",
+"en": "adjective: excited / emotional"
+},
+{
+"no": 419,
+"level": "3",
+"zh": "借",
+"py": "jiè",
+"en": "verb: to borrow / to lend"
+},
+{
+"no": 420,
+"level": "3",
+"zh": "接",
+"py": "jiē",
+"en": "verb: to meet (sb.) / to pick up (sb.)"
+},
+{
+"no": 421,
+"level": "4",
+"zh": "节",
+"py": "jié",
+"en": "classifier: for sections / for lessons"
+},
+{
+"no": 422,
+"level": "3",
+"zh": "街道",
+"py": "jiēdào",
+"en": "noun: street"
+},
+{
+"no": 423,
+"level": "4",
+"zh": "结果",
+"py": "jiéguǒ",
+"en": "noun: result"
+},
+{
+"no": 424,
+"level": "3",
+"zh": "结婚",
+"py": "jiéhūn",
+"en": "verb: to marry / to get married"
+},
+{
+"no": 425,
+"level": "2",
+"zh": "姐姐",
+"py": "jiějie",
+"en": "noun: older sister"
+},
+{
+"no": 426,
+"level": "3",
+"zh": "解决",
+"py": "jiějué",
+"en": "verb: to solve"
+},
+{
+"no": 427,
+"level": "3",
+"zh": "节目",
+"py": "jiémù",
+"en": "noun: program"
+},
+{
+"no": 428,
+"level": "3",
+"zh": "节日",
+"py": "jiérì",
+"en": "noun: festival"
+},
+{
+"no": 429,
+"level": "2",
+"zh": "介绍",
+"py": "jièshào",
+"en": "verb: to introduce / to recommend"
+},
+{
+"no": 430,
+"level": "4",
+"zh": "解释",
+"py": "jiěshì",
+"en": "verb: to explain"
+},
+{
+"no": 431,
+"level": "4",
+"zh": "接受",
+"py": "jiēshòu",
+"en": "verb: to accept"
+},
+{
+"no": 432,
+"level": "3",
+"zh": "结束",
+"py": "jiéshù",
+"en": "verb: to end / to finish"
+},
+{
+"no": 433,
+"level": "4",
+"zh": "节约",
+"py": "jiéyuē",
+"en": "verb: to economize / to save"
+},
+{
+"no": 434,
+"level": "4",
+"zh": "接着",
+"py": "jiēzhe",
+"en": "adverb: then / immediately after that"
+},
+{
+"no": 435,
+"level": "3",
+"zh": "几乎",
+"py": "jīhū",
+"en": "adverb: almost"
+},
+{
+"no": 436,
+"level": "4",
+"zh": "计划",
+"py": "jìhuà",
+"en": "noun / verb: plan / to plan"
+},
+{
+"no": 437,
+"level": "3",
+"zh": "机会",
+"py": "jīhuì",
+"en": "noun: opportunity / chance"
+},
+{
+"no": 438,
+"level": "4",
+"zh": "积极",
+"py": "jījí",
+"en": "adjective: positive / engaged / active"
+},
+{
+"no": 439,
+"level": "3",
+"zh": "季节",
+"py": "jìjié",
+"en": "noun: season"
+},
+{
+"no": 440,
+"level": "3",
+"zh": "极了",
+"py": "jíle",
+"en": "adverb: extremely"
+},
+{
+"no": 441,
+"level": "4",
+"zh": "积累",
+"py": "jīlěi",
+"en": "verb: to accumulate"
+},
+{
+"no": 442,
+"level": "2",
+"zh": "近",
+"py": "jìn",
+"en": "adjective: near / close"
+},
+{
+"no": 443,
+"level": "2",
+"zh": "进",
+"py": "jìn",
+"en": "verb: to enter / to come or go in"
+},
+{
+"no": 444,
+"level": "4",
+"zh": "精彩",
+"py": "jīngcǎi",
+"en": "adjective: wonderful / splendid"
+},
+{
+"no": 445,
+"level": "4",
+"zh": "警察",
+"py": "jǐngchá",
+"en": "noun: police"
+},
+{
+"no": 446,
+"level": "3",
+"zh": "经常",
+"py": "jīngcháng",
+"en": "adverb: often"
+},
+{
+"no": 447,
+"level": "3",
+"zh": "经过",
+"py": "jīngguò",
+"en": "verb: to pass by"
+},
+{
+"no": 448,
+"level": "4",
+"zh": "经济",
+"py": "jīngjì",
+"en": "noun: economy"
+},
+{
+"no": 449,
+"level": "4",
+"zh": "京剧",
+"py": "jīngjù",
+"en": "noun: Beijing opera"
+},
+{
+"no": 450,
+"level": "4",
+"zh": "经历",
+"py": "jīnglì",
+"en": "verb: to go through / to experience"
+},
+{
+"no": 451,
+"level": "3",
+"zh": "经理",
+"py": "jīnglǐ",
+"en": "noun: manager"
+},
+{
+"no": 452,
+"level": "4",
+"zh": "竟然",
+"py": "jìngrán",
+"en": "adverb: unexpectedly / indicating something unexpected"
+},
+{
+"no": 453,
+"level": "4",
+"zh": "景色",
+"py": "jǐngsè",
+"en": "noun: scene / view"
+},
+{
+"no": 454,
+"level": "4",
+"zh": "尽管",
+"py": "jǐnguǎn",
+"en": "conjunction: although"
+},
+{
+"no": 455,
+"level": "4",
+"zh": "经验",
+"py": "jīngyàn",
+"en": "noun: experience"
+},
+{
+"no": 456,
+"level": "4",
+"zh": "竞争",
+"py": "jìngzhēng",
+"en": "verb: to compete"
+},
+{
+"no": 457,
+"level": "4",
+"zh": "镜子",
+"py": "jìngzi",
+"en": "noun: mirror"
+},
+{
+"no": 458,
+"level": "1",
+"zh": "今天",
+"py": "jīntiān",
+"en": "noun: today"
+},
+{
+"no": 459,
+"level": "4",
+"zh": "进行",
+"py": "jìnxíng",
+"en": "verb: to conduct / to carry out"
+},
+{
+"no": 460,
+"level": "4",
+"zh": "紧张",
+"py": "jǐnzhāng",
+"en": "adjective: nervous"
+},
+{
+"no": 461,
+"level": "4",
+"zh": "禁止",
+"py": "jìnzhǐ",
+"en": "verb: to prohibit"
+},
+{
+"no": 462,
+"level": "4",
+"zh": "既然",
+"py": "jìrán",
+"en": "conjunction: since / as / now that"
+},
+{
+"no": 463,
+"level": "4",
+"zh": "即使",
+"py": "jíshǐ",
+"en": "conjunction: even if"
+},
+{
+"no": 464,
+"level": "4",
+"zh": "及时",
+"py": "jíshí",
+"en": "adverb: in time"
+},
+{
+"no": 465,
+"level": "4",
+"zh": "技术",
+"py": "jìshù",
+"en": "noun: technology"
+},
+{
+"no": 466,
+"level": "3",
+"zh": "久",
+"py": "jiǔ",
+"en": "adjective: for a long time"
+},
+{
+"no": 467,
+"level": "1",
+"zh": "九",
+"py": "jiǔ",
+"en": "numeral: nine"
+},
+{
+"no": 468,
+"level": "2",
+"zh": "就",
+"py": "jiù",
+"en": "adverb: the structure \"就+verb\" indicates a conclusion or a resolution made on"
+},
+{
+"no": 469,
+"level": "3",
+"zh": "旧",
+"py": "jiù",
+"en": "adjective: old / used / worn"
+},
+{
+"no": 470,
+"level": "4",
+"zh": "究竟",
+"py": "jiūjìng",
+"en": "adverb: (used in question for emphasis) exactly"
+},
+{
+"no": 471,
+"level": "4",
+"zh": "继续",
+"py": "jìxù",
+"en": "verb: to go on / to continue"
+},
+{
+"no": 472,
+"level": "4",
+"zh": "记者",
+"py": "jìzhě",
+"en": "noun: journalist / reporter"
+},
+{
+"no": 473,
+"level": "4",
+"zh": "举",
+"py": "jǔ",
+"en": "verb: to give (eg., example) / to enumerate"
+},
+{
+"no": 474,
+"level": "4",
+"zh": "举办",
+"py": "jǔbàn",
+"en": "verb: to hold / to conduct (an activity, an event, etc. held by a person or an organization)"
+},
+{
+"no": 475,
+"level": "2",
+"zh": "觉得",
+"py": "juéde",
+"en": "verb: to think / to feel"
+},
+{
+"no": 476,
+"level": "3",
+"zh": "决定",
+"py": "juédìng",
+"en": "verb: to decide"
+},
+{
+"no": 477,
+"level": "4",
+"zh": "聚会",
+"py": "jùhuì",
+"en": "verb / noun: to have a party / party / get-together"
+},
+{
+"no": 478,
+"level": "4",
+"zh": "拒绝",
+"py": "jùjué",
+"en": "verb: to refuse / to reject"
+},
+{
+"no": 479,
+"level": "4",
+"zh": "距离",
+"py": "jùlí",
+"en": "noun: distance"
+},
+{
+"no": 480,
+"level": "4",
+"zh": "举行",
+"py": "jǔxíng",
+"en": "verb: to hold (an activity, event, etc. with emphasis on the process)"
+},
+{
+"no": 481,
+"level": "3",
+"zh": "句子",
+"py": "jùzi",
+"en": "noun: sentence"
+},
+{
+"no": 482,
+"level": "2",
+"zh": "咖啡",
+"py": "kāfēi",
+"en": "noun: coffee"
+},
+{
+"no": 483,
+"level": "1",
+"zh": "开",
+"py": "kāi",
+"en": "verb: to drive"
+},
+{
+"no": 484,
+"level": "2",
+"zh": "开始",
+"py": "kāishǐ",
+"en": "verb: to begin / to start"
+},
+{
+"no": 485,
+"level": "4",
+"zh": "开玩笑",
+"py": "kāiwánxiào",
+"en": "verb: to joke"
+},
+{
+"no": 486,
+"level": "4",
+"zh": "开心",
+"py": "kāixīn",
+"en": "adjective: happy / glad"
+},
+{
+"no": 487,
+"level": "1",
+"zh": "看",
+"py": "kàn",
+"en": "verb: to look at, to watch, to read"
+},
+{
+"no": 488,
+"level": "4",
+"zh": "看法",
+"py": "kànfǎ",
+"en": "noun: viewpoint / opinion"
+},
+{
+"no": 489,
+"level": "1",
+"zh": "看见",
+"py": "kànjiàn",
+"en": "verb: to see"
+},
+{
+"no": 490,
+"level": "4",
+"zh": "考虑",
+"py": "kǎolǜ",
+"en": "verb: to consider"
+},
+{
+"no": 491,
+"level": "2",
+"zh": "考试",
+"py": "kǎoshì",
+"en": "noun: exam / test"
+},
+{
+"no": 492,
+"level": "4",
+"zh": "烤鸭",
+"py": "kǎoyā",
+"en": "noun: roast duck"
+},
+{
+"no": 493,
+"level": "3",
+"zh": "刻",
+"py": "kè",
+"en": "classifier: quarter (referring to time - 15 minutes)"
+},
+{
+"no": 494,
+"level": "4",
+"zh": "棵",
+"py": "kē",
+"en": "classifier: used for plants, trees"
+},
+{
+"no": 495,
+"level": "3",
+"zh": "渴",
+"py": "kě",
+"en": "adjective: thirsty"
+},
+{
+"no": 496,
+"level": "2",
+"zh": "课",
+"py": "kè",
+"en": "noun: class / lesson"
+},
+{
+"no": 497,
+"level": "3",
+"zh": "可爱",
+"py": "kě'ài",
+"en": "adjective: cute / adorable"
+},
+{
+"no": 498,
+"level": "4",
+"zh": "可怜",
+"py": "kělián",
+"en": "adjective: pitiful / poor (not financially)"
+},
+{
+"no": 499,
+"level": "4",
+"zh": "肯定",
+"py": "kěndìng",
+"en": "adverb: surely / certainly"
+},
+{
+"no": 500,
+"level": "2",
+"zh": "可能",
+"py": "kěnéng",
+"en": "adverb: maybe / perhaps / probably"
+},
+{
+"no": 501,
+"level": "3",
+"zh": "客人",
+"py": "kèrén",
+"en": "noun: customer / guest"
+},
+{
+"no": 502,
+"level": "4",
+"zh": "可是",
+"py": "kěshì",
+"en": "conjunction: but / however"
+},
+{
+"no": 503,
+"level": "4",
+"zh": "咳嗽",
+"py": "késou",
+"en": "verb: to cough"
+},
+{
+"no": 504,
+"level": "4",
+"zh": "客厅",
+"py": "kètīng",
+"en": "noun: living room"
+},
+{
+"no": 505,
+"level": "4",
+"zh": "可惜",
+"py": "kěxī",
+"en": "adverb: it's a pity / it's too bad"
+},
+{
+"no": 506,
+"level": "4",
+"zh": "科学",
+"py": "kēxué",
+"en": "noun: science"
+},
+{
+"no": 507,
+"level": "2",
+"zh": "可以",
+"py": "kěyǐ",
+"en": "adjective: not bad"
+},
+{
+"no": 508,
+"level": "4",
+"zh": "空",
+"py": "kōng",
+"en": "adjective: empty"
+},
+{
+"no": 509,
+"level": "4",
+"zh": "恐怕",
+"py": "kǒngpà",
+"en": "adverb: fear / to be afraid of"
+},
+{
+"no": 510,
+"level": "4",
+"zh": "空气",
+"py": "kōngqì",
+"en": "noun: air"
+},
+{
+"no": 511,
+"level": "3",
+"zh": "空调",
+"py": "kōngtiáo",
+"en": "noun: air conditioner"
+},
+{
+"no": 512,
+"level": "3",
+"zh": "口",
+"py": "kǒu",
+"en": "classifier: mouthful"
+},
+{
+"no": 513,
+"level": "3",
+"zh": "哭",
+"py": "kū",
+"en": "verb: to cry"
+},
+{
+"no": 514,
+"level": "4",
+"zh": "苦",
+"py": "kǔ",
+"en": "adjective: bitter"
+},
+{
+"no": 515,
+"level": "1",
+"zh": "块",
+"py": "kuài",
+"en": "measure word: a unit of money, same as \"yuan\""
+},
+{
+"no": 516,
+"level": "2",
+"zh": "快",
+"py": "kuài",
+"en": "adjective: quick / fast"
+},
+{
+"no": 517,
+"level": "2",
+"zh": "快乐",
+"py": "kuàilè",
+"en": "adjective: happy"
+},
+{
+"no": 518,
+"level": "3",
+"zh": "筷子",
+"py": "kuàizi",
+"en": "noun: chopsticks"
+},
+{
+"no": 519,
+"level": "4",
+"zh": "矿泉水",
+"py": "kuàngquán shuǐ",
+"en": "noun: mineral water"
+},
+{
+"no": 520,
+"level": "4",
+"zh": "困",
+"py": "kùn",
+"en": "adjective: sleepy"
+},
+{
+"no": 521,
+"level": "4",
+"zh": "困难",
+"py": "kùnnan",
+"en": "noun: difficulty"
+},
+{
+"no": 522,
+"level": "3",
+"zh": "裤子",
+"py": "kùzi",
+"en": "noun: pants"
+},
+{
+"no": 523,
+"level": "4",
+"zh": "拉",
+"py": "lā",
+"en": "verb: to pull / to drag"
+},
+{
+"no": 524,
+"level": "4",
+"zh": "辣",
+"py": "là",
+"en": "adjective: hot / spicy"
+},
+{
+"no": 525,
+"level": "1",
+"zh": "来",
+"py": "lái",
+"en": "verb: to come"
+},
+{
+"no": 526,
+"level": "4",
+"zh": "来不及",
+"py": "láibují",
+"en": "verb: to not have enough time to / to be too late to"
+},
+{
+"no": 527,
+"level": "4",
+"zh": "来得及",
+"py": "láidejí",
+"en": "verb: there's still time (to do sth.)"
+},
+{
+"no": 528,
+"level": "4",
+"zh": "来自",
+"py": "láizì",
+"en": "verb: to come from"
+},
+{
+"no": 529,
+"level": "4",
+"zh": "垃圾桶",
+"py": "lājītǒng",
+"en": "noun: trash can"
+},
+{
+"no": 530,
+"level": "4",
+"zh": "懒",
+"py": "lǎn",
+"en": "adjective: lazy"
+},
+{
+"no": 531,
+"level": "3",
+"zh": "蓝",
+"py": "lán",
+"en": "adjective: blue"
+},
+{
+"no": 532,
+"level": "4",
+"zh": "浪费",
+"py": "làngfèi",
+"en": "verb: to waste"
+},
+{
+"no": 533,
+"level": "4",
+"zh": "浪漫",
+"py": "làngmàn",
+"en": "adjective: romantic"
+},
+{
+"no": 534,
+"level": "3",
+"zh": "老",
+"py": "lǎo",
+"en": "adjective: old"
+},
+{
+"no": 535,
+"level": "4",
+"zh": "老虎",
+"py": "lǎohǔ",
+"en": "noun: tiger"
+},
+{
+"no": 536,
+"level": "1",
+"zh": "老师",
+"py": "lǎoshī",
+"en": "noun: teacher"
+},
+{
+"no": 537,
+"level": "1",
+"zh": "了",
+"py": "le",
+"en": "particle: after a verb or an adjective to indicate the completion of an action, or"
+},
+{
+"no": 538,
+"level": "2",
+"zh": "累",
+"py": "lèi",
+"en": "adjective: tired"
+},
+{
+"no": 539,
+"level": "1",
+"zh": "冷",
+"py": "lěng",
+"en": "adjective: cold"
+},
+{
+"no": 540,
+"level": "4",
+"zh": "冷静",
+"py": "lěngjìng",
+"en": "adjective: calm / composed"
+},
+{
+"no": 541,
+"level": "2",
+"zh": "离",
+"py": "lí",
+"en": "verb: to be away from / to be at a distance from"
+},
+{
+"no": 542,
+"level": "1",
+"zh": "里",
+"py": "lǐ",
+"en": "noun: inner, inside, interior"
+},
+{
+"no": 543,
+"level": "4",
+"zh": "俩",
+"py": "liǎ",
+"en": "classifier: two / both (usually refers to people)"
+},
+{
+"no": 544,
+"level": "3",
+"zh": "脸",
+"py": "liǎn",
+"en": "noun: face"
+},
+{
+"no": 545,
+"level": "4",
+"zh": "连",
+"py": "lián",
+"en": "preposition: even"
+},
+{
+"no": 546,
+"level": "2",
+"zh": "两",
+"py": "liǎng",
+"en": "numeral: two"
+},
+{
+"no": 547,
+"level": "3",
+"zh": "辆",
+"py": "liàng",
+"en": "classifier: used for vehicles"
+},
+{
+"no": 548,
+"level": "4",
+"zh": "凉快",
+"py": "liángkuai",
+"en": "adjective: pleasantly cool"
+},
+{
+"no": 549,
+"level": "3",
+"zh": "练习",
+"py": "liànxí",
+"en": "noun / verb: exercise / to practice"
+},
+{
+"no": 550,
+"level": "4",
+"zh": "联系",
+"py": "liánxì",
+"en": "verb: to contact"
+},
+{
+"no": 551,
+"level": "3",
+"zh": "了解",
+"py": "liǎojiě",
+"en": "verb: to understand / to know"
+},
+{
+"no": 552,
+"level": "3",
+"zh": "聊天",
+"py": "liáotiān",
+"en": "verb: to chat"
+},
+{
+"no": 553,
+"level": "4",
+"zh": "礼拜天",
+"py": "lǐbàitiān",
+"en": "noun: Sunday"
+},
+{
+"no": 554,
+"level": "4",
+"zh": "理发",
+"py": "lǐfà",
+"en": "verb: to get a haircut"
+},
+{
+"no": 555,
+"level": "4",
+"zh": "厉害",
+"py": "lìhai",
+"en": "adjective: awesome / amazing"
+},
+{
+"no": 556,
+"level": "4",
+"zh": "理解",
+"py": "lǐjiě",
+"en": "verb: to understand"
+},
+{
+"no": 557,
+"level": "3",
+"zh": "离开",
+"py": "líkāi",
+"en": "verb: to leave / to part with"
+},
+{
+"no": 558,
+"level": "4",
+"zh": "礼貌",
+"py": "lǐmào",
+"en": "adjective: polite"
+},
+{
+"no": 559,
+"level": "2",
+"zh": "零",
+"py": "líng",
+"en": "numeral: zero"
+},
+{
+"no": 560,
+"level": "4",
+"zh": "零钱",
+"py": "língqián",
+"en": "noun: small change"
+},
+{
+"no": 561,
+"level": "4",
+"zh": "另外",
+"py": "lìngwài",
+"en": "conjunction: besides / in addition"
+},
+{
+"no": 562,
+"level": "3",
+"zh": "邻居",
+"py": "línjū",
+"en": "noun: neighbor"
+},
+{
+"no": 563,
+"level": "4",
+"zh": "力气",
+"py": "lìqi",
+"en": "noun: physical strength / effort"
+},
+{
+"no": 564,
+"level": "4",
+"zh": "例如",
+"py": "lìrú",
+"en": "verb: for example / such as"
+},
+{
+"no": 565,
+"level": "3",
+"zh": "历史",
+"py": "lìshǐ",
+"en": "noun: history"
+},
+{
+"no": 566,
+"level": "1",
+"zh": "六",
+"py": "liù",
+"en": "numeral: six"
+},
+{
+"no": 567,
+"level": "4",
+"zh": "留",
+"py": "liú",
+"en": "verb: to stay"
+},
+{
+"no": 568,
+"level": "4",
+"zh": "流利",
+"py": "liúlì",
+"en": "adjective: fluent"
+},
+{
+"no": 569,
+"level": "4",
+"zh": "流行",
+"py": "liúxíng",
+"en": "verb: to be popular"
+},
+{
+"no": 570,
+"level": "3",
+"zh": "留学",
+"py": "liúxué",
+"en": "verb: to study abroad"
+},
+{
+"no": 571,
+"level": "3",
+"zh": "礼物",
+"py": "lǐwù",
+"en": "noun: gift / present"
+},
+{
+"no": 572,
+"level": "4",
+"zh": "理想",
+"py": "lǐxiǎng",
+"en": "noun: ideal / dream"
+},
+{
+"no": 573,
+"level": "3",
+"zh": "楼",
+"py": "lóu",
+"en": "noun: building / floor"
+},
+{
+"no": 574,
+"level": "3",
+"zh": "绿",
+"py": "lǜ",
+"en": "adjective: green"
+},
+{
+"no": 575,
+"level": "2",
+"zh": "路",
+"py": "lù",
+"en": "noun: road / way / path"
+},
+{
+"no": 576,
+"level": "4",
+"zh": "乱",
+"py": "luàn",
+"en": "adjective: in a mess / confused"
+},
+{
+"no": 577,
+"level": "4",
+"zh": "律师",
+"py": "lǜshī",
+"en": "noun: lawyer"
+},
+{
+"no": 578,
+"level": "4",
+"zh": "旅行",
+"py": "lǚxíng",
+"en": "verb: to travel / to tour"
+},
+{
+"no": 579,
+"level": "2",
+"zh": "旅游",
+"py": "lǚyóu",
+"en": "verb: to travel / to take a trip"
+},
+{
+"no": 580,
+"level": "1",
+"zh": "吗",
+"py": "ma",
+"en": "particle: particle for \"yes-no\" questions"
+},
+{
+"no": 581,
+"level": "3",
+"zh": "马",
+"py": "mǎ",
+"en": "noun: horse"
+},
+{
+"no": 582,
+"level": "4",
+"zh": "麻烦",
+"py": "máfan",
+"en": "verb: to bother / to trouble sb."
+},
+{
+"no": 583,
+"level": "4",
+"zh": "马虎",
+"py": "mǎhu",
+"en": "adjective: careless / sloppy"
+},
+{
+"no": 584,
+"level": "1",
+"zh": "买",
+"py": "mǎi",
+"en": "verb: to buy, to purchase"
+},
+{
+"no": 585,
+"level": "2",
+"zh": "卖",
+"py": "mài",
+"en": "verb: to sell"
+},
+{
+"no": 586,
+"level": "1",
+"zh": "妈妈",
+"py": "māma",
+"en": "noun: mother"
+},
+{
+"no": 587,
+"level": "2",
+"zh": "慢",
+"py": "màn",
+"en": "adjective: slow"
+},
+{
+"no": 588,
+"level": "4",
+"zh": "满",
+"py": "mǎn",
+"en": "adjective: full / filled"
+},
+{
+"no": 589,
+"level": "2",
+"zh": "忙",
+"py": "máng",
+"en": "adjective: busy"
+},
+{
+"no": 590,
+"level": "3",
+"zh": "满意",
+"py": "mǎnyì",
+"en": "verb: to be satisfied"
+},
+{
+"no": 591,
+"level": "4",
+"zh": "毛",
+"py": "máo",
+"en": "noun: hair / fur"
+},
+{
+"no": 592,
+"level": "1",
+"zh": "猫",
+"py": "māo",
+"en": "noun: cat"
+},
+{
+"no": 593,
+"level": "4",
+"zh": "毛巾",
+"py": "máojīn",
+"en": "noun: towel"
+},
+{
+"no": 594,
+"level": "3",
+"zh": "帽子",
+"py": "màozi",
+"en": "noun: hat / cap"
+},
+{
+"no": 595,
+"level": "3",
+"zh": "马上",
+"py": "mǎshàng",
+"en": "adverb: immediately / at once"
+},
+{
+"no": 596,
+"level": "2",
+"zh": "每",
+"py": "měi",
+"en": "pronoun: every / each"
+},
+{
+"no": 597,
+"level": "1",
+"zh": "没",
+"py": "méi",
+"en": "adverb: not"
+},
+{
+"no": 598,
+"level": "1",
+"zh": "没关系",
+"py": "méiguānxi",
+"en": "that’s OK, it doesn’t matter"
+},
+{
+"no": 599,
+"level": "4",
+"zh": "美丽",
+"py": "měilì",
+"en": "adjective: beautiful"
+},
+{
+"no": 600,
+"level": "2",
+"zh": "妹妹",
+"py": "mèimei",
+"en": "noun: younger sister"
+},
+{
+"no": 601,
+"level": "2",
+"zh": "门",
+"py": "mén",
+"en": "noun: gate / door"
+},
+{
+"no": 602,
+"level": "4",
+"zh": "梦",
+"py": "mèng",
+"en": "noun: dream"
+},
+{
+"no": 603,
+"level": "3",
+"zh": "米",
+"py": "mǐ",
+"en": "noun: meter"
+},
+{
+"no": 604,
+"level": "3",
+"zh": "面包",
+"py": "miànbāo",
+"en": "noun: bread"
+},
+{
+"no": 605,
+"level": "4",
+"zh": "免费",
+"py": "miǎnfèi",
+"en": "verb: to be free of charge"
+},
+{
+"no": 606,
+"level": "2",
+"zh": "面条",
+"py": "miàntiáo",
+"en": "noun: noodles"
+},
+{
+"no": 607,
+"level": "4",
+"zh": "秒",
+"py": "miǎo",
+"en": "classifier: second / 1/60 minute"
+},
+{
+"no": 608,
+"level": "1",
+"zh": "米饭",
+"py": "mǐfàn",
+"en": "noun: cooked rice"
+},
+{
+"no": 609,
+"level": "4",
+"zh": "迷路",
+"py": "mílù",
+"en": "verb: to lose one's way"
+},
+{
+"no": 610,
+"level": "4",
+"zh": "密码",
+"py": "mìmǎ",
+"en": "noun: password"
+},
+{
+"no": 611,
+"level": "3",
+"zh": "明白",
+"py": "míngbai",
+"en": "adjective: clear / to understand"
+},
+{
+"no": 612,
+"level": "1",
+"zh": "明天",
+"py": "míngtiān",
+"en": "noun: tomorrow"
+},
+{
+"no": 613,
+"level": "1",
+"zh": "名字",
+"py": "míngzi",
+"en": "noun: name"
+},
+{
+"no": 614,
+"level": "4",
+"zh": "民族",
+"py": "mínzú",
+"en": "noun: nationality / ethnic group"
+},
+{
+"no": 615,
+"level": "4",
+"zh": "目的",
+"py": "mùdì",
+"en": "noun: aim / purpose"
+},
+{
+"no": 616,
+"level": "4",
+"zh": "母亲",
+"py": "mǔqīn",
+"en": "noun: mother"
+},
+{
+"no": 617,
+"level": "1",
+"zh": "哪",
+"py": "nǎ",
+"en": "pronoun: which"
+},
+{
+"no": 618,
+"level": "3",
+"zh": "拿",
+"py": "ná",
+"en": "verb: to take / to fetch"
+},
+{
+"no": 619,
+"level": "1",
+"zh": "那",
+"py": "nà",
+"en": "pronoun: that"
+},
+{
+"no": 620,
+"level": "3",
+"zh": "奶奶",
+"py": "nǎinai",
+"en": "noun: grandmother"
+},
+{
+"no": 621,
+"level": "4",
+"zh": "耐心",
+"py": "nàixīn",
+"en": "noun: patience"
+},
+{
+"no": 622,
+"level": "2",
+"zh": "男",
+"py": "nán",
+"en": "adjective: male"
+},
+{
+"no": 623,
+"level": "3",
+"zh": "难",
+"py": "nán",
+"en": "adjective: difficult"
+},
+{
+"no": 624,
+"level": "4",
+"zh": "难道",
+"py": "nándào",
+"en": "adverb: used in a rhetorical question for emphasis"
+},
+{
+"no": 625,
+"level": "3",
+"zh": "南方",
+"py": "nánfāng",
+"en": "noun: south / southern part"
+},
+{
+"no": 626,
+"level": "3",
+"zh": "难过",
+"py": "nánguò",
+"en": "adjective: sad"
+},
+{
+"no": 627,
+"level": "4",
+"zh": "难受",
+"py": "nánshòu",
+"en": "adjective: (feel) ill / sad / unhappy"
+},
+{
+"no": 628,
+"level": "1",
+"zh": "哪儿",
+"py": "nǎr",
+"en": "pronoun: where"
+},
+{
+"no": 629,
+"level": "1",
+"zh": "呢",
+"py": "ne",
+"en": "particle: (\"What about...?, \"And...?)"
+},
+{
+"no": 630,
+"level": "4",
+"zh": "内",
+"py": "nèi",
+"en": "noun: in / within"
+},
+{
+"no": 631,
+"level": "4",
+"zh": "内容",
+"py": "nèiróng",
+"en": "noun: content"
+},
+{
+"no": 632,
+"level": "1",
+"zh": "能",
+"py": "néng",
+"en": "verb: can, may"
+},
+{
+"no": 633,
+"level": "4",
+"zh": "能力",
+"py": "nénglì",
+"en": "noun: ability / competence"
+},
+{
+"no": 634,
+"level": "1",
+"zh": "你",
+"py": "nǐ",
+"en": "pronoun: (singular) you"
+},
+{
+"no": 635,
+"level": "1",
+"zh": "年",
+"py": "nián",
+"en": "noun: year"
+},
+{
+"no": 636,
+"level": "3",
+"zh": "年级",
+"py": "niánjí",
+"en": "noun: grade"
+},
+{
+"no": 637,
+"level": "4",
+"zh": "年龄",
+"py": "niánlíng",
+"en": "noun: age"
+},
+{
+"no": 638,
+"level": "3",
+"zh": "年轻",
+"py": "niánqīng",
+"en": "adjective: young"
+},
+{
+"no": 639,
+"level": "3",
+"zh": "鸟",
+"py": "niǎo",
+"en": "noun: bird"
+},
+{
+"no": 640,
+"level": "2",
+"zh": "您",
+"py": "nín",
+"en": "pronoun: you (courteous)"
+},
+{
+"no": 641,
+"level": "2",
+"zh": "牛奶",
+"py": "niúnǎi",
+"en": "noun: cow's milk"
+},
+{
+"no": 642,
+"level": "4",
+"zh": "弄",
+"py": "nòng",
+"en": "verb: to do / to make"
+},
+{
+"no": 643,
+"level": "2",
+"zh": "女",
+"py": "nǚ",
+"en": "adjective: female / woman"
+},
+{
+"no": 644,
+"level": "4",
+"zh": "暖和",
+"py": "nuǎnhuo",
+"en": "adjective: warm"
+},
+{
+"no": 645,
+"level": "1",
+"zh": "女儿",
+"py": "nǚ'ér",
+"en": "noun: daughter"
+},
+{
+"no": 646,
+"level": "3",
+"zh": "努力",
+"py": "nǔlì",
+"en": "adjective: hard-working"
+},
+{
+"no": 647,
+"level": "4",
+"zh": "偶尔",
+"py": "ǒu'ěr",
+"en": "adverb: occasionally / once in a while"
+},
+{
+"no": 648,
+"level": "4",
+"zh": "排队",
+"py": "páiduì",
+"en": "verb: to form a line / to line up"
+},
+{
+"no": 649,
+"level": "4",
+"zh": "排列",
+"py": "páiliè",
+"en": "verb: to put in order / to arrange"
+},
+{
+"no": 650,
+"level": "4",
+"zh": "判断",
+"py": "pànduàn",
+"en": "verb: to judge / to decide"
+},
+{
+"no": 651,
+"level": "3",
+"zh": "胖",
+"py": "pàng",
+"en": "adjective: fat"
+},
+{
+"no": 652,
+"level": "2",
+"zh": "旁边",
+"py": "pángbiān",
+"en": "noun: side / to the side"
+},
+{
+"no": 653,
+"level": "3",
+"zh": "盘子",
+"py": "pánzi",
+"en": "noun: plate"
+},
+{
+"no": 654,
+"level": "2",
+"zh": "跑步",
+"py": "pǎobù",
+"en": "verb: to run / to jog"
+},
+{
+"no": 655,
+"level": "3",
+"zh": "爬山",
+"py": "páshān",
+"en": "verb: to climb a mountain"
+},
+{
+"no": 656,
+"level": "4",
+"zh": "陪",
+"py": "péi",
+"en": "verb: to accompany / to keep somebody company"
+},
+{
+"no": 657,
+"level": "1",
+"zh": "朋友",
+"py": "péngyou",
+"en": "noun: friend"
+},
+{
+"no": 658,
+"level": "4",
+"zh": "篇",
+"py": "piān",
+"en": "classifier: used for writings, papers or articles"
+},
+{
+"no": 659,
+"level": "4",
+"zh": "骗",
+"py": "piàn",
+"en": "verb: to cheat / to deceive (to lie)"
+},
+{
+"no": 660,
+"level": "2",
+"zh": "便宜",
+"py": "piányi",
+"en": "adjective: cheap / inexpensive"
+},
+{
+"no": 661,
+"level": "2",
+"zh": "票",
+"py": "piào",
+"en": "noun: ticket"
+},
+{
+"no": 662,
+"level": "1",
+"zh": "漂亮",
+"py": "piàoliang",
+"en": "adjective: beautiful, pretty"
+},
+{
+"no": 663,
+"level": "4",
+"zh": "皮肤",
+"py": "pífū",
+"en": "noun: skin"
+},
+{
+"no": 664,
+"level": "3",
+"zh": "啤酒",
+"py": "píjiǔ",
+"en": "noun: beer"
+},
+{
+"no": 665,
+"level": "1",
+"zh": "苹果",
+"py": "píngguǒ",
+"en": "noun: apple"
+},
+{
+"no": 666,
+"level": "4",
+"zh": "乒乓球",
+"py": "pīngpāngqiú",
+"en": "noun: table tennis / ping-pong"
+},
+{
+"no": 667,
+"level": "4",
+"zh": "平时",
+"py": "píngshí",
+"en": "noun: normal times"
+},
+{
+"no": 668,
+"level": "3",
+"zh": "瓶子",
+"py": "píngzi",
+"en": "noun: bottle"
+},
+{
+"no": 669,
+"level": "4",
+"zh": "批评",
+"py": "pīpíng",
+"en": "verb: to criticize"
+},
+{
+"no": 670,
+"level": "4",
+"zh": "脾气",
+"py": "píqi",
+"en": "noun: temper / disposition"
+},
+{
+"no": 671,
+"level": "3",
+"zh": "皮鞋",
+"py": "píxié",
+"en": "noun: leather shoes"
+},
+{
+"no": 672,
+"level": "4",
+"zh": "破",
+"py": "pò",
+"en": "adjective: broken / torn"
+},
+{
+"no": 673,
+"level": "4",
+"zh": "普遍",
+"py": "pǔbiàn",
+"en": "adjective: universal / common"
+},
+{
+"no": 674,
+"level": "4",
+"zh": "葡萄",
+"py": "pútao",
+"en": "noun: grape"
+},
+{
+"no": 675,
+"level": "4",
+"zh": "普通话",
+"py": "pǔtōnghuà",
+"en": "noun: Mandarin Chinese"
+},
+{
+"no": 676,
+"level": "1",
+"zh": "七",
+"py": "qī",
+"en": "numeral: seven"
+},
+{
+"no": 677,
+"level": "3",
+"zh": "骑",
+"py": "qí",
+"en": "verb: to ride (astride, for example, a horse, bicycle, etc.)"
+},
+{
+"no": 678,
+"level": "2",
+"zh": "千",
+"py": "qiān",
+"en": "numeral: thousand"
+},
+{
+"no": 679,
+"level": "1",
+"zh": "钱",
+"py": "qián",
+"en": "noun: money"
+},
+{
+"no": 680,
+"level": "2",
+"zh": "铅笔",
+"py": "qiānbǐ",
+"en": "noun: pencil"
+},
+{
+"no": 681,
+"level": "1",
+"zh": "前面",
+"py": "qiánmiàn",
+"en": "noun: front"
+},
+{
+"no": 682,
+"level": "4",
+"zh": "千万",
+"py": "qiānwàn",
+"en": "adverb: must / to be sure to"
+},
+{
+"no": 683,
+"level": "4",
+"zh": "签证",
+"py": "qiānzhèng",
+"en": "noun: visa"
+},
+{
+"no": 684,
+"level": "4",
+"zh": "敲",
+"py": "qiāo",
+"en": "verb: to knock"
+},
+{
+"no": 685,
+"level": "4",
+"zh": "桥",
+"py": "qiáo",
+"en": "noun: bridge"
+},
+{
+"no": 686,
+"level": "4",
+"zh": "巧克力",
+"py": "qiǎokèlì",
+"en": "noun: chocolate"
+},
+{
+"no": 687,
+"level": "2",
+"zh": "起床",
+"py": "qǐchuáng",
+"en": "verb: to get out of bed / to get up"
+},
+{
+"no": 688,
+"level": "4",
+"zh": "其次",
+"py": "qícì",
+"en": "conjunction: next / secondly"
+},
+{
+"no": 689,
+"level": "3",
+"zh": "起飞",
+"py": "qǐfēi",
+"en": "verb: (of an aircraft) to take off"
+},
+{
+"no": 690,
+"level": "3",
+"zh": "奇怪",
+"py": "qíguài",
+"en": "adjective: strange / odd"
+},
+{
+"no": 691,
+"level": "4",
+"zh": "气候",
+"py": "qìhòu",
+"en": "noun: climate"
+},
+{
+"no": 692,
+"level": "3",
+"zh": "起来",
+"py": "qǐlai",
+"en": "verb: (indicating an upward movement) to rise"
+},
+{
+"no": 693,
+"level": "2",
+"zh": "晴",
+"py": "qíng",
+"en": "adjective: sunny / fine / clear (day)"
+},
+{
+"no": 694,
+"level": "1",
+"zh": "请",
+"py": "qǐng",
+"en": "verb: please"
+},
+{
+"no": 695,
+"level": "4",
+"zh": "轻",
+"py": "qīng",
+"en": "adjective: light / of little weight"
+},
+{
+"no": 696,
+"level": "3",
+"zh": "清楚",
+"py": "qīngchu",
+"en": "adjective: clear / distinct"
+},
+{
+"no": 697,
+"level": "3",
+"zh": "请假",
+"py": "qǐngjià",
+"en": "verb: to ask for time off (separable verb)"
+},
+{
+"no": 698,
+"level": "4",
+"zh": "情况",
+"py": "qíngkuàng",
+"en": "noun: situation / circumstances"
+},
+{
+"no": 699,
+"level": "4",
+"zh": "轻松",
+"py": "qīngsōng",
+"en": "adjective: relaxed / effortless"
+},
+{
+"no": 700,
+"level": "4",
+"zh": "亲戚",
+"py": "qīnqi",
+"en": "noun: relative"
+},
+{
+"no": 701,
+"level": "4",
+"zh": "穷",
+"py": "qióng",
+"en": "adjective: poor / impoverished"
+},
+{
+"no": 702,
+"level": "3",
+"zh": "其实",
+"py": "qíshí",
+"en": "adverb: actually"
+},
+{
+"no": 703,
+"level": "3",
+"zh": "其他",
+"py": "qítā",
+"en": "pronoun: other / (sth or sb) else"
+},
+{
+"no": 704,
+"level": "3",
+"zh": "秋天",
+"py": "qiūtiān",
+"en": "noun: autumn / fall"
+},
+{
+"no": 705,
+"level": "4",
+"zh": "其中",
+"py": "qízhōng",
+"en": "noun: among (which / them, etc.)"
+},
+{
+"no": 706,
+"level": "2",
+"zh": "妻子",
+"py": "qīzi",
+"en": "noun: wife"
+},
+{
+"no": 707,
+"level": "1",
+"zh": "去",
+"py": "qù",
+"en": "verb: to go"
+},
+{
+"no": 708,
+"level": "4",
+"zh": "取",
+"py": "qǔ",
+"en": "verb: to take / to get"
+},
+{
+"no": 709,
+"level": "4",
+"zh": "全部",
+"py": "quánbù",
+"en": "noun: all / whole"
+},
+{
+"no": 710,
+"level": "4",
+"zh": "区别",
+"py": "qūbié",
+"en": "noun: difference / distinction"
+},
+{
+"no": 711,
+"level": "4",
+"zh": "却",
+"py": "què",
+"en": "adverb: but / yet"
+},
+{
+"no": 712,
+"level": "4",
+"zh": "缺点",
+"py": "quēdiǎn",
+"en": "noun: shortcoming / weakness"
+},
+{
+"no": 713,
+"level": "4",
+"zh": "缺少",
+"py": "quēshǎo",
+"en": "verb: to lack"
+},
+{
+"no": 714,
+"level": "4",
+"zh": "确实",
+"py": "quèshí",
+"en": "adverb: really / indeed"
+},
+{
+"no": 715,
+"level": "2",
+"zh": "去年",
+"py": "qùnián",
+"en": "noun: last year"
+},
+{
+"no": 716,
+"level": "3",
+"zh": "裙子",
+"py": "qúnzi",
+"en": "noun: dress / skirt"
+},
+{
+"no": 717,
+"level": "4",
+"zh": "然而",
+"py": "rán'ér",
+"en": "conjunction: but / however"
+},
+{
+"no": 718,
+"level": "2",
+"zh": "让",
+"py": "ràng",
+"en": "verb: to let / to allow / to have somebody do something"
+},
+{
+"no": 719,
+"level": "3",
+"zh": "然后",
+"py": "ránhòu",
+"en": "conjunction: then / after that"
+},
+{
+"no": 720,
+"level": "1",
+"zh": "热",
+"py": "rè",
+"en": "adjective: hot"
+},
+{
+"no": 721,
+"level": "1",
+"zh": "人",
+"py": "rén",
+"en": "noun: human, person"
+},
+{
+"no": 722,
+"level": "4",
+"zh": "热闹",
+"py": "rènao",
+"en": "adjective: busy / bustling"
+},
+{
+"no": 723,
+"level": "4",
+"zh": "扔",
+"py": "rēng",
+"en": "verb: to throw away"
+},
+{
+"no": 724,
+"level": "4",
+"zh": "仍然",
+"py": "réngrán",
+"en": "adverb: still / yet"
+},
+{
+"no": 725,
+"level": "4",
+"zh": "任何",
+"py": "rènhé",
+"en": "pronoun: any"
+},
+{
+"no": 726,
+"level": "1",
+"zh": "认识",
+"py": "rènshi",
+"en": "verb: to know, to recognize"
+},
+{
+"no": 727,
+"level": "3",
+"zh": "认为",
+"py": "rènwéi",
+"en": "verb: to think / to believe"
+},
+{
+"no": 728,
+"level": "4",
+"zh": "任务",
+"py": "rènwu",
+"en": "noun: task / mission"
+},
+{
+"no": 729,
+"level": "3",
+"zh": "认真",
+"py": "rènzhēn",
+"en": "adjective: serious / earnest"
+},
+{
+"no": 730,
+"level": "3",
+"zh": "热情",
+"py": "rèqíng",
+"en": "adjective: warm / enthusiastic"
+},
+{
+"no": 731,
+"level": "2",
+"zh": "日",
+"py": "rì",
+"en": "noun: day of a month"
+},
+{
+"no": 732,
+"level": "4",
+"zh": "日记",
+"py": "rìjì",
+"en": "noun: diary / journal"
+},
+{
+"no": 733,
+"level": "3",
+"zh": "容易",
+"py": "róngyì",
+"en": "adjective: easy"
+},
+{
+"no": 734,
+"level": "3",
+"zh": "如果",
+"py": "rúguǒ",
+"en": "conjunction: if / in case"
+},
+{
+"no": 735,
+"level": "4",
+"zh": "入口",
+"py": "rùkǒu",
+"en": "noun: entrance"
+},
+{
+"no": 736,
+"level": "1",
+"zh": "三",
+"py": "sān",
+"en": "numeral: three"
+},
+{
+"no": 737,
+"level": "3",
+"zh": "伞",
+"py": "sǎn",
+"en": "noun: umbrella"
+},
+{
+"no": 738,
+"level": "4",
+"zh": "散步",
+"py": "sànbù",
+"en": "verb: to take a walk"
+},
+{
+"no": 739,
+"level": "4",
+"zh": "森林",
+"py": "sēnlín",
+"en": "noun: forest"
+},
+{
+"no": 740,
+"level": "4",
+"zh": "沙发",
+"py": "shāfā",
+"en": "noun: sofa"
+},
+{
+"no": 741,
+"level": "1",
+"zh": "上",
+"py": "shàng",
+"en": "noun: up, above"
+},
+{
+"no": 742,
+"level": "2",
+"zh": "上班",
+"py": "shàngbān",
+"en": "verb: to go to work / to be on duty"
+},
+{
+"no": 743,
+"level": "1",
+"zh": "商店",
+"py": "shāngdiàn",
+"en": "noun: shop, store"
+},
+{
+"no": 744,
+"level": "4",
+"zh": "商量",
+"py": "shāngliang",
+"en": "verb: to discuss / to consult"
+},
+{
+"no": 745,
+"level": "3",
+"zh": "上网",
+"py": "shàngwǎng",
+"en": "verb: to surf the Internet"
+},
+{
+"no": 746,
+"level": "1",
+"zh": "上午",
+"py": "shàngwǔ",
+"en": "noun: morning, before noon"
+},
+{
+"no": 747,
+"level": "4",
+"zh": "伤心",
+"py": "shāngxīn",
+"en": "adjective: sad / sorrowful"
+},
+{
+"no": 748,
+"level": "1",
+"zh": "少",
+"py": "shǎo",
+"en": "adjective: little, few"
+},
+{
+"no": 749,
+"level": "4",
+"zh": "稍微",
+"py": "shāowēi",
+"en": "adverb: a little / slightly"
+},
+{
+"no": 750,
+"level": "4",
+"zh": "勺子",
+"py": "sháozi",
+"en": "noun: spoon"
+},
+{
+"no": 751,
+"level": "4",
+"zh": "社会",
+"py": "shèhuì",
+"en": "noun: society"
+},
+{
+"no": 752,
+"level": "1",
+"zh": "谁",
+"py": "shéi",
+"en": "pronoun: who, whom"
+},
+{
+"no": 753,
+"level": "4",
+"zh": "深",
+"py": "shēn",
+"en": "adjective: deep"
+},
+{
+"no": 754,
+"level": "4",
+"zh": "剩",
+"py": "shèng",
+"en": "verb: to be left over / to remain"
+},
+{
+"no": 755,
+"level": "4",
+"zh": "省",
+"py": "shěng",
+"en": "verb: to save / to economize"
+},
+{
+"no": 756,
+"level": "2",
+"zh": "生病",
+"py": "shēngbìng",
+"en": "verb: to get sick"
+},
+{
+"no": 757,
+"level": "4",
+"zh": "生活",
+"py": "shēnghuó",
+"en": "noun: life verb: to live"
+},
+{
+"no": 758,
+"level": "4",
+"zh": "生命",
+"py": "shēngmìng",
+"en": "noun: (biological) life"
+},
+{
+"no": 759,
+"level": "3",
+"zh": "生气",
+"py": "shēngqì",
+"en": "verb: angry"
+},
+{
+"no": 760,
+"level": "2",
+"zh": "生日",
+"py": "shēngrì",
+"en": "noun: birthday"
+},
+{
+"no": 761,
+"level": "4",
+"zh": "生意",
+"py": "shēngyì",
+"en": "noun: business / trade"
+},
+{
+"no": 762,
+"level": "3",
+"zh": "声音",
+"py": "shēngyīn",
+"en": "noun: sound / voice"
+},
+{
+"no": 763,
+"level": "1",
+"zh": "什么",
+"py": "shénme",
+"en": "pronoun: what"
+},
+{
+"no": 764,
+"level": "4",
+"zh": "申请",
+"py": "shēnqǐng",
+"en": "verb: to apply for"
+},
+{
+"no": 765,
+"level": "2",
+"zh": "身体",
+"py": "shēntǐ",
+"en": "noun: (human) body / health"
+},
+{
+"no": 766,
+"level": "4",
+"zh": "甚至",
+"py": "shènzhì",
+"en": "conjunction: even"
+},
+{
+"no": 767,
+"level": "4",
+"zh": "使",
+"py": "shǐ",
+"en": "verb: to make / to cause"
+},
+{
+"no": 768,
+"level": "1",
+"zh": "十",
+"py": "shí",
+"en": "numeral: ten"
+},
+{
+"no": 769,
+"level": "1",
+"zh": "是",
+"py": "shì",
+"en": "verb: to be"
+},
+{
+"no": 770,
+"level": "3",
+"zh": "试",
+"py": "shì",
+"en": "verb: to try"
+},
+{
+"no": 771,
+"level": "4",
+"zh": "失败",
+"py": "shībài",
+"en": "verb: to fail"
+},
+{
+"no": 772,
+"level": "4",
+"zh": "十分",
+"py": "shífēn",
+"en": "adverb: very / extremely"
+},
+{
+"no": 773,
+"level": "4",
+"zh": "是否",
+"py": "shìfǒu",
+"en": "adverb: whether or not"
+},
+{
+"no": 774,
+"level": "4",
+"zh": "师傅",
+"py": "shīfu",
+"en": "noun: a polite title for one with accomplished skills in a trade or handicraft"
+},
+{
+"no": 775,
+"level": "4",
+"zh": "适合",
+"py": "shìhé",
+"en": "verb: to suit / to fit"
+},
+{
+"no": 776,
+"level": "1",
+"zh": "时候",
+"py": "shíhou",
+"en": "noun: time, when"
+},
+{
+"no": 777,
+"level": "4",
+"zh": "世纪",
+"py": "shìjì",
+"en": "noun: century"
+},
+{
+"no": 778,
+"level": "4",
+"zh": "实际",
+"py": "shíjì",
+"en": "noun: reality"
+},
+{
+"no": 779,
+"level": "2",
+"zh": "时间",
+"py": "shíjiān",
+"en": "noun: (the concept of) time"
+},
+{
+"no": 780,
+"level": "3",
+"zh": "世界",
+"py": "shìjiè",
+"en": "noun: world"
+},
+{
+"no": 781,
+"level": "2",
+"zh": "事情",
+"py": "shìqing",
+"en": "noun: thing / matter / affair"
+},
+{
+"no": 782,
+"level": "4",
+"zh": "失望",
+"py": "shīwàng",
+"en": "adjective: disappointed"
+},
+{
+"no": 783,
+"level": "4",
+"zh": "适应",
+"py": "shìyìng",
+"en": "verb: to adapt to"
+},
+{
+"no": 784,
+"level": "4",
+"zh": "使用",
+"py": "shǐyòng",
+"en": "verb: to use"
+},
+{
+"no": 785,
+"level": "4",
+"zh": "实在",
+"py": "shízài",
+"en": "adverb: really"
+},
+{
+"no": 786,
+"level": "4",
+"zh": "收",
+"py": "shōu",
+"en": "verb: to receive"
+},
+{
+"no": 787,
+"level": "3",
+"zh": "瘦",
+"py": "shòu",
+"en": "adjective: thin"
+},
+{
+"no": 788,
+"level": "2",
+"zh": "手表",
+"py": "shǒubiǎo",
+"en": "noun: watch"
+},
+{
+"no": 789,
+"level": "4",
+"zh": "受不了",
+"py": "shòubuliǎo",
+"en": "cannot stand"
+},
+{
+"no": 790,
+"level": "4",
+"zh": "受到",
+"py": "shòudào",
+"en": "verb: to receive (non-material things, e.g., help, praise, criticism, etc.)"
+},
+{
+"no": 791,
+"level": "4",
+"zh": "首都",
+"py": "shǒudū",
+"en": "noun: capital (of a country)"
+},
+{
+"no": 792,
+"level": "4",
+"zh": "售货员",
+"py": "shòuhuò yuán",
+"en": "noun: salesperson (in a store)"
+},
+{
+"no": 793,
+"level": "2",
+"zh": "手机",
+"py": "shǒujī",
+"en": "noun: cellphone"
+},
+{
+"no": 794,
+"level": "4",
+"zh": "收入",
+"py": "shōurù",
+"en": "noun: income"
+},
+{
+"no": 795,
+"level": "4",
+"zh": "收拾",
+"py": "shōushi",
+"en": "verb: to put in order / to pack / to get things ready"
+},
+{
+"no": 796,
+"level": "4",
+"zh": "首先",
+"py": "shǒuxiān",
+"en": "pronoun: first"
+},
+{
+"no": 797,
+"level": "1",
+"zh": "书",
+"py": "shū",
+"en": "noun: book"
+},
+{
+"no": 798,
+"level": "3",
+"zh": "树",
+"py": "shù",
+"en": "noun: tree"
+},
+{
+"no": 799,
+"level": "4",
+"zh": "输",
+"py": "shū",
+"en": "verb: to lose / to suffer defeat"
+},
+{
+"no": 800,
+"level": "4",
+"zh": "帅",
+"py": "shuài",
+"en": "adjective: handsome"
+},
+{
+"no": 801,
+"level": "3",
+"zh": "双",
+"py": "shuāng",
+"en": "classifier: pair"
+},
+{
+"no": 802,
+"level": "3",
+"zh": "刷牙",
+"py": "shuāyá",
+"en": "verb: to brush teeth (separable verb)"
+},
+{
+"no": 803,
+"level": "3",
+"zh": "舒服",
+"py": "shūfu",
+"en": "adjective: comfortable / to feel good"
+},
+{
+"no": 804,
+"level": "1",
+"zh": "水",
+"py": "shuǐ",
+"en": "noun: water"
+},
+{
+"no": 805,
+"level": "1",
+"zh": "水果",
+"py": "shuǐguǒ",
+"en": "noun: fruit"
+},
+{
+"no": 806,
+"level": "1",
+"zh": "睡觉",
+"py": "shuìjiào",
+"en": "verb: to sleep"
+},
+{
+"no": 807,
+"level": "3",
+"zh": "水平",
+"py": "shuǐpíng",
+"en": "noun: level"
+},
+{
+"no": 808,
+"level": "4",
+"zh": "数量",
+"py": "shùliàng",
+"en": "noun: quantity / amount"
+},
+{
+"no": 809,
+"level": "4",
+"zh": "顺便",
+"py": "shùnbiàn",
+"en": "adverb: in passing / incidentally"
+},
+{
+"no": 810,
+"level": "4",
+"zh": "顺利",
+"py": "shùnlì",
+"en": "adjective: smooth / successful"
+},
+{
+"no": 811,
+"level": "4",
+"zh": "顺序",
+"py": "shùnxù",
+"en": "noun: order / sequence"
+},
+{
+"no": 812,
+"level": "1",
+"zh": "说",
+"py": "shuō",
+"en": "verb: to speak, to say"
+},
+{
+"no": 813,
+"level": "2",
+"zh": "说话",
+"py": "shuōhuà",
+"en": "verb: to speak / to talk"
+},
+{
+"no": 814,
+"level": "4",
+"zh": "说明",
+"py": "shuōmíng",
+"en": "verb: to explain / to show"
+},
+{
+"no": 815,
+"level": "4",
+"zh": "硕士",
+"py": "shuòshì",
+"en": "noun: master's degree"
+},
+{
+"no": 816,
+"level": "3",
+"zh": "叔叔",
+"py": "shūshu",
+"en": "noun: uncle"
+},
+{
+"no": 817,
+"level": "4",
+"zh": "熟悉",
+"py": "shúxī",
+"en": "verb: to be familiar with"
+},
+{
+"no": 818,
+"level": "3",
+"zh": "数学",
+"py": "shùxué",
+"en": "noun: math"
+},
+{
+"no": 819,
+"level": "4",
+"zh": "数字",
+"py": "shùzì",
+"en": "noun: number"
+},
+{
+"no": 820,
+"level": "1",
+"zh": "四",
+"py": "sì",
+"en": "numeral: four"
+},
+{
+"no": 821,
+"level": "4",
+"zh": "死",
+"py": "sǐ",
+"en": "verb: to die"
+},
+{
+"no": 822,
+"level": "3",
+"zh": "司机",
+"py": "sījī",
+"en": "noun: driver"
+},
+{
+"no": 823,
+"level": "2",
+"zh": "送",
+"py": "sòng",
+"en": "verb: to deliver / to give (as a present)"
+},
+{
+"no": 824,
+"level": "4",
+"zh": "酸",
+"py": "suān",
+"en": "adjective: sour"
+},
+{
+"no": 825,
+"level": "4",
+"zh": "速度",
+"py": "sùdù",
+"en": "noun: speed"
+},
+{
+"no": 826,
+"level": "1",
+"zh": "岁",
+"py": "suì",
+"en": "measure word: year (of age)"
+},
+{
+"no": 827,
+"level": "4",
+"zh": "随便",
+"py": "suíbiàn",
+"en": "adjective: casual / at random"
+},
+{
+"no": 828,
+"level": "2",
+"zh": "虽然",
+"py": "suīrán",
+"en": "conjunction: although / even though"
+},
+{
+"no": 829,
+"level": "4",
+"zh": "随着",
+"py": "suízhe",
+"en": "preposition: along with / as"
+},
+{
+"no": 830,
+"level": "4",
+"zh": "塑料袋",
+"py": "sùliàodài",
+"en": "noun: plastic bag"
+},
+{
+"no": 831,
+"level": "4",
+"zh": "孙子",
+"py": "sūnzi",
+"en": "noun: grandson"
+},
+{
+"no": 832,
+"level": "4",
+"zh": "所有",
+"py": "suǒyǒu",
+"en": "adjective: all"
+},
+{
+"no": 833,
+"level": "1",
+"zh": "他",
+"py": "tā",
+"en": "pronoun: he, him"
+},
+{
+"no": 834,
+"level": "1",
+"zh": "她",
+"py": "tā",
+"en": "pronoun: she, her"
+},
+{
+"no": 835,
+"level": "2",
+"zh": "它",
+"py": "tā",
+"en": "pronoun: it"
+},
+{
+"no": 836,
+"level": "4",
+"zh": "台",
+"py": "tái",
+"en": "classifier: used for machines"
+},
+{
+"no": 837,
+"level": "1",
+"zh": "太",
+"py": "tài",
+"en": "adverb: too, excessively"
+},
+{
+"no": 838,
+"level": "4",
+"zh": "抬",
+"py": "tái",
+"en": "verb: to lift (by two or more persons) / to raise"
+},
+{
+"no": 839,
+"level": "4",
+"zh": "态度",
+"py": "tàidu",
+"en": "noun: attitude"
+},
+{
+"no": 840,
+"level": "3",
+"zh": "太阳",
+"py": "tàiyáng",
+"en": "noun: sun"
+},
+{
+"no": 841,
+"level": "4",
+"zh": "谈",
+"py": "tán",
+"en": "verb: to talk / to discuss"
+},
+{
+"no": 842,
+"level": "4",
+"zh": "弹钢琴",
+"py": "tán gāngqín",
+"en": "to play the piano"
+},
+{
+"no": 843,
+"level": "4",
+"zh": "汤",
+"py": "tāng",
+"en": "noun: soup"
+},
+{
+"no": 844,
+"level": "4",
+"zh": "糖",
+"py": "táng",
+"en": "noun: sugar / candy"
+},
+{
+"no": 845,
+"level": "4",
+"zh": "趟",
+"py": "tàng",
+"en": "classifier: for a round trip"
+},
+{
+"no": 846,
+"level": "4",
+"zh": "躺",
+"py": "tǎng",
+"en": "verb: to lie (on one's back)"
+},
+{
+"no": 847,
+"level": "4",
+"zh": "讨论",
+"py": "tǎolùn",
+"en": "verb: to discuss"
+},
+{
+"no": 848,
+"level": "4",
+"zh": "讨厌",
+"py": "tǎoyàn",
+"en": "verb: to dislike"
+},
+{
+"no": 849,
+"level": "3",
+"zh": "特别",
+"py": "tèbié",
+"en": "adverb: extraordinarily / especially"
+},
+{
+"no": 850,
+"level": "4",
+"zh": "特点",
+"py": "tèdiǎn",
+"en": "noun: characteristic / distinguishing feature"
+},
+{
+"no": 851,
+"level": "3",
+"zh": "疼",
+"py": "téng",
+"en": "adjective: hurt / painful"
+},
+{
+"no": 852,
+"level": "4",
+"zh": "提",
+"py": "tí",
+"en": "verb: to mention / to bring up"
+},
+{
+"no": 853,
+"level": "2",
+"zh": "题",
+"py": "tí",
+"en": "noun: question / problem (usually on a test)"
+},
+{
+"no": 854,
+"level": "2",
+"zh": "踢足球",
+"py": "tī zúqiú",
+"en": "to play soccer"
+},
+{
+"no": 855,
+"level": "3",
+"zh": "甜",
+"py": "tián",
+"en": "adjective: sweet"
+},
+{
+"no": 856,
+"level": "4",
+"zh": "填空",
+"py": "tiánkòng",
+"en": "verb: to fill in a blank"
+},
+{
+"no": 857,
+"level": "1",
+"zh": "天气",
+"py": "tiānqì",
+"en": "noun: weather"
+},
+{
+"no": 858,
+"level": "3",
+"zh": "条",
+"py": "tiáo",
+"en": "classifier: used for pants, dresses, etc."
+},
+{
+"no": 859,
+"level": "4",
+"zh": "条件",
+"py": "tiáojiàn",
+"en": "noun: condition"
+},
+{
+"no": 860,
+"level": "2",
+"zh": "跳舞",
+"py": "tiàowǔ",
+"en": "verb: to dance"
+},
+{
+"no": 861,
+"level": "3",
+"zh": "提高",
+"py": "tígāo",
+"en": "verb: to improve"
+},
+{
+"no": 862,
+"level": "4",
+"zh": "提供",
+"py": "tígōng",
+"en": "verb: to provide"
+},
+{
+"no": 863,
+"level": "4",
+"zh": "停",
+"py": "tíng",
+"en": "verb: to stop / to cease"
+},
+{
+"no": 864,
+"level": "1",
+"zh": "听",
+"py": "tīng",
+"en": "verb: to listen"
+},
+{
+"no": 865,
+"level": "4",
+"zh": "挺",
+"py": "tǐng",
+"en": "adverb: quite / rather"
+},
+{
+"no": 866,
+"level": "4",
+"zh": "提前",
+"py": "tíqián",
+"en": "verb: to do (sth.) in advance or ahead of time"
+},
+{
+"no": 867,
+"level": "4",
+"zh": "提醒",
+"py": "tíxǐng",
+"en": "verb: to remind"
+},
+{
+"no": 868,
+"level": "3",
+"zh": "体育",
+"py": "tǐyù",
+"en": "noun: P.E. (physical education) / sports"
+},
+{
+"no": 869,
+"level": "4",
+"zh": "通过",
+"py": "tōngguò",
+"en": "preposition: through / by means of"
+},
+{
+"no": 870,
+"level": "4",
+"zh": "同情",
+"py": "tóngqíng",
+"en": "verb: to show sympathy for"
+},
+{
+"no": 871,
+"level": "3",
+"zh": "同事",
+"py": "tóngshì",
+"en": "noun: colleague"
+},
+{
+"no": 872,
+"level": "4",
+"zh": "同时",
+"py": "tóngshí",
+"en": "conjunction: at the same time / meanwhile"
+},
+{
+"no": 873,
+"level": "1",
+"zh": "同学",
+"py": "tóngxué",
+"en": "noun: classmate"
+},
+{
+"no": 874,
+"level": "3",
+"zh": "同意",
+"py": "tóngyì",
+"en": "verb: to agree / to approve"
+},
+{
+"no": 875,
+"level": "4",
+"zh": "通知",
+"py": "tōngzhī",
+"en": "verb: to inform"
+},
+{
+"no": 876,
+"level": "3",
+"zh": "头发",
+"py": "tóufa",
+"en": "noun: hair"
+},
+{
+"no": 877,
+"level": "4",
+"zh": "推",
+"py": "tuī",
+"en": "verb: to push"
+},
+{
+"no": 878,
+"level": "3",
+"zh": "腿",
+"py": "tuǐ",
+"en": "noun: leg"
+},
+{
+"no": 879,
+"level": "4",
+"zh": "推迟",
+"py": "tuīchí",
+"en": "verb: to postpone / to delay"
+},
+{
+"no": 880,
+"level": "4",
+"zh": "脱",
+"py": "tuō",
+"en": "verb: to take off"
+},
+{
+"no": 881,
+"level": "3",
+"zh": "突然",
+"py": "tūrán",
+"en": "adverb: suddenly"
+},
+{
+"no": 882,
+"level": "3",
+"zh": "图书馆",
+"py": "túshūguǎn",
+"en": "noun: library"
+},
+{
+"no": 883,
+"level": "2",
+"zh": "外",
+"py": "wài",
+"en": "noun: outside (usually after a noun, e.g. 门外)"
+},
+{
+"no": 884,
+"level": "3",
+"zh": "万",
+"py": "wàn",
+"en": "numeral: ten thousand"
+},
+{
+"no": 885,
+"level": "2",
+"zh": "完",
+"py": "wán",
+"en": "verb: to finish"
+},
+{
+"no": 886,
+"level": "2",
+"zh": "玩",
+"py": "wán",
+"en": "verb: to play / to have fun / to enjoy oneself"
+},
+{
+"no": 887,
+"level": "3",
+"zh": "碗",
+"py": "wǎn",
+"en": "noun: bowl"
+},
+{
+"no": 888,
+"level": "3",
+"zh": "完成",
+"py": "wánchéng",
+"en": "verb: to complete / to finish"
+},
+{
+"no": 889,
+"level": "2",
+"zh": "往",
+"py": "wǎng",
+"en": "preposition: to / towards"
+},
+{
+"no": 890,
+"level": "3",
+"zh": "忘记",
+"py": "wàngjì",
+"en": "verb: to forget"
+},
+{
+"no": 891,
+"level": "4",
+"zh": "网球",
+"py": "wǎngqiú",
+"en": "noun: tennis"
+},
+{
+"no": 892,
+"level": "4",
+"zh": "往往",
+"py": "wǎngwǎng",
+"en": "adverb: often / usually"
+},
+{
+"no": 893,
+"level": "4",
+"zh": "网站",
+"py": "wǎngzhàn",
+"en": "noun: website"
+},
+{
+"no": 894,
+"level": "4",
+"zh": "完全",
+"py": "wánquán",
+"en": "adverb: completely"
+},
+{
+"no": 895,
+"level": "2",
+"zh": "晚上",
+"py": "wǎnshang",
+"en": "noun: night / evening"
+},
+{
+"no": 896,
+"level": "4",
+"zh": "袜子",
+"py": "wàzi",
+"en": "noun: socks"
+},
+{
+"no": 897,
+"level": "3",
+"zh": "为",
+"py": "wèi",
+"en": "preposition: for"
+},
+{
+"no": 898,
+"level": "3",
+"zh": "位",
+"py": "wèi",
+"en": "classifier: a respectful measure word for people"
+},
+{
+"no": 899,
+"level": "1",
+"zh": "喂",
+"py": "wèi",
+"en": "interjection: hey / hello (on the phone, often said “wéi”)"
+},
+{
+"no": 900,
+"level": "4",
+"zh": "味道",
+"py": "wèidao",
+"en": "noun: taste"
+},
+{
+"no": 901,
+"level": "3",
+"zh": "为了",
+"py": "wèile",
+"en": "preposition: for the sake of"
+},
+{
+"no": 902,
+"level": "4",
+"zh": "卫生间",
+"py": "wèishēngjiān",
+"en": "noun: bathroom"
+},
+{
+"no": 903,
+"level": "2",
+"zh": "为什么",
+"py": "wèishénme",
+"en": "why"
+},
+{
+"no": 904,
+"level": "4",
+"zh": "危险",
+"py": "wēixiǎn",
+"en": "adjective: dangerous"
+},
+{
+"no": 905,
+"level": "2",
+"zh": "问",
+"py": "wèn",
+"en": "verb: to ask"
+},
+{
+"no": 906,
+"level": "4",
+"zh": "温度",
+"py": "wēndù",
+"en": "noun: temperature"
+},
+{
+"no": 907,
+"level": "3",
+"zh": "文化",
+"py": "wénhuà",
+"en": "noun: culture"
+},
+{
+"no": 908,
+"level": "2",
+"zh": "问题",
+"py": "wèntí",
+"en": "noun: question / problem"
+},
+{
+"no": 909,
+"level": "4",
+"zh": "文章",
+"py": "wénzhāng",
+"en": "noun: essay / article"
+},
+{
+"no": 910,
+"level": "1",
+"zh": "我",
+"py": "wǒ",
+"en": "pronoun: I, me"
+},
+{
+"no": 911,
+"level": "1",
+"zh": "我们",
+"py": "wǒmen",
+"en": "pronoun: we, us"
+},
+{
+"no": 912,
+"level": "1",
+"zh": "五",
+"py": "wǔ",
+"en": "numeral: five"
+},
+{
+"no": 913,
+"level": "4",
+"zh": "无",
+"py": "wú",
+"en": "verb: not to have / to be without"
+},
+{
+"no": 914,
+"level": "4",
+"zh": "误会",
+"py": "wùhuì",
+"en": "verb: to misunderstand"
+},
+{
+"no": 915,
+"level": "4",
+"zh": "无聊",
+"py": "wúliáo",
+"en": "adjective: boring"
+},
+{
+"no": 916,
+"level": "4",
+"zh": "无论",
+"py": "wúlùn",
+"en": "conjunction: regardless of / no matter (what / how / when, etc.)"
+},
+{
+"no": 917,
+"level": "4",
+"zh": "污染",
+"py": "wūrǎn",
+"en": "verb: to pollute"
+},
+{
+"no": 918,
+"level": "2",
+"zh": "洗",
+"py": "xǐ",
+"en": "verb: to wash"
+},
+{
+"no": 919,
+"level": "3",
+"zh": "西",
+"py": "xī",
+"en": "noun: west"
+},
+{
+"no": 920,
+"level": "1",
+"zh": "下",
+"py": "xià",
+"en": "noun: under, below"
+},
+{
+"no": 921,
+"level": "3",
+"zh": "先",
+"py": "xiān",
+"en": "adverb: first / in advance"
+},
+{
+"no": 922,
+"level": "4",
+"zh": "咸",
+"py": "xián",
+"en": "adjective: salty"
+},
+{
+"no": 923,
+"level": "3",
+"zh": "像",
+"py": "xiàng",
+"en": "verb: to be like"
+},
+{
+"no": 924,
+"level": "3",
+"zh": "向",
+"py": "xiàng",
+"en": "preposition: towards"
+},
+{
+"no": 925,
+"level": "4",
+"zh": "响",
+"py": "xiǎng",
+"en": "verb: to ring / to make a sound"
+},
+{
+"no": 926,
+"level": "1",
+"zh": "想",
+"py": "xiǎng",
+"en": "verb: to want, would like"
+},
+{
+"no": 927,
+"level": "4",
+"zh": "香",
+"py": "xiāng",
+"en": "adjective: fragrant / scented"
+},
+{
+"no": 928,
+"level": "4",
+"zh": "相反",
+"py": "xiāngfǎn",
+"en": "conjunction: on the contrary"
+},
+{
+"no": 929,
+"level": "3",
+"zh": "香蕉",
+"py": "xiāngjiāo",
+"en": "noun: banana"
+},
+{
+"no": 930,
+"level": "4",
+"zh": "橡皮",
+"py": "xiàngpí",
+"en": "noun: eraser / rubber"
+},
+{
+"no": 931,
+"level": "4",
+"zh": "相同",
+"py": "xiāngtóng",
+"en": "adjective: same"
+},
+{
+"no": 932,
+"level": "4",
+"zh": "详细",
+"py": "xiángxì",
+"en": "adjective: detailed"
+},
+{
+"no": 933,
+"level": "3",
+"zh": "相信",
+"py": "xiāngxìn",
+"en": "verb: to believe"
+},
+{
+"no": 934,
+"level": "4",
+"zh": "现金",
+"py": "xiànjīn",
+"en": "noun: cash"
+},
+{
+"no": 935,
+"level": "4",
+"zh": "羡慕",
+"py": "xiànmù",
+"en": "verb: to envy / to admire"
+},
+{
+"no": 936,
+"level": "1",
+"zh": "先生",
+"py": "xiānsheng",
+"en": "noun: Mr., sir"
+},
+{
+"no": 937,
+"level": "1",
+"zh": "现在",
+"py": "xiànzài",
+"en": "noun: now"
+},
+{
+"no": 938,
+"level": "1",
+"zh": "小",
+"py": "xiǎo",
+"en": "adjective: small, little"
+},
+{
+"no": 939,
+"level": "2",
+"zh": "笑",
+"py": "xiào",
+"en": "verb: to laugh / to smile"
+},
+{
+"no": 940,
+"level": "4",
+"zh": "小吃",
+"py": "xiǎochī",
+"en": "noun: small and cheap dishes / snacks"
+},
+{
+"no": 941,
+"level": "4",
+"zh": "效果",
+"py": "xiàoguǒ",
+"en": "noun: effect"
+},
+{
+"no": 942,
+"level": "4",
+"zh": "笑话",
+"py": "xiàohua",
+"en": "noun: joke"
+},
+{
+"no": 943,
+"level": "4",
+"zh": "小伙子",
+"py": "xiǎohuǒzi",
+"en": "noun: young man"
+},
+{
+"no": 944,
+"level": "1",
+"zh": "小姐",
+"py": "xiǎojie",
+"en": "noun: miss, young lady"
+},
+{
+"no": 945,
+"level": "2",
+"zh": "小时",
+"py": "xiǎoshí",
+"en": "noun: hour"
+},
+{
+"no": 946,
+"level": "4",
+"zh": "小说",
+"py": "xiǎoshuō",
+"en": "noun: novel"
+},
+{
+"no": 947,
+"level": "4",
+"zh": "消息",
+"py": "xiāoxi",
+"en": "noun: news"
+},
+{
+"no": 948,
+"level": "3",
+"zh": "小心",
+"py": "xiǎoxīn",
+"en": "adjective: careful"
+},
+{
+"no": 949,
+"level": "3",
+"zh": "校长",
+"py": "xiàozhǎng",
+"en": "noun: headmaster / principal"
+},
+{
+"no": 950,
+"level": "3",
+"zh": "夏天",
+"py": "xiàtiān",
+"en": "noun: summer"
+},
+{
+"no": 951,
+"level": "1",
+"zh": "下午",
+"py": "xiàwǔ",
+"en": "noun: afternoon"
+},
+{
+"no": 952,
+"level": "1",
+"zh": "下雨",
+"py": "xiàyǔ",
+"en": "verb-object: to rain"
+},
+{
+"no": 953,
+"level": "1",
+"zh": "些",
+"py": "xiē",
+"en": "measure word: some, a few"
+},
+{
+"no": 954,
+"level": "1",
+"zh": "写",
+"py": "xiě",
+"en": "verb: to write"
+},
+{
+"no": 955,
+"level": "1",
+"zh": "谢谢",
+"py": "xièxie",
+"en": "verb: to thank"
+},
+{
+"no": 956,
+"level": "2",
+"zh": "西瓜",
+"py": "xīguā",
+"en": "noun: watermelon"
+},
+{
+"no": 957,
+"level": "3",
+"zh": "习惯",
+"py": "xíguàn",
+"en": "verb / noun: to be used to / habit"
+},
+{
+"no": 958,
+"level": "4",
+"zh": "西红柿",
+"py": "xīhóngshì",
+"en": "noun: tomato"
+},
+{
+"no": 959,
+"level": "1",
+"zh": "喜欢",
+"py": "xǐhuan",
+"en": "verb: to like"
+},
+{
+"no": 960,
+"level": "2",
+"zh": "新",
+"py": "xīn",
+"en": "adjective: new"
+},
+{
+"no": 961,
+"level": "4",
+"zh": "信封",
+"py": "xìnfēng",
+"en": "noun: envelope"
+},
+{
+"no": 962,
+"level": "2",
+"zh": "姓",
+"py": "xìng",
+"en": "verb: family name / surname"
+},
+{
+"no": 963,
+"level": "4",
+"zh": "行",
+"py": "xíng",
+"en": "verb: to be OK / to be all right"
+},
+{
+"no": 964,
+"level": "4",
+"zh": "醒",
+"py": "xǐng",
+"en": "verb: to wake up / to be awake"
+},
+{
+"no": 965,
+"level": "4",
+"zh": "性别",
+"py": "xìngbié",
+"en": "noun: gender"
+},
+{
+"no": 966,
+"level": "4",
+"zh": "兴奋",
+"py": "xīngfèn",
+"en": "adjective: excited"
+},
+{
+"no": 967,
+"level": "4",
+"zh": "幸福",
+"py": "xìngfú",
+"en": "adjective: happy"
+},
+{
+"no": 968,
+"level": "4",
+"zh": "性格",
+"py": "xìnggé",
+"en": "noun: character / personality"
+},
+{
+"no": 969,
+"level": "3",
+"zh": "行李箱",
+"py": "xínglǐxiāng",
+"en": "noun: luggage / suitcase"
+},
+{
+"no": 970,
+"level": "1",
+"zh": "星期",
+"py": "xīngqī",
+"en": "noun: week"
+},
+{
+"no": 971,
+"level": "4",
+"zh": "辛苦",
+"py": "xīnkǔ",
+"en": "adjective: hard / strenuous / laborious"
+},
+{
+"no": 972,
+"level": "4",
+"zh": "心情",
+"py": "xīnqíng",
+"en": "noun: mood / state of mind"
+},
+{
+"no": 973,
+"level": "3",
+"zh": "新闻",
+"py": "xīnwén",
+"en": "noun: news"
+},
+{
+"no": 974,
+"level": "4",
+"zh": "信息",
+"py": "xìnxī",
+"en": "noun: news / information"
+},
+{
+"no": 975,
+"level": "3",
+"zh": "新鲜",
+"py": "xīnxiān",
+"en": "adjective: fresh"
+},
+{
+"no": 976,
+"level": "4",
+"zh": "信心",
+"py": "xìnxīn",
+"en": "noun: confidence"
+},
+{
+"no": 977,
+"level": "3",
+"zh": "信用卡",
+"py": "xìnyòngkǎ",
+"en": "noun: credit card"
+},
+{
+"no": 978,
+"level": "3",
+"zh": "熊猫",
+"py": "xióngmāo",
+"en": "noun: panda"
+},
+{
+"no": 979,
+"level": "3",
+"zh": "洗手间",
+"py": "xǐshǒujiān",
+"en": "noun: bathroom / restroom"
+},
+{
+"no": 980,
+"level": "4",
+"zh": "修理",
+"py": "xiūlǐ",
+"en": "verb: to repair"
+},
+{
+"no": 981,
+"level": "2",
+"zh": "休息",
+"py": "xiūxi",
+"en": "verb: to rest"
+},
+{
+"no": 982,
+"level": "2",
+"zh": "希望",
+"py": "xīwàng",
+"en": "verb: to hope / to wish"
+},
+{
+"no": 983,
+"level": "4",
+"zh": "吸引",
+"py": "xīyǐn",
+"en": "verb: to attract"
+},
+{
+"no": 984,
+"level": "3",
+"zh": "洗澡",
+"py": "xǐzǎo",
+"en": "verb: to take a bath / shower (separable verb)"
+},
+{
+"no": 985,
+"level": "3",
+"zh": "选择",
+"py": "xuǎnzé",
+"en": "verb: to choose"
+},
+{
+"no": 986,
+"level": "4",
+"zh": "许多",
+"py": "xǔduō",
+"en": "numeral: many / plenty of"
+},
+{
+"no": 987,
+"level": "2",
+"zh": "雪",
+"py": "xuě",
+"en": "noun: snow"
+},
+{
+"no": 988,
+"level": "4",
+"zh": "学期",
+"py": "xuéqī",
+"en": "noun: term / semester"
+},
+{
+"no": 989,
+"level": "1",
+"zh": "学生",
+"py": "xuésheng",
+"en": "noun: student"
+},
+{
+"no": 990,
+"level": "1",
+"zh": "学习",
+"py": "xuéxí",
+"en": "verb: to study, to learn"
+},
+{
+"no": 991,
+"level": "1",
+"zh": "学校",
+"py": "xuéxiào",
+"en": "noun: school"
+},
+{
+"no": 992,
+"level": "3",
+"zh": "需要",
+"py": "xūyào",
+"en": "verb: to need"
+},
+{
+"no": 993,
+"level": "4",
+"zh": "呀",
+"py": "ya",
+"en": "particle: used at the end of a question to soften the tone"
+},
+{
+"no": 994,
+"level": "4",
+"zh": "牙膏",
+"py": "yágāo",
+"en": "noun: toothpaste"
+},
+{
+"no": 995,
+"level": "4",
+"zh": "压力",
+"py": "yālì",
+"en": "noun: pressure / stress"
+},
+{
+"no": 996,
+"level": "4",
+"zh": "盐",
+"py": "yán",
+"en": "noun: salt"
+},
+{
+"no": 997,
+"level": "4",
+"zh": "演出",
+"py": "yǎnchū",
+"en": "verb: to perform"
+},
+{
+"no": 998,
+"level": "4",
+"zh": "养成",
+"py": "yǎngchéng",
+"en": "verb: to develop / to form"
+},
+{
+"no": 999,
+"level": "4",
+"zh": "严格",
+"py": "yángé",
+"en": "adjective: strict / rigorous"
+},
+{
+"no": 1000,
+"level": "4",
+"zh": "阳光",
+"py": "yángguāng",
+"en": "adjective: optimistic / cheerful"
+},
+{
+"no": 1001,
+"level": "2",
+"zh": "羊肉",
+"py": "yángròu",
+"en": "noun: lamb"
+},
+{
+"no": 1002,
+"level": "4",
+"zh": "样子",
+"py": "yàngzi",
+"en": "noun: look / appearance"
+},
+{
+"no": 1003,
+"level": "2",
+"zh": "眼睛",
+"py": "yǎnjing",
+"en": "noun: eye"
+},
+{
+"no": 1004,
+"level": "4",
+"zh": "眼镜",
+"py": "yǎnjìng",
+"en": "noun: eye glasses"
+},
+{
+"no": 1005,
+"level": "4",
+"zh": "研究",
+"py": "yánjiū",
+"en": "verb: to study / to do research"
+},
+{
+"no": 1006,
+"level": "2",
+"zh": "颜色",
+"py": "yánsè",
+"en": "noun: color"
+},
+{
+"no": 1007,
+"level": "4",
+"zh": "演员",
+"py": "yǎnyuán",
+"en": "noun: actor / actress"
+},
+{
+"no": 1008,
+"level": "4",
+"zh": "严重",
+"py": "yánzhòng",
+"en": "adjective: serious / grave"
+},
+{
+"no": 1009,
+"level": "2",
+"zh": "药",
+"py": "yào",
+"en": "noun: medicine / drug"
+},
+{
+"no": 1010,
+"level": "2",
+"zh": "要",
+"py": "yào",
+"en": "verb: to want"
+},
+{
+"no": 1011,
+"level": "4",
+"zh": "邀请",
+"py": "yāoqǐng",
+"en": "verb: to invite"
+},
+{
+"no": 1012,
+"level": "3",
+"zh": "要求",
+"py": "yāoqiú",
+"en": "noun: requirement / demand"
+},
+{
+"no": 1013,
+"level": "4",
+"zh": "要是",
+"py": "yàoshi",
+"en": "conjunction: if / supposing"
+},
+{
+"no": 1014,
+"level": "4",
+"zh": "钥匙",
+"py": "yàoshi",
+"en": "noun: key"
+},
+{
+"no": 1015,
+"level": "4",
+"zh": "亚洲",
+"py": "Yàzhōu",
+"en": "noun: Asia"
+},
+{
+"no": 1016,
+"level": "2",
+"zh": "也",
+"py": "yě",
+"en": "adverb: also / too"
+},
+{
+"no": 1017,
+"level": "4",
+"zh": "页",
+"py": "yè",
+"en": "classifier: page"
+},
+{
+"no": 1018,
+"level": "4",
+"zh": "也许",
+"py": "yěxǔ",
+"en": "adverb: maybe / perhaps"
+},
+{
+"no": 1019,
+"level": "3",
+"zh": "爷爷",
+"py": "yéye",
+"en": "noun: grandfather"
+},
+{
+"no": 1020,
+"level": "4",
+"zh": "叶子",
+"py": "yèzi",
+"en": "noun: leaf"
+},
+{
+"no": 1021,
+"level": "1",
+"zh": "一",
+"py": "yī",
+"en": "numeral: one"
+},
+{
+"no": 1022,
+"level": "4",
+"zh": "以",
+"py": "yǐ",
+"en": "preposition: with / by means of"
+},
+{
+"no": 1023,
+"level": "3",
+"zh": "一般",
+"py": "yìbān",
+"en": "adjective: general / usual"
+},
+{
+"no": 1024,
+"level": "3",
+"zh": "一边",
+"py": "yìbiān",
+"en": "adverb: indicating two actions taking place at the same time"
+},
+{
+"no": 1025,
+"level": "1",
+"zh": "一点儿",
+"py": "yīdiǎnr",
+"en": "a few, a little"
+},
+{
+"no": 1026,
+"level": "3",
+"zh": "一定",
+"py": "yídìng",
+"en": "adverb: definitely / certainly"
+},
+{
+"no": 1027,
+"level": "1",
+"zh": "衣服",
+"py": "yīfu",
+"en": "noun: clothes"
+},
+{
+"no": 1028,
+"level": "3",
+"zh": "一共",
+"py": "yígòng",
+"en": "adverb: in total"
+},
+{
+"no": 1029,
+"level": "3",
+"zh": "一会儿",
+"py": "yíhuìr",
+"en": "noun: a moment"
+},
+{
+"no": 1030,
+"level": "4",
+"zh": "意见",
+"py": "yìjiàn",
+"en": "noun: opinion / suggestion"
+},
+{
+"no": 1031,
+"level": "2",
+"zh": "已经",
+"py": "yǐjīng",
+"en": "adverb: already"
+},
+{
+"no": 1032,
+"level": "2",
+"zh": "阴",
+"py": "yīn",
+"en": "adjective: overcast / cloudy"
+},
+{
+"no": 1033,
+"level": "4",
+"zh": "因此",
+"py": "yīncǐ",
+"en": "conjunction: therefore / so"
+},
+{
+"no": 1034,
+"level": "4",
+"zh": "赢",
+"py": "yíng",
+"en": "verb: to win"
+},
+{
+"no": 1035,
+"level": "3",
+"zh": "应该",
+"py": "yīnggāi",
+"en": "verb: should"
+},
+{
+"no": 1036,
+"level": "4",
+"zh": "应聘",
+"py": "yìngpìn",
+"en": "verb: to apply for a job"
+},
+{
+"no": 1037,
+"level": "3",
+"zh": "影响",
+"py": "yǐngxiǎng",
+"en": "verb: to influence / to affect"
+},
+{
+"no": 1038,
+"level": "3",
+"zh": "银行",
+"py": "yínháng",
+"en": "noun: bank"
+},
+{
+"no": 1039,
+"level": "3",
+"zh": "饮料",
+"py": "yǐnliào",
+"en": "noun: drink / beverage"
+},
+{
+"no": 1040,
+"level": "4",
+"zh": "引起",
+"py": "yǐnqǐ",
+"en": "verb: to cause / to lead to"
+},
+{
+"no": 1041,
+"level": "2",
+"zh": "因为",
+"py": "yīnwèi",
+"en": "conjunction: because"
+},
+{
+"no": 1042,
+"level": "4",
+"zh": "印象",
+"py": "yìnxiàng",
+"en": "noun: impression"
+},
+{
+"no": 1043,
+"level": "3",
+"zh": "音乐",
+"py": "yīnyuè",
+"en": "noun: music"
+},
+{
+"no": 1044,
+"level": "2",
+"zh": "一起",
+"py": "yìqǐ",
+"en": "adverb: together / in the same place"
+},
+{
+"no": 1045,
+"level": "3",
+"zh": "以前",
+"py": "yǐqián",
+"en": "noun: before / ago"
+},
+{
+"no": 1046,
+"level": "4",
+"zh": "一切",
+"py": "yíqiè",
+"en": "pronoun: all / everything"
+},
+{
+"no": 1047,
+"level": "1",
+"zh": "医生",
+"py": "yīshēng",
+"en": "noun: doctor"
+},
+{
+"no": 1048,
+"level": "4",
+"zh": "艺术",
+"py": "yìshù",
+"en": "noun: art"
+},
+{
+"no": 1049,
+"level": "2",
+"zh": "意思",
+"py": "yìsi",
+"en": "noun: meaning"
+},
+{
+"no": 1050,
+"level": "4",
+"zh": "以为",
+"py": "yǐwéi",
+"en": "verb: to think / to believe (usually erroneously)"
+},
+{
+"no": 1051,
+"level": "2",
+"zh": "一下",
+"py": "yíxià",
+"en": "noun: used after a verb, indicating an act or an attempt"
+},
+{
+"no": 1052,
+"level": "3",
+"zh": "一样",
+"py": "yíyàng",
+"en": "adjective: same / as…as…"
+},
+{
+"no": 1053,
+"level": "1",
+"zh": "医院",
+"py": "yīyuàn",
+"en": "noun: hospital"
+},
+{
+"no": 1054,
+"level": "3",
+"zh": "一直",
+"py": "yìzhí",
+"en": "adverb: all the time"
+},
+{
+"no": 1055,
+"level": "1",
+"zh": "椅子",
+"py": "yǐzi",
+"en": "noun: chair"
+},
+{
+"no": 1056,
+"level": "3",
+"zh": "用",
+"py": "yòng",
+"en": "verb: to need / to use"
+},
+{
+"no": 1057,
+"level": "4",
+"zh": "勇敢",
+"py": "yǒnggǎn",
+"en": "adjective: brave / courageous"
+},
+{
+"no": 1058,
+"level": "4",
+"zh": "永远",
+"py": "yǒngyuǎn",
+"en": "adverb: forever"
+},
+{
+"no": 1059,
+"level": "3",
+"zh": "又",
+"py": "yòu",
+"en": "adverb: and / again"
+},
+{
+"no": 1060,
+"level": "1",
+"zh": "有",
+"py": "yǒu",
+"en": "verb: to have, there is, there are"
+},
+{
+"no": 1061,
+"level": "4",
+"zh": "由",
+"py": "yóu",
+"en": "preposition: by (sb.)"
+},
+{
+"no": 1062,
+"level": "2",
+"zh": "右边",
+"py": "yòubian",
+"en": "noun: right side / to the right"
+},
+{
+"no": 1063,
+"level": "4",
+"zh": "优点",
+"py": "yōudiǎn",
+"en": "noun: merit / strong point"
+},
+{
+"no": 1064,
+"level": "4",
+"zh": "友好",
+"py": "yǒuhǎo",
+"en": "adjective: friendly"
+},
+{
+"no": 1065,
+"level": "4",
+"zh": "邮局",
+"py": "yóujú",
+"en": "noun: post office"
+},
+{
+"no": 1066,
+"level": "3",
+"zh": "有名",
+"py": "yǒumíng",
+"en": "adjective: famous"
+},
+{
+"no": 1067,
+"level": "4",
+"zh": "幽默",
+"py": "yōumò",
+"en": "adjective: humorous"
+},
+{
+"no": 1068,
+"level": "4",
+"zh": "尤其",
+"py": "yóuqí",
+"en": "adverb: especially"
+},
+{
+"no": 1069,
+"level": "4",
+"zh": "有趣",
+"py": "yǒuqù",
+"en": "adjective: interesting / fun"
+},
+{
+"no": 1070,
+"level": "3",
+"zh": "游戏",
+"py": "yóuxì",
+"en": "noun: game"
+},
+{
+"no": 1071,
+"level": "4",
+"zh": "优秀",
+"py": "yōuxiù",
+"en": "adjective: excellent / outstanding"
+},
+{
+"no": 1072,
+"level": "4",
+"zh": "友谊",
+"py": "yǒuyì",
+"en": "noun: friendship"
+},
+{
+"no": 1073,
+"level": "2",
+"zh": "游泳",
+"py": "yóuyǒng",
+"en": "verb: to swim"
+},
+{
+"no": 1074,
+"level": "4",
+"zh": "由于",
+"py": "yóuyú",
+"en": "conjunction: due to"
+},
+{
+"no": 1075,
+"level": "4",
+"zh": "与",
+"py": "yǔ",
+"en": "preposition: with"
+},
+{
+"no": 1076,
+"level": "2",
+"zh": "鱼",
+"py": "yú",
+"en": "noun: fish"
+},
+{
+"no": 1077,
+"level": "3",
+"zh": "元",
+"py": "yuán",
+"en": "classifier: unit of money"
+},
+{
+"no": 1078,
+"level": "2",
+"zh": "远",
+"py": "yuǎn",
+"en": "adjective: far"
+},
+{
+"no": 1079,
+"level": "4",
+"zh": "原来",
+"py": "yuánlái",
+"en": "adjective: original / former"
+},
+{
+"no": 1080,
+"level": "4",
+"zh": "原谅",
+"py": "yuánliàng",
+"en": "verb: to forgive"
+},
+{
+"no": 1081,
+"level": "3",
+"zh": "愿意",
+"py": "yuànyì",
+"en": "verb: would like to / to be willing to"
+},
+{
+"no": 1082,
+"level": "4",
+"zh": "原因",
+"py": "yuányīn",
+"en": "noun: reason"
+},
+{
+"no": 1083,
+"level": "3",
+"zh": "遇到",
+"py": "yùdào",
+"en": "verb: to come across / to run into"
+},
+{
+"no": 1084,
+"level": "1",
+"zh": "月",
+"py": "yuè",
+"en": "noun: month"
+},
+{
+"no": 1085,
+"level": "3",
+"zh": "越",
+"py": "yuè",
+"en": "adverb: more / to a greater degree"
+},
+{
+"no": 1086,
+"level": "4",
+"zh": "阅读",
+"py": "yuèdú",
+"en": "verb: to read"
+},
+{
+"no": 1087,
+"level": "4",
+"zh": "约会",
+"py": "yuēhuì",
+"en": "verb: to date / to go to an appointment"
+},
+{
+"no": 1088,
+"level": "3",
+"zh": "月亮",
+"py": "yuèliang",
+"en": "noun: moon"
+},
+{
+"no": 1089,
+"level": "4",
+"zh": "语法",
+"py": "yǔfǎ",
+"en": "noun: grammar"
+},
+{
+"no": 1090,
+"level": "4",
+"zh": "愉快",
+"py": "yúkuài",
+"en": "adjective: happy / joyful"
+},
+{
+"no": 1091,
+"level": "4",
+"zh": "羽毛球",
+"py": "yǔmáoqiú",
+"en": "noun: badminton"
+},
+{
+"no": 1092,
+"level": "4",
+"zh": "云",
+"py": "yún",
+"en": "noun: cloud"
+},
+{
+"no": 1093,
+"level": "2",
+"zh": "运动",
+"py": "yùndòng",
+"en": "noun / verb: sport / to do physical exercise / to work out"
+},
+{
+"no": 1094,
+"level": "4",
+"zh": "允许",
+"py": "yǔnxǔ",
+"en": "verb: to allow / to permit"
+},
+{
+"no": 1095,
+"level": "4",
+"zh": "于是",
+"py": "yúshì",
+"en": "conjunction: hence / therefore"
+},
+{
+"no": 1096,
+"level": "4",
+"zh": "预习",
+"py": "yùxí",
+"en": "verb: to prepare lessons before class"
+},
+{
+"no": 1097,
+"level": "4",
+"zh": "语言",
+"py": "yǔyán",
+"en": "noun: language"
+},
+{
+"no": 1098,
+"level": "2",
+"zh": "再",
+"py": "zài",
+"en": "adverb: again / once more / another"
+},
+{
+"no": 1099,
+"level": "1",
+"zh": "在",
+"py": "zài",
+"en": "verb / preposition: to be in, on, at"
+},
+{
+"no": 1100,
+"level": "1",
+"zh": "再见",
+"py": "zàijiàn",
+"en": "verb: to see you around, goodbye"
+},
+{
+"no": 1101,
+"level": "4",
+"zh": "脏",
+"py": "zāng",
+"en": "adjective: dirty"
+},
+{
+"no": 1102,
+"level": "4",
+"zh": "咱们",
+"py": "zánmen",
+"en": "pronoun: we / us"
+},
+{
+"no": 1103,
+"level": "4",
+"zh": "暂时",
+"py": "zànshí",
+"en": "noun: temporary / for the time being"
+},
+{
+"no": 1104,
+"level": "2",
+"zh": "早上",
+"py": "zǎoshang",
+"en": "noun: early morning"
+},
+{
+"no": 1105,
+"level": "4",
+"zh": "杂志",
+"py": "zázhì",
+"en": "noun: magazine"
+},
+{
+"no": 1106,
+"level": "4",
+"zh": "增加",
+"py": "zēngjiā",
+"en": "verb: to increase / to add"
+},
+{
+"no": 1107,
+"level": "1",
+"zh": "怎么",
+"py": "zěnme",
+"en": "pronoun: how"
+},
+{
+"no": 1108,
+"level": "1",
+"zh": "怎么样",
+"py": "zěnmeyàng",
+"en": "pronoun: how (are things)"
+},
+{
+"no": 1109,
+"level": "4",
+"zh": "责任",
+"py": "zérèn",
+"en": "noun: responsibility / duty"
+},
+{
+"no": 1110,
+"level": "3",
+"zh": "站",
+"py": "zhàn",
+"en": "verb: to stand"
+},
+{
+"no": 1111,
+"level": "3",
+"zh": "张",
+"py": "zhāng",
+"en": "classifier: used for flat objects such as paper, photos, etc."
+},
+{
+"no": 1112,
+"level": "3",
+"zh": "长",
+"py": "zhǎng",
+"en": "verb: to grow / to develop"
+},
+{
+"no": 1113,
+"level": "2",
+"zh": "丈夫",
+"py": "zhàngfu",
+"en": "noun: husband"
+},
+{
+"no": 1114,
+"level": "4",
+"zh": "占线",
+"py": "zhànxiàn",
+"en": "verb: (of a telephone line) to be busy"
+},
+{
+"no": 1115,
+"level": "2",
+"zh": "找",
+"py": "zhǎo",
+"en": "verb: to look for"
+},
+{
+"no": 1116,
+"level": "4",
+"zh": "照",
+"py": "zhào",
+"en": "verb: to take a picture / to photograph"
+},
+{
+"no": 1117,
+"level": "3",
+"zh": "照顾",
+"py": "zhàogu",
+"en": "verb: to take care of"
+},
+{
+"no": 1118,
+"level": "3",
+"zh": "着急",
+"py": "zháojí",
+"en": "adjective: worried / anxious"
+},
+{
+"no": 1119,
+"level": "3",
+"zh": "照片",
+"py": "zhàopiàn",
+"en": "noun: photo"
+},
+{
+"no": 1120,
+"level": "4",
+"zh": "招聘",
+"py": "zhāopìn",
+"en": "verb: to recruit"
+},
+{
+"no": 1121,
+"level": "3",
+"zh": "照相机",
+"py": "zhàoxiàngjī",
+"en": "noun: camera"
+},
+{
+"no": 1122,
+"level": "2",
+"zh": "着",
+"py": "zhe",
+"en": "particle: used to indicate a state"
+},
+{
+"no": 1123,
+"level": "1",
+"zh": "这",
+"py": "zhè",
+"en": "pronoun: this"
+},
+{
+"no": 1124,
+"level": "2",
+"zh": "真",
+"py": "zhēn",
+"en": "adverb: really / indeed"
+},
+{
+"no": 1125,
+"level": "4",
+"zh": "正常",
+"py": "zhèng cháng",
+"en": "adjective: normal / regular"
+},
+{
+"no": 1126,
+"level": "4",
+"zh": "正好",
+"py": "zhènghǎo",
+"en": "adverb: just in time / just right"
+},
+{
+"no": 1127,
+"level": "4",
+"zh": "整理",
+"py": "zhěnglǐ",
+"en": "verb: to tidy up / to arrange"
+},
+{
+"no": 1128,
+"level": "4",
+"zh": "证明",
+"py": "zhèngmíng",
+"en": "verb: to prove"
+},
+{
+"no": 1129,
+"level": "4",
+"zh": "正确",
+"py": "zhèngquè",
+"en": "adjective: right / correct"
+},
+{
+"no": 1130,
+"level": "4",
+"zh": "正式",
+"py": "zhèngshì",
+"en": "adjective: formal / official / regular"
+},
+{
+"no": 1131,
+"level": "2",
+"zh": "正在",
+"py": "zhèngzài",
+"en": "adverb: right in the middle of (doing sth) / in the process of"
+},
+{
+"no": 1132,
+"level": "4",
+"zh": "真正",
+"py": "zhēnzhèng",
+"en": "adjective: true / real"
+},
+{
+"no": 1133,
+"level": "4",
+"zh": "之",
+"py": "zhī",
+"en": "particle: connecting the modifier and the word modified"
+},
+{
+"no": 1134,
+"level": "3",
+"zh": "只",
+"py": "zhī",
+"en": "classifier: used for certain animals"
+},
+{
+"no": 1135,
+"level": "3",
+"zh": "只",
+"py": "zhǐ",
+"en": "adverb: only / solely"
+},
+{
+"no": 1136,
+"level": "4",
+"zh": "指",
+"py": "zhǐ",
+"en": "verb: to refer to"
+},
+{
+"no": 1137,
+"level": "4",
+"zh": "支持",
+"py": "zhīchí",
+"en": "verb: to support"
+},
+{
+"no": 1138,
+"level": "2",
+"zh": "知道",
+"py": "zhīdào",
+"en": "verb: to know"
+},
+{
+"no": 1139,
+"level": "4",
+"zh": "值得",
+"py": "zhíde",
+"en": "verb: to be worth"
+},
+{
+"no": 1140,
+"level": "4",
+"zh": "只好",
+"py": "zhǐhǎo",
+"en": "adverb: to have to / to be forced to"
+},
+{
+"no": 1141,
+"level": "4",
+"zh": "直接",
+"py": "zhíjiē",
+"en": "adjective: direct / straight"
+},
+{
+"no": 1142,
+"level": "4",
+"zh": "质量",
+"py": "zhìliàng",
+"en": "noun: quality"
+},
+{
+"no": 1143,
+"level": "4",
+"zh": "至少",
+"py": "zhìshǎo",
+"en": "adverb: at least"
+},
+{
+"no": 1144,
+"level": "4",
+"zh": "知识",
+"py": "zhīshi",
+"en": "noun: knowledge"
+},
+{
+"no": 1145,
+"level": "4",
+"zh": "植物",
+"py": "zhíwù",
+"en": "noun: plant"
+},
+{
+"no": 1146,
+"level": "4",
+"zh": "只要",
+"py": "zhǐyào",
+"en": "conjunction: if only / as long as"
+},
+{
+"no": 1147,
+"level": "4",
+"zh": "职业",
+"py": "zhíyè",
+"en": "noun: occupation / profession"
+},
+{
+"no": 1148,
+"level": "3",
+"zh": "只有…才…",
+"py": "zhǐyǒu…cái…",
+"en": "conjunction: only if… (then)…"
+},
+{
+"no": 1149,
+"level": "3",
+"zh": "种",
+"py": "zhǒng",
+"en": "classifier: kind / type"
+},
+{
+"no": 1150,
+"level": "4",
+"zh": "重",
+"py": "zhòng",
+"en": "adjective: heavy"
+},
+{
+"no": 1151,
+"level": "4",
+"zh": "重点",
+"py": "zhòngdiǎn",
+"en": "noun: focal point / emphasis"
+},
+{
+"no": 1152,
+"level": "1",
+"zh": "中国",
+"py": "Zhōngguó",
+"en": "noun: China"
+},
+{
+"no": 1153,
+"level": "3",
+"zh": "中间",
+"py": "zhōngjiān",
+"en": "noun: middle"
+},
+{
+"no": 1154,
+"level": "4",
+"zh": "重视",
+"py": "zhòngshì",
+"en": "verb: to attach importance to"
+},
+{
+"no": 1155,
+"level": "3",
+"zh": "中文",
+"py": "Zhōngwén",
+"en": "noun: Chinese language"
+},
+{
+"no": 1156,
+"level": "1",
+"zh": "中午",
+"py": "zhōngwǔ",
+"en": "noun: noon"
+},
+{
+"no": 1157,
+"level": "3",
+"zh": "重要",
+"py": "zhòngyào",
+"en": "adjective: important"
+},
+{
+"no": 1158,
+"level": "3",
+"zh": "周末",
+"py": "zhōumò",
+"en": "noun: weekend"
+},
+{
+"no": 1159,
+"level": "4",
+"zh": "周围",
+"py": "zhōuwéi",
+"en": "noun: surrounding"
+},
+{
+"no": 1160,
+"level": "1",
+"zh": "住",
+"py": "zhù",
+"en": "verb: to live, to stay"
+},
+{
+"no": 1161,
+"level": "4",
+"zh": "赚",
+"py": "zhuàn",
+"en": "verb: to make a profit / to make (money)"
+},
+{
+"no": 1162,
+"level": "4",
+"zh": "转",
+"py": "zhuǎn",
+"en": "verb: to turn / to shift"
+},
+{
+"no": 1163,
+"level": "4",
+"zh": "专门",
+"py": "zhuānmén",
+"en": "adverb: specially / for a particular purpose"
+},
+{
+"no": 1164,
+"level": "4",
+"zh": "专业",
+"py": "zhuānyè",
+"en": "noun: major / specialty"
+},
+{
+"no": 1165,
+"level": "4",
+"zh": "祝贺",
+"py": "zhùhè",
+"en": "verb: to congratulate"
+},
+{
+"no": 1166,
+"level": "4",
+"zh": "著名",
+"py": "zhùmíng",
+"en": "adjective: famous / well-known"
+},
+{
+"no": 1167,
+"level": "2",
+"zh": "准备",
+"py": "zhǔnbèi",
+"en": "verb: to intend to / to plan"
+},
+{
+"no": 1168,
+"level": "4",
+"zh": "准确",
+"py": "zhǔnquè",
+"en": "adjective: accurate / precise"
+},
+{
+"no": 1169,
+"level": "4",
+"zh": "准时",
+"py": "zhǔnshí",
+"en": "adjective: punctual / on time"
+},
+{
+"no": 1170,
+"level": "1",
+"zh": "桌子",
+"py": "zhuōzi",
+"en": "noun: desk, table"
+},
+{
+"no": 1171,
+"level": "3",
+"zh": "主要",
+"py": "zhǔyào",
+"en": "adjective: main"
+},
+{
+"no": 1172,
+"level": "4",
+"zh": "主意",
+"py": "zhǔyi",
+"en": "noun: idea / decision"
+},
+{
+"no": 1173,
+"level": "3",
+"zh": "注意",
+"py": "zhùyì",
+"en": "verb: to pay attention to"
+},
+{
+"no": 1174,
+"level": "1",
+"zh": "字",
+"py": "zì",
+"en": "noun: character, word"
+},
+{
+"no": 1175,
+"level": "3",
+"zh": "自己",
+"py": "zìjǐ",
+"en": "pronoun: self"
+},
+{
+"no": 1176,
+"level": "4",
+"zh": "自然",
+"py": "zìrán",
+"en": "adverb: naturally / certainly"
+},
+{
+"no": 1177,
+"level": "4",
+"zh": "仔细",
+"py": "zǐxì",
+"en": "adjective: careful / meticulous"
+},
+{
+"no": 1178,
+"level": "4",
+"zh": "自信",
+"py": "zìxìn",
+"en": "adjective: self-confident"
+},
+{
+"no": 1179,
+"level": "3",
+"zh": "自行车",
+"py": "zìxíngchē",
+"en": "noun: bicycle"
+},
+{
+"no": 1180,
+"level": "4",
+"zh": "总结",
+"py": "zǒngjié",
+"en": "verb: to sum up / to summarize"
+},
+{
+"no": 1181,
+"level": "3",
+"zh": "总是",
+"py": "zǒngshì",
+"en": "adverb: always"
+},
+{
+"no": 1182,
+"level": "2",
+"zh": "走",
+"py": "zǒu",
+"en": "verb: to walk / to go"
+},
+{
+"no": 1183,
+"level": "4",
+"zh": "租",
+"py": "zū",
+"en": "verb: to rent / to lease"
+},
+{
+"no": 1184,
+"level": "3",
+"zh": "嘴",
+"py": "zuǐ",
+"en": "noun: mouth"
+},
+{
+"no": 1185,
+"level": "2",
+"zh": "最",
+"py": "zuì",
+"en": "adverb: (in front of an adjective or a verb) most / -est"
+},
+{
+"no": 1186,
+"level": "4",
+"zh": "最好",
+"py": "zuìhǎo",
+"en": "adverb: had better / it would be best"
+},
+{
+"no": 1187,
+"level": "3",
+"zh": "最后",
+"py": "zuìhòu",
+"en": "noun: the last one"
+},
+{
+"no": 1188,
+"level": "3",
+"zh": "最近",
+"py": "zuìjìn",
+"en": "adverb: lately / recently"
+},
+{
+"no": 1189,
+"level": "4",
+"zh": "尊重",
+"py": "zūnzhòng",
+"en": "verb: to respect"
+},
+{
+"no": 1190,
+"level": "1",
+"zh": "做",
+"py": "zuò",
+"en": "verb: to make, to do"
+},
+{
+"no": 1191,
+"level": "1",
+"zh": "坐",
+"py": "zuò",
+"en": "verb: to sit"
+},
+{
+"no": 1192,
+"level": "4",
+"zh": "座",
+"py": "zuò",
+"en": "classifier: used for mountains, buildings and similar immovable objects"
+},
+{
+"no": 1193,
+"level": "2",
+"zh": "左边",
+"py": "zuǒbian",
+"en": "noun: the left side / to the left of"
+},
+{
+"no": 1194,
+"level": "4",
+"zh": "作家",
+"py": "zuòjiā",
+"en": "noun: writer"
+},
+{
+"no": 1195,
+"level": "1",
+"zh": "昨天",
+"py": "zuótiān",
+"en": "noun: yesterday"
+},
+{
+"no": 1196,
+"level": "4",
+"zh": "座位",
+"py": "zuòwèi",
+"en": "noun: seat"
+},
+{
+"no": 1197,
+"level": "3",
+"zh": "作业",
+"py": "zuòyè",
+"en": "noun: homework"
+},
+{
+"no": 1198,
+"level": "4",
+"zh": "作用",
+"py": "zuòyòng",
+"en": "noun: function / effect"
+},
+{
+"no": 1199,
+"level": "4",
+"zh": "左右",
+"py": "zuǒyòu",
+"en": "noun: around / or so"
+},
+{
+"no": 1200,
+"level": "4",
+"zh": "作者",
+"py": "zuòzhě",
+"en": "noun: author"
+}
+]

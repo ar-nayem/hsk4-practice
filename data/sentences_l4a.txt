@@ -1,0 +1,201 @@
+# HSK 4 example sentences (part 1).  Format: NO chunk/chunk/chunk。 | English
+5 这是/一部/关于/爱情的/电影。 | This is a film about love.
+9 请/大家/按时/交/作业。 | Everyone, please hand in your homework on time.
+10 请/按照/老师的/要求/完成/练习。 | Please do the exercises according to the teacher's requirements.
+18 我们班/百分之/九十的/学生/通过了/考试。 | Ninety percent of the students in our class passed the exam.
+22 你/说得/太/棒了！ | That was brilliantly said!
+28 妈妈/抱着/孩子/去/医院。 | Mom carried the child to the hospital in her arms.
+31 我/已经/报名/参加/这次/比赛了。 | I've already signed up for this competition.
+32 很/抱歉，/我/来/晚了。 | I'm very sorry I'm late.
+33 我/保证/下次/不会/再/迟到。 | I promise I won't be late again next time.
+35 早上/我/吃了/两个/包子。 | I ate two steamed buns this morning.
+36 今年的/收入/是/去年的/两倍。 | This year's income is twice last year's.
+42 别/说/自己/笨，/你/只是/需要/多/练习。 | Don't call yourself stupid; you just need more practice.
+45 这个/电影/我/已经/看了/三遍。 | I've already watched this film three times.
+47 请/先/填写/这张/表格。 | Please fill in this form first.
+48 他/点了点头，/表示/同意。 | He nodded to show that he agreed.
+49 孩子们的/表演/非常/精彩。 | The children's performance was wonderful.
+50 老师/表扬了/他的/作业。 | The teacher praised his homework.
+51 他的/普通话/非常/标准。 | His Mandarin is very standard.
+56 孩子/饿了，/给/他/几块/饼干/吧。 | The child is hungry; give him a few biscuits.
+65 她/正在/北京大学/读/博士。 | She's doing a PhD at Peking University.
+69 大部分/同学/都/同意/这个/计划。 | Most of the students agree with this plan.
+70 不管/天气/怎么样，/他/都/去/跑步。 | Whatever the weather, he goes running.
+71 这件/衣服/很/漂亮，/不过/有点儿/贵。 | This is very pretty, but a bit expensive.
+72 他/不仅/学习/好，/还/很/会/运动。 | He not only studies well but is also good at sports.
+74 吃完饭/请/把/桌子/擦/干净。 | Please wipe the table clean after eating.
+75 你/猜/我/给/你/带了/什么/礼物？ | Guess what present I've brought you?
+78 开会/前/请/准备好/所有/材料。 | Please get all the materials ready before the meeting.
+79 我们/明天/去/参观/一个/有名的/大学。 | Tomorrow we're visiting a famous university.
+84 请问，/附近/有/厕所/吗？ | Excuse me, is there a toilet nearby?
+87 我们俩的/个子/差不多/高。 | The two of us are about the same height.
+88 昨天的/那场/足球/比赛/非常/精彩。 | Yesterday's football match was fantastic.
+89 这个/菜/很/好吃，/你/尝/一下。 | This dish is delicious; have a taste.
+91 我/第一次/去/长城/是/在/秋天。 | The first time I went to the Great Wall was in autumn.
+93 长江/是/中国/最/长的/河。 | The Yangtze is China's longest river.
+94 今天的/温度/超过了/三十五度。 | Today's temperature went above thirty-five degrees.
+99 他/是/一个/诚实的/人，/从来/不/骗/人。 | He's an honest person and never lies to anyone.
+101 我们/乘坐/下午/三点的/航班/去/上海。 | We're taking the 3 p.m. flight to Shanghai.
+105 听到/这个/消息，/大家/都/很/吃惊。 | Everyone was astonished to hear this news.
+106 这个/作业/写/错了，/请/重新/写/一遍。 | This homework is wrong; please do it again.
+107 这里/禁止/抽烟。 | Smoking is not allowed here.
+111 房间里/太/热了，/打开/窗户/吧。 | It's too hot in the room; open the window.
+112 请/把/这份/材料/传真/给/我。 | Please fax this document to me.
+113 经理/下周/要/去/上海/出差。 | The manager is going to Shanghai on business next week.
+115 妈妈/正在/厨房里/做饭。 | Mom is cooking in the kitchen.
+118 我/出生/在/一个/小城市。 | I was born in a small city.
+119 这个/问题/以前/从来/没/出现过。 | This problem has never come up before.
+123 请/用/下面的/词语/写/一段话。 | Please write a short paragraph using the words below.
+125 他/从来/不/喝酒。 | He never drinks alcohol.
+127 我/把/钱/存在/银行里了。 | I've put the money in the bank.
+129 这篇/文章/里/有/很多/错误。 | There are a lot of mistakes in this article.
+130 考试/的时候/千万/别/粗心。 | Whatever you do, don't be careless in the exam.
+133 这道题/的/答案/是/什么？ | What's the answer to this question?
+134 她/今天/打扮得/特别/漂亮。 | She's dressed up especially beautifully today.
+138 外面/太阳/很大，/戴上/帽子/吧。 | The sun is strong outside; put a hat on.
+139 大夫，/我的/病/严重/吗？ | Doctor, is my illness serious?
+141 当/我/到/家的/时候，/已经/十点了。 | When I got home it was already ten o'clock.
+144 当时/我/还/很/小，/什么/都/不懂。 | At that time I was still little and didn't understand anything.
+146 这个/饭店/不/大，/菜/倒/挺/好吃。 | This restaurant isn't big, but the food is actually pretty good.
+147 小心，/这把/刀/很/快。 | Careful, this knife is very sharp.
+149 春天/到了，/到处/都是/花。 | Spring is here and there are flowers everywhere.
+150 你/到底/想/去/哪儿？ | Where on earth do you want to go?
+151 你/应该/向/他/道歉。 | You should apologize to him.
+152 我们的/导游/非常/热情。 | Our tour guide is very warm and friendly.
+153 对不起，/打扰/一下，/请问/现在/几点？ | Sorry to bother you, could you tell me the time?
+155 我/明天/要/去/大使馆/办/签证。 | Tomorrow I have to go to the embassy for my visa.
+157 请/帮/我/把/这份/文件/打印/出来。 | Please print this document out for me.
+159 他/见到/我/总是/热情地/打招呼。 | He always greets me warmly when he sees me.
+160 这家/商店/的/衣服/正在/打折。 | The clothes in this shop are on sale.
+161 孩子/最/害怕/打针。 | Children are most afraid of injections.
+165 太/晚了，/我/得/回家了。 | It's too late; I have to go home.
+168 我/去过/北京、/上海、/广州/等/城市。 | I've been to Beijing, Shanghai, Guangzhou and other cities.
+169 请/拿好/您的/登机牌。 | Please keep hold of your boarding pass.
+170 他/考了/第一名，/非常/得意。 | He came first in the exam and was very pleased with himself.
+171 今天/温度/很/低，/多/穿/点儿。 | The temperature is low today; wear more clothes.
+172 我/打算/年底/回国。 | I plan to go back to my country at the end of the year.
+179 这些/旧/东西/都/扔掉/吧。 | Throw all these old things away.
+180 警察/正在/调查/这件/事情。 | The police are investigating this matter.
+182 请/告诉/我/会议的/时间/和/地点。 | Please tell me the time and place of the meeting.
+184 我们/只有/一个/地球，/要/保护/它。 | We only have one Earth; we must protect it.
+187 我的/钱包/丢了。 | I've lost my wallet.
+189 请/把/你的/地址/写/在/这里。 | Please write your address here.
+201 我/给/你/发了/一条/短信。 | I sent you a text message.
+202 上下班/时间/经常/堵车。 | There are often traffic jams during rush hour.
+206 请/听/下面的/对话。 | Please listen to the following dialogue.
+207 银行/在/超市的/对面。 | The bank is opposite the supermarket.
+208 对于/这个/问题，/大家/有/不同的/看法。 | People have different views on this question.
+212 我/肚子/疼，/想/去/医院。 | I have a stomachache and want to go to the hospital.
+215 他/喜欢/运动，/而/他/妹妹/喜欢/看书。 | He likes sports, while his sister likes reading.
+217 这本书/是/给/儿童/看的。 | This book is for children.
+220 我/哥哥/在/大学/学习/法律。 | My older brother studies law at university.
+222 父母/反对/他/一个人/去/旅行。 | His parents are against him traveling alone.
+224 学校/下个月/就/放暑假了。 | The school breaks up for the summer next month.
+226 我的/房东/是/一位/很/热情的/老人。 | My landlord is a very kind old man.
+227 你/有/什么/好/方法/记/生词/吗？ | Do you have a good way to memorize new words?
+230 不管/多/难，/都/不要/放弃。 | No matter how hard it is, don't give up.
+232 我/迷路了，/不知道/哪个/方向/是/北。 | I'm lost and don't know which way is north.
+234 别/为/这点儿/小事/烦恼。 | Don't worry yourself over such a small thing.
+237 昨天/这里/发生了/什么/事？ | What happened here yesterday?
+239 这个/城市/发展得/非常/快。 | This city is developing very fast.
+242 我/找到了/一份/新/工作。 | I found a new job.
+246 快/点儿/走，/否则/就/来不及了。 | Hurry up, otherwise we won't make it.
+247 他们家/很/富，/但/他/很/节约。 | His family is rich, but he's very thrifty.
+248 这个/工作/很/符合/我的/兴趣。 | This job suits my interests very well.
+250 您/可以/在/这里/付款。 | You can pay here.
+251 我的/父亲/在/一家/银行/工作。 | My father works at a bank.
+254 请/帮/我/复印/两份/材料。 | Please make two copies of the material for me.
+256 这件/事/由/小王/负责。 | Xiao Wang is in charge of this matter.
+258 你/这个/周末/打算/干/什么？ | What are you planning to do this weekend?
+259 我/不敢/一个人/晚上/出去。 | I don't dare to go out alone at night.
+260 我/要/赶/最后/一班/地铁。 | I have to catch the last subway train.
+261 为/我们的/友谊，/干杯！ | To our friendship, cheers!
+262 他的/故事/让/我/很/感动。 | His story really moved me.
+263 我/刚/到/家，/就/下雨了。 | I'd only just got home when it started to rain.
+269 非常/感谢/你的/帮助。 | Thank you very much for your help.
+273 我们/开车/走/高速公路/去/北京。 | We'll drive to Beijing on the expressway.
+276 我们/班的/学生/来自/世界/各/国。 | The students in our class come from countries all over the world.
+277 他的/胳膊/受伤了。 | He hurt his arm.
+284 很多/外国人/对/中国/功夫/感兴趣。 | Many foreigners are interested in Chinese kung fu.
+287 我家/离/公司/有/十公里。 | My home is ten kilometers from the office.
+289 我们/有/很多/共同的/爱好。 | We have a lot of hobbies in common.
+291 他/这个月的/工资/比/上个月/高。 | His pay this month is higher than last month.
+295 周末/我/常常/和/朋友/去/购物。 | At weekends I often go shopping with friends.
+296 墙上/挂着/一张/中国/地图。 | A map of China is hanging on the wall.
+299 你/别/光/看/电视，/也/要/学习。 | Don't just watch TV; you need to study as well.
+300 吃完饭/我们/一起/去/逛/街/吧。 | After we eat, let's go for a stroll around the shops.
+301 请/注意/听/机场的/广播。 | Please listen carefully to the airport announcements.
+302 电视上的/广告/太/多了。 | There are too many adverts on TV.
+308 今天/来/看/比赛的/观众/特别/多。 | There were a lot of spectators at the match today.
+311 我/估计/他/今天/不会/来了。 | I reckon he won't come today.
+312 这家/店的/顾客/越来越/多。 | This shop has more and more customers.
+313 老师/经常/鼓励/我们/多/说/汉语。 | The teacher often encourages us to speak more Chinese.
+317 请/在/表格上/写/你的/国籍。 | Please write your nationality on the form.
+318 他/在/一家/国际/公司/工作。 | He works for an international company.
+321 我/想/喝/一杯/苹果/果汁。 | I'd like a glass of apple juice.
+323 对不起，/我/不是/故意的。 | Sorry, I didn't do it on purpose.
+327 这个/孩子/很/害羞，/不/爱/说话。 | This child is very shy and doesn't like to talk.
+328 我们/要/保护/海洋/环境。 | We must protect the ocean environment.
+330 天气/太/热，/我/出了/一身/汗。 | It's so hot I'm covered in sweat.
+331 我的/航班/推迟了/两个/小时。 | My flight was delayed by two hours.
+332 寒假/我/打算/回/老家/看/父母。 | I plan to go home to see my parents in the winter holidays.
+337 多/运动/对/身体/有/很多/好处。 | Exercising more has many health benefits.
+338 你的/手机/号码/是/多少？ | What's your mobile number?
+342 他/这次/考试/合格了。 | He passed the exam this time.
+346 这双/鞋/大小/很/合适。 | These shoes are just the right size.
+347 这个/盒子/里/装着/什么？ | What's in this box?
+350 这本/词典/很/厚。 | This dictionary is very thick.
+351 我/很/后悔/没/听/你的/话。 | I really regret not listening to you.
+358 我/怀疑/他/没有/说/真话。 | I suspect he didn't tell the truth.
+368 大学/生活/给/我/留下了/美好的/回忆。 | University life left me with wonderful memories.
+369 互联网/让/我们的/生活/更/方便了。 | The Internet has made our lives more convenient.
+370 这家/小吃店/最近/特别/火。 | This snack shop has been really popular lately.
+372 他/获得了/这次/比赛的/第一名。 | He won first place in this competition.
+373 学校/周末/有/很多/活动。 | The school has lots of activities at weekends.
+374 她/是/一个/活泼/可爱的/女孩。 | She's a lively and lovely girl.
+377 同学们/应该/互相/帮助。 | Classmates should help each other.
+380 我/去/邮局/给/家里/寄/信。 | I'm going to the post office to send a letter home.
+381 这个/消息/是/假的。 | This news is fake.
+383 他/最近/每天/都/加班/到/很晚。 | Lately he's been working overtime until late every day.
+384 这里的/价格/比/别的/地方/便宜。 | Prices here are cheaper than elsewhere.
+385 我们/买了/一些/新/家具。 | We bought some new furniture.
+390 为了/减肥，/她/每天/都/跑步。 | She runs every day to lose weight.
+392 今天/气温/降低了/很多。 | The temperature has dropped a lot today.
+393 这个月/公司/给/每人/发了/奖金。 | The company gave everyone a bonus this month.
+395 飞机/已经/安全/降落了。 | The plane has landed safely.
+399 我/建议/你/多/听/中文/广播。 | I suggest you listen to more Chinese radio.
+400 他/来/中国/以后/交了/很多/朋友。 | He made a lot of friends after coming to China.
+405 我们/都/为/你/感到/骄傲。 | We're all proud of you.
+407 他们家/住在/郊区，/环境/很好。 | Their family lives in the suburbs; it's a nice environment.
+409 王教授/的/课/很/受/学生/欢迎。 | Professor Wang's classes are very popular with students.
+412 春节/的时候/我们/全家/一起/包/饺子。 | At Spring Festival our whole family makes dumplings together.
+413 前面/有/一个/加油站。 | There's a gas station up ahead.
+415 学好/语法/是/学好/汉语的/基础。 | Learning grammar well is the foundation for learning Chinese well.
+421 今天/上午/我/有/三节/汉语课。 | I have three Chinese lessons this morning.
+423 考试/结果/明天/就/出来了。 | The exam results come out tomorrow.
+431 他/接受了/我们的/邀请。 | He accepted our invitation.
+433 我们/应该/节约/用水。 | We should save water.
+434 他/吃完饭，/接着/又/去/工作了。 | He finished eating and then went straight back to work.
+436 你/有/什么/计划/吗？ | Do you have any plans?
+438 他/上课/回答/问题/很/积极。 | He's very active in answering questions in class.
+441 学/语言/需要/慢慢/积累。 | Learning a language takes gradual accumulation.
+445 有/问题/可以/找/警察。 | If there's a problem, you can go to the police.
+449 我/第一次/看/京剧/就/喜欢上了。 | I fell for Beijing opera the first time I saw it.
+450 这次/旅行/是/一次/难忘的/经历。 | This trip was an unforgettable experience.
+452 这么/简单的/题，/他/竟然/做错了。 | He actually got such an easy question wrong.
+453 山上的/景色/美/极了。 | The scenery on the mountain is extremely beautiful.
+454 尽管/很累，/他/还是/坚持/工作。 | Although he was tired, he kept on working.
+456 现在/找/工作/竞争/很/厉害。 | Competition for jobs is fierce these days.
+457 她/每天/出门/前/都/要/照/镜子。 | She always looks in the mirror before going out.
+461 这里/禁止/停车。 | Parking is prohibited here.
+462 既然/你/不/舒服，/就/在家/休息/吧。 | Since you're not feeling well, just rest at home.
+463 即使/明天/下雨，/我们/也/要/去。 | Even if it rains tomorrow, we're still going.
+464 有/问题/要/及时/告诉/老师。 | If you have a problem, tell the teacher right away.
+465 现在/很多/工作/都/需要/电脑/技术。 | Many jobs nowadays require computer skills.
+470 这件/事/究竟/是/谁/做的？ | Who exactly did this?
+472 她/是/一名/新闻/记者。 | She is a news reporter.
+473 请/你/举/个/例子/说明/一下。 | Please give an example to explain.
+474 学校/下周/举办/汉语/比赛。 | The school is holding a Chinese competition next week.
+477 周六/晚上/我们/有/一个/聚会。 | We're having a party on Saturday night.
+478 他/拒绝了/我的/帮助。 | He refused my help.
+479 我家/距离/学校/只有/五百米。 | My home is only five hundred meters from school.

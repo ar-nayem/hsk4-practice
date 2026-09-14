@@ -1,0 +1,205 @@
+# HSK 1–2 example sentences.  Format: NO chunk/chunk/chunk。 | English
+39 我/明年/想/去/北京/旅游。 | I want to travel to Beijing next year.
+40 桌子上/有/一个/红色的/杯子。 | There is a red cup on the table.
+41 我/今天/买了/一本/汉语书。 | I bought a Chinese book today.
+66 我/今天/不/想/出去。 | I don't want to go out today.
+73 A：谢谢你的帮助！B：不客气。 | A: Thanks for your help! B: You're welcome.
+86 你/想/喝/茶/还是/咖啡？ | Would you like tea or coffee?
+120 我们/坐/出租车/去/机场/吧。 | Let's take a taxi to the airport.
+135 晚上/我/给/妈妈/打电话。 | In the evening I call my mom.
+175 爸爸/在/客厅里/看/电视。 | Dad is watching TV in the living room.
+196 我们班的/同学/都/很/喜欢/他。 | All the students in our class like him.
+197 请/大家/跟/我/读/这个/句子。 | Everyone, please read this sentence after me.
+205 对不起，/我/来/晚了。 | Sorry, I'm late.
+211 这件/衣服/多少/钱？ | How much is this piece of clothing?
+214 今天/是/二月/十四号。 | Today is February 14th.
+218 他/儿子/今年/五岁了。 | His son is five years old this year.
+221 这家/饭店的/菜/很/好吃。 | The food at this restaurant is delicious.
+241 我们/明天/坐/飞机/去/上海。 | Tomorrow we are flying to Shanghai.
+245 从/我家/到/学校/要/十分钟。 | It takes ten minutes from my home to school.
+275 他/买了/一个/新手机。 | He bought a new mobile phone.
+294 我家的/小狗/非常/可爱。 | My family's puppy is very cute.
+334 你的/生日/是/几月/几号？ | What date is your birthday?
+340 我/和/妹妹/都/是/学生。 | My younger sister and I are both students.
+353 学校/后面/有/一个/公园。 | There is a park behind the school.
+365 你/什么时候/回/家？ | When are you going home?
+379 你/家/有/几口/人？ | How many people are there in your family?
+382 我/家/离/学校/很近。 | My home is very close to the school.
+467 我/每天/早上/九点/上课。 | I have class at nine every morning.
+483 我/爸爸/每天/开车/上班。 | My dad drives to work every day.
+489 你/看见/我的/手机/了吗？ | Have you seen my phone?
+515 这个/苹果/三块/钱。 | This apple costs three yuan.
+537 我/已经/吃了/早饭。 | I've already had breakfast.
+539 今天/外面/非常/冷。 | It's very cold outside today.
+542 书/在/我的/包里。 | The book is in my bag.
+566 我/妹妹/今年/六岁。 | My younger sister is six this year.
+580 你/是/中国人/吗？ | Are you Chinese?
+586 我/妈妈/做的/菜/最/好吃。 | The food my mom makes is the most delicious.
+592 那只/白色的/猫/在/睡觉。 | That white cat is sleeping.
+597 我/昨天/没/去/学校。 | I didn't go to school yesterday.
+598 A：对不起，我忘了。B：没关系。 | A: Sorry, I forgot. B: It doesn't matter.
+608 中午/我/想/吃/米饭。 | I want to eat rice at noon.
+612 明天/我们/一起/去/看/电影。 | Tomorrow let's go see a movie together.
+617 你/是/哪国/人？ | Which country are you from?
+619 那/是/我的/老师。 | That is my teacher.
+628 你/现在/在/哪儿？ | Where are you now?
+629 我/很好，/你/呢？ | I'm fine, and you?
+632 你/能/帮/我/一下/吗？ | Can you help me for a moment?
+634 你/叫/什么/名字？ | What's your name?
+645 他的/女儿/在/北京/上/大学。 | His daughter goes to university in Beijing.
+657 他/是/我/最好的/朋友。 | He is my best friend.
+662 你的/新衣服/真/漂亮！ | Your new clothes are really pretty!
+676 我/每天/七点/起床。 | I get up at seven every day.
+679 这本书/多少/钱？ | How much is this book?
+681 前面/那个/人/是/我哥哥。 | The person in front is my older brother.
+707 我/下午/去/商店/买/东西。 | I'm going to the store to buy things this afternoon.
+720 今天/太/热了，/我们/去/游泳吧。 | It's too hot today, let's go swimming.
+721 这个/公园里/人/很多。 | There are a lot of people in this park.
+736 我/在/中国/学习了/三年。 | I studied in China for three years.
+741 你的/书/在/桌子上。 | Your book is on the table.
+743 学校/旁边/有/一个/商店。 | There is a shop next to the school.
+746 我/上午/有/三节/课。 | I have three classes in the morning.
+748 今天/来/上课的/人/很少。 | Very few people came to class today.
+752 那个/穿/红衣服的/人/是/谁？ | Who is that person wearing red?
+763 你/在/做/什么？ | What are you doing?
+769 我/是/一名/大学生。 | I am a university student.
+776 你/什么/时候/有/时间？ | When do you have time?
+804 我/想/喝/一杯/水。 | I want to drink a glass of water.
+805 多/吃/水果/对/身体/好。 | Eating more fruit is good for your health.
+812 他/说/明天/会/下雨。 | He said it will rain tomorrow.
+820 我们/班/有/四十个/学生。 | There are forty students in our class.
+833 他/是/我的/同学。 | He is my classmate.
+834 她/是/我的/中文/老师。 | She is my Chinese teacher.
+837 这件/衣服/太/贵了。 | This piece of clothing is too expensive.
+873 我的/同学/都/很/友好。 | My classmates are all very friendly.
+899 喂，/请问/王老师/在吗？ | Hello, is Teacher Wang there, please?
+911 我们/明天/一起/去/爬山。 | Tomorrow we'll go hiking together.
+912 我/每周/工作/五天。 | I work five days a week.
+920 小猫/在/桌子/下面/睡觉。 | The kitten is sleeping under the table.
+926 我/很/想/去/中国/看看。 | I really want to go to China and have a look.
+936 王先生/是/我们/公司的/经理。 | Mr. Wang is the manager of our company.
+937 现在/几点了？ | What time is it now?
+944 那位/小姐/是/我们的/新同事。 | That young lady is our new colleague.
+951 我们/下午/三点/见面。 | We'll meet at three in the afternoon.
+952 外面/下雨了，/别忘了/带伞。 | It's raining outside, don't forget your umbrella.
+953 我/买了/一些/水果。 | I bought some fruit.
+955 谢谢/你/来/看/我。 | Thank you for coming to see me.
+989 他/是/这个/学校的/学生。 | He is a student at this school.
+990 我/每天/晚上/学习/两个小时。 | I study for two hours every evening.
+1021 我/有/一个/好/主意。 | I have a good idea.
+1025 请/说/慢/一点儿。 | Please speak a little slower.
+1027 我/想/买/几件/新衣服。 | I want to buy a few new clothes.
+1047 他/哥哥/是/一名/医生。 | His older brother is a doctor.
+1055 这把/椅子/坐着/很/舒服。 | This chair is very comfortable to sit on.
+1084 我/下个月/要/去/旅游。 | I'm going traveling next month.
+1100 老师，/明天/再见！ | See you tomorrow, teacher!
+1107 去/火车站/怎么/走？ | How do I get to the train station?
+1108 你/觉得/这个/电影/怎么样？ | What do you think of this movie?
+1152 中国/是/一个/很大的/国家。 | China is a very big country.
+1156 我们/中午/在/学校/吃饭。 | We eat lunch at school at noon.
+1170 请/把/书/放在/桌子上。 | Please put the book on the table.
+1174 这个/字/怎么/写？ | How do you write this character?
+1195 昨天/我/去/看了/一场/电影。 | Yesterday I went to see a movie.
+13 我们/一起/去/吃饭/吧。 | Let's go and eat together.
+16 她/穿着/一条/白/裙子。 | She's wearing a white skirt.
+17 这本书/一百/块钱。 | This book costs one hundred yuan.
+34 爷爷/每天/早上/看/报纸。 | Grandpa reads the newspaper every morning.
+52 上课的时候/别/说话。 | Don't talk during class.
+58 我们/住在/学校/附近的/宾馆。 | We're staying at a hotel near the school.
+90 她的/头发/又/长/又/黑。 | Her hair is long and black.
+92 她/唱歌/唱得/非常/好听。 | She sings beautifully.
+108 他/刚/出/门/了。 | He has just gone out.
+109 今天/很冷，/多/穿/点儿/衣服。 | It's cold today, put on more clothes.
+124 我/从/北京/来。 | I come from Beijing.
+132 下课后/我们/去/打篮球/吧。 | Let's play basketball after class.
+140 大家/好，/我/叫/李明。 | Hello everyone, my name is Li Ming.
+163 他/跑得/非常/快。 | He runs very fast.
+167 请/在这儿/等/我/一下。 | Please wait for me here for a moment.
+181 我/弟弟/比/我/小/三岁。 | My younger brother is three years younger than me.
+204 A：这个字是这样写的吗？B：对，你写得很好。 | A: Is this character written like this? B: Right, you wrote it very well.
+228 我的/房间/很/小，/但是/很/干净。 | My room is small but very clean.
+252 服务员，/请/给我/一杯/水。 | Waiter, please bring me a glass of water.
+272 请/告诉/我/你的/电话号码。 | Please tell me your phone number.
+278 我/哥哥/在/银行/工作。 | My older brother works at a bank.
+279 妈妈/给/我/买了/一个/生日蛋糕。 | Mom bought me a birthday cake.
+285 我/每天/坐/公共汽车/上学。 | I take the bus to school every day.
+288 他/在/一家/大公司/工作。 | He works at a big company.
+309 这里的/东西/太/贵了。 | Things here are too expensive.
+324 他/还/在/睡觉/呢。 | He's still sleeping.
+336 这家/饭店的/饺子/很/好吃。 | The dumplings at this restaurant are delicious.
+343 外面/已经/黑了。 | It's already dark outside.
+348 她/最/喜欢/红色。 | Her favorite color is red.
+371 请问，/火车站/怎么/走？ | Excuse me, how do I get to the railway station?
+386 这件/衬衫/多少/钱？ | How much is this shirt?
+414 我/明天/早上/去/机场/接/朋友。 | Tomorrow morning I'm going to the airport to pick up a friend.
+416 我/早上/吃了/两个/鸡蛋。 | I ate two eggs this morning.
+425 我/姐姐/是/一名/护士。 | My older sister is a nurse.
+429 我/来/介绍/一下，/这是/我的/朋友。 | Let me introduce you: this is my friend.
+443 请/进，/门/没/关。 | Come in, the door isn't locked.
+475 我/觉得/汉语/不太/难。 | I think Chinese isn't too hard.
+482 我/每天/早上/喝/一杯/咖啡。 | I drink a cup of coffee every morning.
+496 今天的/汉语/课/很/有意思。 | Today's Chinese class was very interesting.
+517 祝/你/生日/快乐！ | Happy birthday to you!
+541 我家/离/公司/不远。 | My home isn't far from the company.
+559 现在的/温度/是/零度。 | The temperature right now is zero degrees.
+575 这条/路/上/车/很多。 | There are a lot of cars on this road.
+579 我们/打算/暑假/去/云南/旅游。 | We plan to travel to Yunnan in the summer holidays.
+585 这家/商店/卖/很多/水果。 | This shop sells a lot of fruit.
+587 他/走路/走得/很/慢。 | He walks very slowly.
+600 我/妹妹/很/喜欢/画画。 | My younger sister really likes drawing.
+601 出去/的时候/请/关/门。 | Please close the door when you go out.
+606 我/中午/吃了/一碗/面条。 | I had a bowl of noodles at noon.
+622 我们班/男同学/比/女同学/多。 | Our class has more male students than female students.
+640 老师，/您/今天/忙/吗？ | Teacher, are you busy today?
+641 每天/喝/牛奶/对/身体/好。 | Drinking milk every day is good for your health.
+643 那个/女孩子/是/我妹妹。 | That girl is my younger sister.
+652 银行/就/在/超市/旁边。 | The bank is right next to the supermarket.
+654 我/每天/早上/去/公园/跑步。 | I go running in the park every morning.
+661 我/已经/买好了/两张/电影票。 | I've already bought two movie tickets.
+678 这个/手机/三千/块。 | This phone costs three thousand yuan.
+680 你/可以/借/我/一支/铅笔/吗？ | Could you lend me a pencil?
+693 今天/是/晴天，/很/适合/出去/玩。 | It's sunny today, perfect for going out.
+706 他的/妻子/是/一名/老师。 | His wife is a teacher.
+715 我/去年/来/中国/学习。 | I came to China to study last year.
+731 今天/是/五月/一日。 | Today is May 1st.
+742 我/每天/八点/上班。 | I start work at eight every day.
+756 他/生病了，/今天/没/来/上课。 | He's ill and didn't come to class today.
+760 今天/是/我/朋友的/生日。 | Today is my friend's birthday.
+765 爷爷的/身体/很/好。 | Grandpa is in good health.
+781 我/有/一件/重要的/事情/要/告诉/你。 | I have something important to tell you.
+788 这块/手表/是/爸爸/送/我的。 | This watch was a present from my dad.
+793 我的/手机/没/电了。 | My phone's battery is dead.
+828 虽然/今天/下雨，/但是/他/还是/来了。 | Although it rained today, he still came.
+835 我/有/一只/小狗，/它/很/可爱。 | I have a puppy; it's very cute.
+853 这道/题/太/难了。 | This question is too difficult.
+854 他们/在/操场上/踢足球。 | They're playing soccer on the sports field.
+883 门外/有/人/在/等/你。 | Someone is waiting for you outside the door.
+886 周末/我们/去/公园/玩/吧。 | Let's go and have fun in the park this weekend.
+889 一直/往/前/走，/就/到了。 | Go straight ahead and you'll be there.
+895 我们/晚上/一起/吃饭/吧。 | Let's have dinner together this evening.
+903 你/为什么/不/高兴？ | Why are you unhappy?
+908 老师，/我/有/一个/问题。 | Teacher, I have a question.
+939 听了/他的/话，/大家/都/笑了。 | Everyone laughed when they heard what he said.
+945 我/每天/睡/八个/小时。 | I sleep eight hours a day.
+960 我/买了/一辆/新/自行车。 | I bought a new bicycle.
+962 您/姓/什么？ | What is your surname?
+982 我/希望/明年/能/去/北京。 | I hope I can go to Beijing next year.
+987 北方的/冬天/经常/下/雪。 | It often snows in northern winters.
+1001 我/不/喜欢/吃/羊肉。 | I don't like eating lamb.
+1003 她的/眼睛/又/大/又/漂亮。 | Her eyes are big and beautiful.
+1006 你/喜欢/什么/颜色？ | What color do you like?
+1009 你/感冒了，/快/去/买/药/吧。 | You've caught a cold, go and buy some medicine.
+1016 我/也/是/学生。 | I'm a student too.
+1032 今天/是/阴天，/可能/会/下雨。 | It's overcast today; it might rain.
+1041 因为/下雨，/比赛/推迟了。 | The match was postponed because of the rain.
+1051 请/等/一下，/我/马上/来。 | Please wait a moment, I'll be right there.
+1062 超市/在/银行的/右边。 | The supermarket is to the right of the bank.
+1076 我/妈妈/做的/鱼/特别/好吃。 | The fish my mom cooks is especially delicious.
+1078 火车站/离/这儿/很/远。 | The railway station is far from here.
+1098 请/你/再/说/一遍。 | Please say it again.
+1104 我/早上/六点/就/起床了。 | I got up at six in the morning.
+1115 我/在/找/我的/钥匙。 | I'm looking for my keys.
+1124 今天的/天气/真/好！ | The weather today is really nice!
+1131 他/正在/看/书，/别/打扰/他。 | He's reading right now; don't disturb him.
+1182 我们/走/路/去/学校/吧。 | Let's walk to school.
+1193 我的/家/在/学校的/左边。 | My home is on the left side of the school.
