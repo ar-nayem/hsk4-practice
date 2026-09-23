@@ -32,6 +32,24 @@ CREATE TABLE IF NOT EXISTS codes (
   created_at INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS codes_user_kind ON codes(user_id, kind);
+-- Leaderboard: per-user, per-day credited answers. Days are China Standard Time (UTC+8) calendar days.
+CREATE TABLE IF NOT EXISTS activity (
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  day TEXT NOT NULL,
+  answered INTEGER NOT NULL DEFAULT 0,
+  correct INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, day)
+);
+CREATE INDEX IF NOT EXISTS activity_day ON activity(day);
+-- Totals seen at each user's previous save, plus a speed-limit token bucket; the difference between two
+-- saves is what gets credited to the leaderboard (see creditActivity in server.js).
+CREATE TABLE IF NOT EXISTS ledger (
+  user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+  total_a INTEGER NOT NULL,
+  total_c INTEGER NOT NULL,
+  tokens REAL NOT NULL,
+  updated_at INTEGER NOT NULL
+);
 `);
 
 // Columns added after the first deploy.
@@ -43,6 +61,12 @@ if (!cols.includes('email_verified')) {
 }
 // Bumped on password reset so every older login cookie stops working.
 if (!cols.includes('token_version')) db.exec('ALTER TABLE users ADD COLUMN token_version INTEGER NOT NULL DEFAULT 0');
+// Admin dashboard: who can see it, and a cheap "last active" timestamp (updated at most once a minute per user).
+if (!cols.includes('is_admin')) db.exec('ALTER TABLE users ADD COLUMN is_admin INTEGER NOT NULL DEFAULT 0');
+if (!cols.includes('last_seen')) db.exec('ALTER TABLE users ADD COLUMN last_seen INTEGER NOT NULL DEFAULT 0');
+// Leaderboard: users can hide themselves; lb_banned is an owner-only switch (scripts/admin.js lb-ban) for cheaters.
+if (!cols.includes('lb_visible')) db.exec('ALTER TABLE users ADD COLUMN lb_visible INTEGER NOT NULL DEFAULT 1');
+if (!cols.includes('lb_banned')) db.exec('ALTER TABLE users ADD COLUMN lb_banned INTEGER NOT NULL DEFAULT 0');
 
 db.DB_PATH = DB_PATH;
 module.exports = db;

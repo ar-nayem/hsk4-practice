@@ -3,11 +3,18 @@
     package="top.arnayem.hsk">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Asked for at runtime, only when the user first taps the mic in a speaking exercise. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
 
-    <!-- Android 11+: lets the app find the phone's text-to-speech engine (used for listening questions). -->
+    <!-- Android 11+: lets the app find the phone's text-to-speech engine (listening questions) and its
+         speech-recognition service (speaking questions), otherwise both look unavailable even when installed. -->
     <queries>
         <intent>
             <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
         </intent>
     </queries>
 

@@ -48,6 +48,7 @@ const VMODES={
   'au-en':{n:'🔊 Listen → English',d:'Hear the word, pick its meaning'},
   'ty-py':{n:'Type pinyin',d:'Type pinyin with tones (ài or ai4)'},
   'ty-zh':{n:'Type Hanzi',d:'See pinyin + meaning, type the word'},
+  'sp':{n:'🎤 Say it aloud',d:'Read the word out loud — checked against what your phone heard'},
   'mix':{n:'Mixed',d:'A random mix of all word modes'},
 };
 const SMODES={
@@ -57,6 +58,7 @@ const SMODES={
   'au-en':{n:'🔊 Listen → English',d:'Hear a sentence, pick its meaning'},
   'en-zh':{n:'English → Chinese',d:'Pick the Chinese sentence that matches'},
   'dict':{n:'Dictation',d:'Hear a sentence and type it in Chinese'},
+  'sp':{n:'🎤 Read aloud',d:'Read a sentence out loud — scored like dictation, but by speaking'},
   'mix':{n:'Mixed',d:'A random mix of sentence modes'},
 };
 function partName(c){
@@ -155,6 +157,60 @@ const TTS={list:[],tok:0,q:null,
   stop(){this.tok++;this.q=null;try{SPEECH.cancel();}catch(e){}},
   say(t){if(this.ok())this.speak([['N',t]]);else toast('No Chinese voice found on this device.');}
 };
+/* ================= speech recognition (speaking practice) ================= */
+// Browser path: the Web Speech API (Chrome/Edge use Google's cloud engine — needs internet, blocked in
+// mainland China without a VPN; Safari uses Apple's engine, often on-device). Android app path: native
+// android.speech.SpeechRecognizer via the same HSKNative bridge used for text-to-speech (see MainActivity.java) —
+// works with whatever voice-input service the phone has, offline if a language pack is downloaded.
+const BrowserSTT=window.SpeechRecognition||window.webkitSpeechRecognition;
+const STT={listening:false,q:null,_seq:0,_res:null,_done:null,_rec:null,
+  available(){if(IN_APP)return !!(window.HSKNative&&(()=>{try{return HSKNative.sttAvailable();}catch(e){return false;}})());return !!BrowserSTT;},
+  start(onResult,onDone){
+    if(IN_APP){
+      const id=++this._seq;this._res=onResult;this._done=onDone;
+      try{HSKNative.listen(id);}catch(e){onDone('error');}
+      return;
+    }
+    if(!BrowserSTT){onDone('unavailable');return;}
+    if(this._rec){try{this._rec.abort();}catch(e){}}
+    const r=new BrowserSTT();r.lang='zh-CN';r.interimResults=false;r.maxAlternatives=1;
+    let finished=false,err=null;
+    const finish=e=>{if(finished)return;finished=true;onDone(e||err);};
+    r.onresult=e=>{const t=e.results[0]&&e.results[0][0]&&e.results[0][0].transcript;if(t)onResult(t.trim());};
+    r.onerror=e=>{err=e.error||'error';};
+    r.onend=()=>finish();
+    this._rec=r;
+    try{r.start();}catch(e){finish('error');}
+  },
+  stop(){if(IN_APP){try{HSKNative.stopListening();}catch(e){}return;}if(this._rec)try{this._rec.stop();}catch(e){}},
+};
+window.__hskSTT=(id,type,text)=>{ // Android bridge: called by MainActivity.Bridge#speech(...)
+  if(id!==STT._seq)return; // a stale callback from a cancelled/earlier listen
+  if(type==='result'&&STT._res)STT._res(text);
+  else if(type==='end'){const d=STT._done;STT._done=null;if(d)d(text||null);}
+};
+function sttErrMsg(err){
+  if(!err)return null; // no error — recognition succeeded (or was cleanly stopped)
+  const M={'not-allowed':'Microphone access was denied. Allow it for this site (or app) in your browser/phone settings and try again.',
+    'permission-denied':'Microphone permission is needed — enable it in Android Settings → Apps → HSK 4 Prep → Permissions → Microphone.',
+    'no-speech':'Didn’t catch that — try again a bit louder or closer to the mic.',
+    'audio-capture':'No microphone found on this device.',
+    'network':'Speech recognition needs an internet connection — if you’re in mainland China, try turning your VPN on.',
+    'unavailable':'Speaking practice isn’t available here. Try Chrome or Safari, or check Settings for what the Android app needs.',
+    'aborted':null};
+  return err in M?M[err]:'Could not recognize your speech. Please try again.';
+}
+function speakInputHTML(q,locked){
+  let h=`<div class="speak"><button class="btn ghost sm" data-act="say" data-t="${esc(q.expect)}">🔊 Hear it</button>`;
+  if(!STT.available()){
+    h+='<div class="warnbox" style="margin-top:10px">Speaking practice isn’t available in this browser/app. Try Chrome or Safari, or the HSK 4 Prep Android app (see Settings). You can still tap Skip.</div>';
+  }else{
+    const listening=STT.listening&&STT.q===q;
+    h+=`<button class="mic ${listening?'rec':''}" data-act="mic" ${locked?'disabled':''}>${listening?'⏹ Listening… tap to stop':(q.user?'🎤 Record again':'🎤 Tap and speak')}</button>`;
+  }
+  if(q.user)h+=`<div class="heard"><span class="lab">You said</span><div class="zh" style="font-size:20px">${esc(q.user)}</div></div>`;
+  return h+'</div>';
+}
 
 /* ================= distractors ================= */
 function mc(correct,wrongs){const seen=new Set([correct]);const o=[{t:correct,ok:true}];for(const t of wrongs){if(o.length>=4)break;if(t&&!seen.has(t)){seen.add(t);o.push({t,ok:false});}}return shuffle(o);}
@@ -189,6 +245,7 @@ function makeVocabQ(no,m){
     case 'au-en':q.audio=[['N',w.parts.join('')]];q.label='Listen, then choose the meaning';q.opts=mc(w.mean,distract(w,6,'pos').map(x=>x.mean));break;
     case 'ty-py':q.kind='type';q.big=disp(w);q.bigCls='zh';q.label='Type the pinyin — tone marks (àihào) or numbers (ai4hao4)';q.expect=w.py;q.check='py';q.ph='e.g. ai4hao4';break;
     case 'ty-zh':q.kind='type';q.big=w.py;q.sub=w.mean;q.label='Type the word in Chinese';q.expect=w.parts.join('');q.check='zh';q.ph='Use a Chinese keyboard';break;
+    case 'sp':q.kind='type';q.input='speech';q.big=disp(w);q.bigCls='zh';q.sub=`${w.py} · ${w.mean}`;q.label='Read this word out loud';q.expect=w.parts.join('');q.check='zh';break;
   }
   return q;
 }
@@ -211,6 +268,7 @@ function makeSentQ(sid,m,part){
     case 'au-en':q.audio=sentAudio(s);q.label='Listen, then choose the meaning';q.opts=mc(s.en,similarSents(s,6).map(x=>x.en));q.optsOne=true;break;
     case 'en-zh':q.big=s.en;q.bigCls='en';q.label='Choose the matching Chinese';q.optCls='zh';q.opts=mc(s.text,similarSents(s,6).map(x=>x.text));q.optsOne=true;break;
     case 'dict':q.kind='type';q.audio=sentAudio(s);q.label='Listen and type what you hear (Chinese input)';q.expect=s.text;q.check='dict';q.ph='Type what you hear';break;
+    case 'sp':q.kind='type';q.input='speech';q.bigZh=s.text;q.label='Read this sentence out loud';q.expect=s.text;q.check='dict';break;
   }
   return q;
 }
@@ -403,7 +461,7 @@ function bodyHTML(q,locked,exam){
     case 'build':h+=`<div class="ansline">${q.user.length?q.user.map((ti,k)=>`<button class="tl in" data-act="untile" data-k="${k}" ${locked?'disabled':''}>${esc(q.tiles[ti])}</button>`).join(''):'<span class="ph">Tap the words below in order</span>'}<span class="tail">${esc(q.tail)}</span></div>
       <div class="tilepool">${q.tiles.map((t,i)=>`<button class="tl" data-act="tile" data-i="${i}" ${locked||q.user.includes(i)?'disabled':''}>${esc(t)}</button>`).join('')}</div>${!locked&&q.user.length?'<div style="margin-top:8px"><button class="link" data-act="tilereset">Reset</button></div>':''}`;break;
     case 'write':h+=`<textarea class="zh" data-in="write" rows="3" style="font-size:20px" placeholder="Type your sentence here…" ${locked?'disabled':''}>${esc(q.user)}</textarea>`;break;
-    case 'type':h+=`<input type="text" class="typein" data-in="type" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${esc(q.ph||'')}" value="${esc(q.user)}" ${locked?'disabled':''}>`;break;
+    case 'type':h+=q.input==='speech'?speakInputHTML(q,locked):`<input type="text" class="typein" data-in="type" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${esc(q.ph||'')}" value="${esc(q.user)}" ${locked?'disabled':''}>`;break;
   }
   return h;
 }
@@ -422,9 +480,9 @@ function feedbackHTML(q){
       h+=`<div class="lab" style="margin-top:8px">Model answers</div><ul class="models">${q.models.map(m=>`<li>${lk(m)} <button class="icon" data-act="say" data-t="${esc(m)}">🔊</button></li>`).join('')}</ul>
         <div class="small muted">Auto-check only confirms you used the word in a full sentence. Compare with the models and mark it yourself:</div>
         <div class="row" style="margin-top:8px"><button class="btn sm ${q.override===true?'':'ghost'}" data-act="override" data-v="1">✓ Mine is correct</button><button class="btn sm ${q.override===false?'':'ghost'}" data-act="override" data-v="0">✗ Has mistakes</button></div>`;break;}
-    case 'type':{const r=typeCheck(q);
-      if(q.check==='dict'){const u=hanOnly(q.user);h+=`<div>Match: <b>${r.score}%</b></div><div class="zh" style="font-size:19px;line-height:1.9;margin-top:6px">Correct: ${lk(q.expect)}</div>${u?`<div class="zh" style="font-size:19px;line-height:1.9">Yours: ${[...u].map((c,i)=>esc(c)).join('')}</div>`:''}<div class="small muted">Characters you missed: <span class="zh" style="color:var(--bad);font-size:17px">${[...r.e].filter((c,i)=>!r.keep.has(i)).map(esc).join(' ')||'—'}</span></div>`;}
-      else{h+=`<div>Answer: <b class="${q.check==='zh'?'zh':''}" style="font-size:20px">${esc(q.check==='py'?q.expect:disp(BYNO.get(q.wno)))}</b>${q.user?` · Yours: <span>${esc(q.user)}</span>`:''}</div>${q.check==='py'&&!ok&&r.baseOk?'<div class="small">Letters right, tones wrong.</div>':''}`;}
+    case 'type':{const r=typeCheck(q);const you=q.input==='speech'?'You said':'Yours';
+      if(q.check==='dict'){const u=hanOnly(q.user);h+=`<div>Match: <b>${r.score}%</b></div><div class="zh" style="font-size:19px;line-height:1.9;margin-top:6px">Correct: ${lk(q.expect)}</div>${u?`<div class="zh" style="font-size:19px;line-height:1.9">${you}: ${[...u].map((c,i)=>esc(c)).join('')}</div>`:''}<div class="small muted">Characters you missed: <span class="zh" style="color:var(--bad);font-size:17px">${[...r.e].filter((c,i)=>!r.keep.has(i)).map(esc).join(' ')||'—'}</span></div>`;}
+      else{h+=`<div>Answer: <b class="${q.check==='zh'?'zh':''}" style="font-size:20px">${esc(q.check==='py'?q.expect:disp(BYNO.get(q.wno)))}</b>${q.user?` · ${you}: <span>${esc(q.user)}</span>`:''}</div>${q.check==='py'&&!ok&&r.baseOk?'<div class="small">Letters right, tones wrong.</div>':''}`;}
       break;}
   }
   if(q.audio)h+=`<div class="lab" style="margin-top:10px">Transcript</div><div class="tr">${transcriptHTML(q,true)}</div>`;
@@ -502,10 +560,10 @@ function vocabPool(level,filter){let pool=WORDS.filter(w=>level==='all'||w.level
   if(filter==='weak')pool=pool.filter(w=>{const s=S.words[w.no];return s&&s.s>0&&(s.m<3||s.c/s.s<0.7);});
   if(filter==='new')pool=pool.filter(w=>!S.words[w.no]);return pool;}
 function startVocab(m,level,n,filter){const pool=vocabPool(level,filter);if(!pool.length){toast(filter==='weak'?'No weak words yet — practice some first.':'No words match.');return;}
-  const modes=Object.keys(VMODES).filter(k=>k!=='mix'&&(TTS.ok()||!k.startsWith('au')));
+  const modes=Object.keys(VMODES).filter(k=>k!=='mix'&&(TTS.ok()||!k.startsWith('au'))&&(STT.available()||k!=='sp'));
   const qs=smartPick(pool,n).map(w=>makeVocabQ(w.no,m==='mix'?pick(modes):m));
   startRun({title:'Words · '+VMODES[m].n,mode:'practice',sections:[{name:'Words',qs}],again:()=>startVocab(m,level,n,filter)});}
-function startSent(m,level,n){const modes=Object.keys(SMODES).filter(k=>k!=='mix'&&(TTS.ok()||!['au-en','dict'].includes(k)));
+function startSent(m,level,n){const modes=Object.keys(SMODES).filter(k=>k!=='mix'&&(TTS.ok()||!['au-en','dict'].includes(k))&&(STT.available()||k!=='sp'));
   let base=(m==='build'?BUILD_POOL:m==='fill'?SENTS.filter(s=>BYNO.get(s.no).parts.every(p=>s.text.includes(p))):SENTS).filter(s=>level==='all'||lvOf(s)==level);
   if(m==='dict')base=base.filter(s=>!s.dlg&&s.text.length<=22);
   if(!base.length){toast('No sentences for this level yet.');return;}
@@ -521,9 +579,11 @@ function startMistakes(part){let ms=Object.values(S.mistakes);if(part&&part!=='a
 const RENDER={};
 function show(v){
   if((!AUTH||!AUTH.verified)&&v!=='auth')v='auth';
+  if(v==='admin'&&(!AUTH||!AUTH.admin))v='home';
   if(RUN&&v!=='run'){exitRun();if(RUN)return;}
   CUR=v;$$('.view').forEach(x=>x.hidden=x.id!=='v-'+v);
   $$('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.go===v));
+  const onBtn=$('#nav button.on');if(onBtn&&onBtn.scrollIntoView)onBtn.scrollIntoView({inline:'center',block:'nearest'}); // keep the active tab visible in the scrolling nav
   if(RENDER[v])RENDER[v]();
   window.scrollTo(0,0);
   if(v!=='auth'){try{localStorage.setItem(TABKEY,v);}catch(e){}}
@@ -555,6 +615,7 @@ RENDER.home=()=>{const{due,fresh}=srsCounts('all');const nm=Object.keys(S.mistak
     <button class="tile" data-act="flash" data-level="all"><span class="ch">词</span><b>Flashcards</b><span>Spaced-repetition flashcards for all 1,200 words</span><span class="n">${due} due · ${fresh} new</span></button>
     <button class="tile" data-act="mist" data-part="all"><span class="ch">错</span><b>Mistake review</b><span>Redo questions you got wrong until you get them right twice</span><span class="n">${nm} to review</span></button>
   </div>
+  <div id="lbhome"></div>
   <div class="grid2"><div class="card"><h2>Snapshot</h2>${statsBlock()}
     <p class="muted" style="margin:12px 0 0">${last?`Last mock (${last.d}): <b style="color:var(--ink)">${last.total}/300</b> — Listening ${last.L} · Reading ${last.R} · Writing ${last.W}`:'No mock exam yet — try the mini mock to get a baseline score.'}</p></div>
     <div class="card"><h2>HSK 4 exam format</h2>${fmtTable()}</div></div>
@@ -629,6 +690,11 @@ RENDER.set=()=>{const vs=TTS.list;const vopt=sel=>`<option value="">Automatic</o
   ${IN_APP?'':`<div class="card"><h2>Android app</h2><p class="muted" style="margin-top:0">Install HSK 4 Prep as an app on Android phones: it opens full-screen, stays signed in, and uses the phone's own Chinese voice for listening questions.</p>
     <a class="btn" href="/download/hsk4-prep.apk" style="text-decoration:none">Download for Android (APK)</a>
     <ol class="small muted" style="margin:12px 0 0;padding-left:18px;line-height:1.8"><li>Open this page on your Android phone and tap Download.</li><li>Open the downloaded file. When Android asks, allow “Install unknown apps” for your browser.</li><li>Huawei, Xiaomi, OPPO, vivo: if the install is blocked, turn off “Pure mode” (纯净模式) in Settings first.</li><li>Inside WeChat, tap ··· → “Open in browser” first. WeChat blocks APK downloads.</li></ol></div>`}
+  <div class="card"><h2>Leaderboard</h2><p class="muted" style="margin-top:0">Other signed-in learners see your display name and points on the daily and weekly leaderboards — never your email.</p>
+    <div class="row"><div class="field" style="flex:1;min-width:200px"><label>Display name</label><input type="text" id="lbname" maxlength="40" value="${esc(AUTH?AUTH.name:'')}" autocomplete="nickname"></div><button class="btn sm" data-act="savename">Save name</button></div>
+    <div class="set-row"><div class="d"><b>Show me on the leaderboard</b><span>Turn off to hide yourself from everyone else’s list. Your points keep counting and come back if you turn it on again.</span></div><select id="lbvis"><option value="1" ${AUTH&&AUTH.leaderboard?'selected':''}>On</option><option value="0" ${AUTH&&AUTH.leaderboard?'':'selected'}>Off</option></select></div></div>
+  <div class="card"><h2>Speaking practice</h2><p class="muted" style="margin-top:0">Reads a word or sentence back through your phone's speech recognition and compares it to the correct answer — it checks whether what you said was understood correctly, not your tones or accent directly.</p>
+    ${STT.available()?'<div class="row"><button class="btn ghost sm" data-act="mictest">🎤 Test microphone</button><span id="mictestout" class="muted small"></span></div>':'<div class="warnbox">Not available in this browser/app. Works in Chrome and Safari (needs a microphone and, for Chrome, an internet connection — a VPN if you\'re in mainland China). In the Android app, it needs the phone\'s voice-typing service — see the note below if it\'s missing.</div>'}</div>
   <div class="card"><h2>Voice (listening)</h2>${vs.length?'':'<div class="warnbox">No Chinese (zh-CN) voice found. Listening questions will show text instead. Mac: System Settings → Accessibility → Spoken Content → System Voice → Manage Voices → add a Chinese (China mainland) voice, then reload. iPhone: Settings → Accessibility → Spoken Content → Voices → Chinese. Android: open phone Settings, search “Text-to-speech”, and install Chinese voice data for your speech engine, then restart the app.</div>'}
     <div class="set-row"><div class="d"><b>Female / narrator voice</b><span>Reads passages, questions and female (女) lines.</span></div><select data-set="voiceF">${vopt(S.settings.voiceF)}</select><button class="btn ghost sm" data-act="vtest" data-r="女">▶ Test</button></div>
     <div class="set-row"><div class="d"><b>Male voice</b><span>Reads male (男) lines in dialogues. If you only have one voice, pitch is changed instead.</span></div><select data-set="voiceM">${vopt(S.settings.voiceM)}</select><button class="btn ghost sm" data-act="vtest" data-r="男">▶ Test</button></div>
@@ -661,7 +727,7 @@ RENDER.auth=()=>{
   const tabs=(t==='login'||t==='signup')?`<div class="authtabs"><button class="${t==='login'?'on':''}" data-authtab="login">Sign in</button><button class="${t==='signup'?'on':''}" data-authtab="signup">Create account</button></div>`:'';
   const codeField='<div class="field"><label>6-digit code</label><input type="text" id="a-code" class="codein" inputmode="numeric" autocomplete="one-time-code" maxlength="6" required></div>';
   let form='';
-  if(t==='login'||t==='signup')form=`${t==='signup'?'<div class="field"><label>Name</label><input type="text" id="a-name" autocomplete="name" maxlength="60" placeholder="How should we call you?"></div>':''}
+  if(t==='login'||t==='signup')form=`${t==='signup'?'<div class="field"><label>Name</label><input type="text" id="a-name" autocomplete="name" maxlength="40" placeholder="Shown on the leaderboard"></div>':''}
       <div class="field"><label>Email</label><input type="email" id="a-email" autocomplete="email" required value="${esc(RESET_EMAIL)}"></div>
       <div class="field"><label>Password</label><input type="password" id="a-pass" autocomplete="${t==='login'?'current-password':'new-password'}" minlength="8" required placeholder="${t==='login'?'':'At least 8 characters'}"></div>
       <button class="btn" type="submit" id="authsubmit">${t==='login'?'Sign in':'Create account'}</button>`;
@@ -725,10 +791,11 @@ async function resendVerify(){
   RENDER.auth();
 }
 function updateAcct(){
-  const el=$('#acct');if(!el)return;
-  if(!AUTH||!AUTH.verified){el.hidden=true;el.innerHTML='';document.body.classList.add('guest');return;}
+  const el=$('#acct');if(!el)return;const nb=$('#navAdmin');
+  if(!AUTH||!AUTH.verified){el.hidden=true;el.innerHTML='';document.body.classList.add('guest');if(nb)nb.hidden=true;return;}
   document.body.classList.remove('guest');el.hidden=false;
   el.innerHTML=`<span class="av" title="${esc(AUTH.name)} · ${esc(AUTH.email)}">${esc(String(AUTH.name||'?').trim().charAt(0).toUpperCase())}</span><button data-act="signout">Sign out</button>`;
+  if(nb)nb.hidden=!AUTH.admin;
 }
 async function onAuthed(user){
   AUTH=user;
@@ -742,6 +809,143 @@ async function onAuthed(user){
   let startTab='home';try{startTab=localStorage.getItem(TABKEY)||'home';}catch(e){}
   if(!RENDER[startTab]||startTab==='auth')startTab='home';
   show(startTab);
+}
+
+/* ================= admin (owner dashboard: who is using the app, as leads) ================= */
+let ADMIN_USERS=null,ADMIN_NOW=0,ADMIN_ERR='',AQ='',ASORT='last',AOPEN=null;
+RENDER.admin=()=>{$('#v-admin').innerHTML='<div class="card"><h2>Admin</h2><p class="muted">Loading…</p></div>';loadAdmin();};
+async function loadAdmin(){
+  try{
+    const r=await fetch('/api/admin/users',{credentials:'same-origin',cache:'no-store'});
+    if(!r.ok){ADMIN_ERR=r.status===403?'You do not have admin access on this account.':`Could not load admin data (HTTP ${r.status}).`;ADMIN_USERS=null;renderAdminView();return;}
+    const j=await r.json();ADMIN_USERS=j.users;ADMIN_NOW=j.now;ADMIN_ERR='';renderAdminView();
+  }catch(e){ADMIN_ERR='Network error — check your connection and try again.';ADMIN_USERS=null;renderAdminView();}
+}
+function relTime(ts,now){if(!ts)return'Never';const s=Math.max(0,Math.round((now-ts)/1000));if(s<60)return'Just now';const m=Math.round(s/60);if(m<60)return m+'m ago';const h=Math.round(m/60);if(h<24)return h+'h ago';const d=Math.round(h/24);if(d<30)return d+'d ago';return Math.round(d/30)+'mo ago';}
+const ADMIN_SORTS={
+  last:(a,b)=>(b.lastSeen||0)-(a.lastSeen||0),joined:(a,b)=>b.joined-a.joined,
+  mastered:(a,b)=>b.wordsMastered-a.wordsMastered,acc:(a,b)=>b.accuracy-a.accuracy,
+  mocks:(a,b)=>(b.bestMock??-1)-(a.bestMock??-1),name:(a,b)=>a.name.localeCompare(b.name),
+};
+function renderAdminView(){
+  if(!$('#v-admin'))return;
+  if(ADMIN_ERR){$('#v-admin').innerHTML=`<div class="card"><h2>Admin</h2><div class="autherr">${esc(ADMIN_ERR)}</div></div>`;return;}
+  if(!ADMIN_USERS){$('#v-admin').innerHTML='<div class="card"><h2>Admin</h2><p class="muted">Loading…</p></div>';return;}
+  const now=ADMIN_NOW||Date.now(),U=ADMIN_USERS,DAY=864e5,WEEK=7*DAY,ONLINE=5*60000;
+  const online=U.filter(u=>u.lastSeen&&now-u.lastSeen<ONLINE).length;
+  const today=U.filter(u=>u.lastSeen&&now-u.lastSeen<DAY).length;
+  const week=U.filter(u=>u.lastSeen&&now-u.lastSeen<WEEK).length;
+  const verified=U.filter(u=>u.verified).length;
+  const avgAcc=U.length?Math.round(U.reduce((a,u)=>a+u.accuracy,0)/U.length):0;
+  const q=AQ.trim().toLowerCase();
+  const list=U.filter(u=>!q||(u.name+' '+u.email).toLowerCase().includes(q)).slice().sort(ADMIN_SORTS[ASORT]||ADMIN_SORTS.last);
+  let h=`<div class="card"><h2>Admin</h2><p class="muted" style="margin-top:0">Who is using HSK 4 Prep, how far they've gotten, and their contact email for outreach. Visible only to admin accounts.</p>
+    <div class="stats">
+      <div class="stat"><span>Total users</span><b>${U.length}</b></div>
+      <div class="stat"><span>Online now</span><b>${online}</b><em class="sub2">active in the last 5 min</em></div>
+      <div class="stat"><span>Active today</span><b>${today}</b></div>
+      <div class="stat"><span>Active this week</span><b>${week}</b></div>
+    </div>
+    <div class="stats" style="margin-top:10px">
+      <div class="stat"><span>Verified</span><b>${verified}<small class="muted" style="font-size:13px"> / ${U.length}</small></b></div>
+      <div class="stat"><span>Avg. accuracy</span><b>${avgAcc}%</b></div>
+      <div class="stat"><span>New today</span><b>${U.filter(u=>now-u.joined<DAY).length}</b></div>
+      <div class="stat"><span>New this week</span><b>${U.filter(u=>now-u.joined<WEEK).length}</b></div>
+    </div></div>
+  <div class="card">
+    <div class="row" style="justify-content:space-between;align-items:flex-end">
+      <div class="field" style="flex:1;min-width:200px"><label>Search</label><input type="search" id="aq" placeholder="Name or email" value="${esc(AQ)}"></div>
+      <div class="field"><label>Sort by</label><select id="asort">
+        <option value="last" ${ASORT==='last'?'selected':''}>Last active</option>
+        <option value="joined" ${ASORT==='joined'?'selected':''}>Newest signup</option>
+        <option value="mastered" ${ASORT==='mastered'?'selected':''}>Words mastered</option>
+        <option value="acc" ${ASORT==='acc'?'selected':''}>Accuracy</option>
+        <option value="mocks" ${ASORT==='mocks'?'selected':''}>Best mock score</option>
+        <option value="name" ${ASORT==='name'?'selected':''}>Name</option></select></div>
+      <a class="btn ghost sm" href="/api/admin/export.csv" style="text-decoration:none">⬇ Export CSV (leads)</a>
+    </div>
+    <div class="muted small" style="margin:10px 0 8px">${list.length} of ${U.length} user(s) · tap a row for more · <span style="color:var(--ok)">●</span> = online now</div>
+    <div class="tscroll"><table class="wtab"><thead><tr><th></th><th>Name</th><th>Email</th><th>Joined</th><th>Last active</th><th>Mastered</th><th>Accuracy</th><th>Best mock</th></tr></thead><tbody>
+    ${list.map(u=>{const isOn=u.lastSeen&&now-u.lastSeen<ONLINE;
+      return `<tr data-act="arow" data-id="${u.id}"><td>${isOn?'<span style="color:var(--ok)" title="Online now">●</span>':''}</td><td>${esc(u.name)}</td><td>${esc(u.email)}</td><td>${new Date(u.joined).toLocaleDateString()}</td><td>${relTime(u.lastSeen,now)}</td><td>${u.wordsMastered} / 1200</td><td>${u.accuracy}%</td><td>${u.bestMock??'—'}</td></tr>`
+      +(AOPEN===u.id?`<tr class="x"><td></td><td colspan="7">Words practiced: <b>${u.wordsPracticed}</b> · Questions answered: <b>${u.answered}</b> (${u.correct} correct) · Mocks taken: <b>${u.mocksTaken}</b>${u.lastMockDate?` (last: ${esc(u.lastMockDate)})`:''} · Days practiced: <b>${u.daysActive}</b> · Email verified: <b>${u.verified?'yes':'no'}</b>${!u.verified?' <span class="muted">(auto-deleted after 7 days if never confirmed)</span>':''}</td></tr>`:'');
+    }).join('')}
+    </tbody></table></div>${list.length?'':'<div class="empty">No users match.</div>'}
+  </div>`;
+  $('#v-admin').innerHTML=h;
+}
+
+/* ================= leaderboard (today / this week / last week, ranked by correct answers) ================= */
+let LBP='today',LBDATA=null,LBERR='',LBTIMER=null,LBSKEW=0;
+const LB_LABEL={today:'Today',week:'This week',lastweek:'Last week'};
+async function loadLB(period,quiet){
+  try{
+    await syncNow(); // get the newest answers onto the server first, so your own row is current
+    const r=await fetch('/api/leaderboard?period='+period,{credentials:'same-origin',cache:'no-store'});
+    if(period!==LBP)return; // the user switched tabs while this was loading
+    if(!r.ok){LBERR=r.status===429?'Too many refreshes — wait a moment and try again.':'Could not load the leaderboard.';if(!quiet)LBDATA=null;}
+    else{LBDATA=await r.json();LBERR='';LBSKEW=LBDATA.now-Date.now();}
+  }catch(e){if(period!==LBP)return;LBERR='Network error — check your connection and try again.';if(!quiet)LBDATA=null;}
+  if(CUR==='lb')renderLB();
+}
+RENDER.lb=()=>{
+  LBDATA=null;LBERR='';renderLB();loadLB(LBP);
+  clearInterval(LBTIMER);
+  LBTIMER=setInterval(()=>{if(CUR!=='lb'){clearInterval(LBTIMER);return;}if(!document.hidden)loadLB(LBP,true);},45000);
+};
+function lbLeft(ms){if(ms<=0)return'a moment';const m=Math.floor(ms/6e4),h=Math.floor(m/60),d=Math.floor(h/24);return d>=2?`${d}d ${h%24}h`:h>0?`${h}h ${m%60}m`:`${m}m`;}
+function lbDate(ds){return new Date(ds+'T12:00:00Z').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});}
+function lbBody(d){
+  const range=d.from===d.to?lbDate(d.from):`${lbDate(d.from)} – ${lbDate(d.to)}`;
+  const reset=d.resetsAt?`Resets in <b>${lbLeft(d.resetsAt-(Date.now()+LBSKEW))}</b> (${d.period==='week'?'Monday 00:00':'midnight'} China time, ${d.tz})`:'Final results';
+  const m=d.me;let banner;
+  if(m.banned)banner='You have been removed from the leaderboards.';
+  else if(m.hidden)banner='You are hidden from the leaderboard. Your points still count — turn “Show me on the leaderboard” back on in <button class="link" data-go="set">Settings</button>.';
+  else if(m.rank)banner=`You are <b>#${m.rank}</b> of ${d.participants} with <b>${m.points}</b> point${m.points===1?'':'s'} (${m.accuracy}% correct).`;
+  else banner=d.period==='lastweek'?'You did not score last week.':'You have not scored yet — answer a few questions to get on the board.';
+  const medal=r=>['🥇','🥈','🥉'][r-1]||r;
+  const rows=d.entries.map(e=>`<tr class="${e.you?'me':''}"><td class="rk">${medal(e.rank)}</td><td>${esc(e.name)}${e.you?' <span class="tag red">you</span>':''}</td><td class="pts">${e.points}</td><td class="muted hs">${e.answered}</td><td class="muted">${e.accuracy}%</td></tr>`).join('');
+  const meOutside=m.rank&&!m.hidden&&!d.entries.some(e=>e.you)?`<tr><td colspan="5" class="muted" style="text-align:center">⋯</td></tr><tr class="me"><td class="rk">${m.rank}</td><td>You</td><td class="pts">${m.points}</td><td class="muted hs">${m.answered}</td><td class="muted">${m.accuracy}%</td></tr>`:'';
+  return `<p class="muted" style="margin:12px 0 0"><b style="color:var(--ink)">${LB_LABEL[d.period]}</b> · ${range}<br>${reset}</p>
+    <div class="lbbanner">${banner}</div>
+    ${d.entries.length?`<div class="tscroll"><table class="lbtable"><thead><tr><th></th><th>Name</th><th>Points</th><th class="hs">Answered</th><th>Accuracy</th></tr></thead><tbody>${rows}${meOutside}</tbody></table></div>
+      ${d.participants>d.entries.length?`<p class="muted small" style="margin:8px 0 0">Showing the top ${d.entries.length} of ${d.participants}.</p>`:''}`
+    :`<div class="empty">Nobody has scored ${d.period==='today'?'yet today':d.period==='week'?'yet this week':'last week'}${d.period==='lastweek'?'.':' — be the first!'}</div>`}
+    <details class="howm"><summary>How points work</summary><ul>
+      <li><b>1 point per correct answer</b> — in quizzes, sentence practice, speaking, mock exams and flashcards (Hard, Good and Easy count as correct). Wrong answers earn nothing and cost nothing.</li>
+      <li>Ties are broken by accuracy (fewer answers for the same points ranks higher).</li>
+      <li>“Today” runs from midnight to midnight <b>China time (UTC+8)</b>; weeks run Monday to Sunday in the same timezone.</li>
+      <li>Points are counted by the server from your saved progress, so they can appear a few seconds after you answer. Answers faster than about one every 1.5 seconds are not counted, and there is a daily ceiling of 2,500 answers.</li>
+      <li>You can change your display name or hide yourself in <button class="link" data-go="set">Settings</button>. Accounts caught cheating are removed from the boards.</li></ul></details>`;
+}
+function renderLB(){
+  const el=$('#v-lb');if(!el)return;
+  const chips=Object.entries(LB_LABEL).map(([k,v])=>`<button class="chip ${LBP===k?'on':''}" data-act="lbp" data-p="${k}">${v}</button>`).join('');
+  const body=LBERR&&!LBDATA?`<div class="autherr" style="margin-top:12px">${esc(LBERR)}</div><button class="btn ghost sm" data-act="lbrefresh">Try again</button>`
+    :!LBDATA?'<p class="muted" style="margin-top:12px">Loading…</p>':(LBERR?`<p class="small" style="margin:10px 0 0;color:var(--warn)">⚠ ${esc(LBERR)} Showing the last results.</p>`:'')+lbBody(LBDATA);
+  el.innerHTML=`<div class="card"><div class="row" style="justify-content:space-between;align-items:center"><h2 style="margin:0">🏆 Leaderboard</h2><button class="btn ghost sm" data-act="lbrefresh">↻ Refresh</button></div>
+    <div class="chips" style="margin-top:12px">${chips}</div>${body}</div>`;
+}
+async function loadLbHome(){ // small "today" summary on the Home page
+  if(!$('#lbhome'))return;
+  try{
+    await syncNow();
+    const r=await fetch('/api/leaderboard?period=today&limit=3',{credentials:'same-origin',cache:'no-store'});
+    if(!r.ok)return;const d=await r.json();
+    const box=$('#lbhome');if(!box||CUR!=='home')return;
+    const medal=r=>['🥇','🥈','🥉'][r-1]||'#'+r;
+    const top=d.entries.map(e=>`<span class="lbchip ${e.you?'me':''}">${medal(e.rank)} ${esc(e.name)} <b>${e.points}</b></span>`).join('');
+    const me=d.me.banned?'':d.me.hidden?'You are hidden from the leaderboard.':d.me.rank?`You are <b>#${d.me.rank}</b> today with <b>${d.me.points}</b> point${d.me.points===1?'':'s'}.`:'You have not scored yet today — answer a few questions to join the board.';
+    box.innerHTML=`<div class="card"><div class="row" style="justify-content:space-between;align-items:center"><h2 style="margin:0">🏆 Today’s leaderboard</h2><button class="btn ghost sm" data-go="lb">Full leaderboard ›</button></div>
+      <div class="lbchips">${top||'<span class="muted">Nobody has scored yet today — be the first!</span>'}</div>${me?`<p class="muted" style="margin:10px 0 0">${me}</p>`:''}</div>`;
+  }catch(e){}
+}
+{const baseHome=RENDER.home;RENDER.home=()=>{baseHome();loadLbHome();};}
+async function saveProfile(patch){
+  let r=null;
+  try{r=await fetch('/api/profile',{method:'PUT',headers:{'Content-Type':'application/json'},credentials:'same-origin',cache:'no-store',body:JSON.stringify(patch)});}catch(e){}
+  if(!r||!r.ok){toast(!r?'Network error — try again.':r.status===400?'Please enter a name.':'Could not save. Please try again.');if(CUR==='set')RENDER.set();return false;}
+  const j=await r.json();AUTH=j.user;updateAcct();toast('Saved.');if(CUR==='set')RENDER.set();return true;
 }
 
 /* ================= actions ================= */
@@ -758,6 +962,22 @@ const ACT={
   sstart:()=>{SSEL.level=$('#slv').value;SSEL.n=$('#sn').value;startSent(SSEL.m,SSEL.level,+SSEL.n);},
   say:a=>TTS.say(a.dataset.t),
   vtest:a=>TTS.ok()?TTS.speak([[a.dataset.r,a.dataset.r==='男'?'你好，我是男声。明天下午三点我们在图书馆门口见面吧。':'你好，我是女声。请听下面一段对话，然后回答问题。']]):toast('No Chinese voice found.'),
+  mic:()=>{
+    const q=curQ();if(!q||isLocked(q))return;
+    if(STT.listening&&STT.q===q){STT.stop();return;}
+    STT.listening=true;STT.q=q;renderRun();
+    STT.start(
+      text=>{q.user=text;},
+      err=>{STT.listening=false;renderRun();const m=sttErrMsg(err);if(m)toast(m);}
+    );
+  },
+  mictest:async()=>{
+    const out=$('#mictestout');if(out)out.textContent='Listening…';
+    STT.start(
+      text=>{if(out)out.textContent='Heard: “'+text+'” — the microphone works.';},
+      err=>{if(!out)return;const m=sttErrMsg(err);out.textContent=m||(out.textContent.startsWith('Heard')?out.textContent:'');}
+    );
+  },
   wrow:(a,e)=>{if(e.target.closest('button'))return;const no=+a.dataset.no;WQ.open=WQ.open===no?null:no;renderWordList();},
   wmore:()=>{WQ.lim+=200;renderWordList();},
   mdel:a=>{delete S.mistakes[a.dataset.k];save();RENDER.mist();},
@@ -792,6 +1012,10 @@ const ACT={
     updateMockAfterOverride();save();renderRun();},
   flshow:()=>{RUN.shown=true;renderFlash();},
   flg:a=>flashGrade(+a.dataset.g),
+  arow:a=>{const id=+a.dataset.id;AOPEN=AOPEN===id?null:id;renderAdminView();},
+  lbp:a=>{LBP=a.dataset.p;LBDATA=null;LBERR='';renderLB();loadLB(LBP);},
+  lbrefresh:()=>{LBERR='';loadLB(LBP,!!LBDATA);},
+  savename:()=>saveProfile({name:($('#lbname')||{}).value||''}),
   signout:async()=>{
     await syncNow(); // best-effort: flush any pending changes before ending the session
     try{await fetch('/api/auth/logout',{method:'POST',credentials:'same-origin'});}catch(e){}
@@ -821,11 +1045,14 @@ document.addEventListener('input',e=>{const t=e.target;
   if(t.dataset.in==='write'||t.dataset.in==='type'){const q=curQ();if(!q||isLocked(q))return;q.user=t.value;const b=$('#checkbtn');if(b)b.disabled=!answered(q);
     if(RUN.mode==='exam'){const nb=$$('.navgrid button').find(x=>+x.dataset.n===q.num);if(nb)nb.classList.toggle('done',answered(q));}}
   if(t.id==='wq'){WQ.q=t.value;WQ.lim=120;renderWordList();}
+  if(t.id==='aq'){AQ=t.value;renderAdminView();}
 });
 document.addEventListener('change',e=>{const t=e.target;
   if(t.dataset.set){const k=t.dataset.set;let v=t.value;if(['timed','autoplay','lookup'].includes(k))v=v==='1';else if(['plays','newPerDay'].includes(k))v=+v;if(k==='newPerDay')v=Math.max(1,Math.min(1200,Math.round(v)||20));else if(k==='rate')v=+v;S.settings[k]=v;save();if(k==='newPerDay'&&CUR==='vocab')RENDER.vocab();return;}
   if(t.id==='wlv'){WQ.lv=t.value;WQ.lim=120;renderWordList();}
   if(t.id==='flv'){FLV=t.value;RENDER.vocab();}
+  if(t.id==='asort'){ASORT=t.value;renderAdminView();}
+  if(t.id==='lbvis'){saveProfile({leaderboard:t.value==='1'});}
 });
 function primary(){const R=RUN,q=curQ();if(!q)return;
   if(R.state==='review')return ACT.next();

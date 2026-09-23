@@ -1,15 +1,20 @@
 package top.arnayem.hsk;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Insets;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.speech.RecognitionListener;
+import android.speech.RecognizerIntent;
+import android.speech.SpeechRecognizer;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
 import android.speech.tts.Voice;
@@ -30,6 +35,7 @@ import android.window.OnBackInvokedDispatcher;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -38,17 +44,21 @@ import java.util.Set;
 /**
  * HSK 4 Prep for Android: shows https://hsk.arnayem.top full-screen.
  * Everything else (questions, accounts, progress) lives in the web app, so deploying the website updates the app.
- * The one native piece is speech: Android's WebView has no Web Speech voices, so the page's listening audio
- * is sent to the phone's TextToSpeech engine through the "HSKNative" JavaScript bridge (see IN_APP in src/app.js).
+ * Two native pieces sit under the "HSKNative" JavaScript bridge, since Android's WebView doesn't implement either
+ * Web API on its own: listening audio goes out through the phone's TextToSpeech engine (see IN_APP/TTS in
+ * src/app.js), and speaking answers come in through the phone's SpeechRecognizer (see IN_APP/STT in src/app.js).
  */
 public class MainActivity extends Activity {
     private static final String HOST = "hsk.arnayem.top";
     private static final String HOME = "https://" + HOST + "/";
+    private static final int REQ_RECORD_AUDIO = 1001;
 
     private WebView web;
     private TextToSpeech tts;
     private volatile boolean ttsReady;
     private final Map<String, Voice> voiceByName = new HashMap<>();
+    private SpeechRecognizer speechRecognizer; // main-thread only, per the Android API's own requirement
+    private volatile int pendingSpeechId = -1; // the id passed to the bridge's current/last listen()
     private final Handler ui = new Handler(Looper.getMainLooper());
     private boolean clearHistoryAfterLoad;
 
@@ -129,6 +139,7 @@ public class MainActivity extends Activity {
     protected void onPause() {
         super.onPause();
         js("typeof TTS!=='undefined'&&TTS.stop()"); // stop listening audio when the app goes to the background
+        if (speechRecognizer != null) speechRecognizer.cancel(); // and any speaking answer being recorded
         CookieManager.getInstance().flush();
         web.onPause();
     }
@@ -148,8 +159,19 @@ public class MainActivity extends Activity {
     @Override
     protected void onDestroy() {
         if (tts != null) tts.shutdown();
+        if (speechRecognizer != null) speechRecognizer.destroy();
         if (web != null) web.destroy();
         super.onDestroy();
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode != REQ_RECORD_AUDIO) return;
+        int id = pendingSpeechId;
+        if (id < 0) return; // the exercise was left before the user answered the system dialog
+        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) startListening(id);
+        else fireSpeech(id, "end", "permission-denied");
     }
 
     private void js(String code) {
@@ -164,6 +186,75 @@ public class MainActivity extends Activity {
             return;
         }
         ui.post(() -> js("window.__hskTTS&&window.__hskTTS(" + id + ",'" + event + "')"));
+    }
+
+    // event: 'result' (a recognized transcript) or 'end' (the session is over — text carries an error
+    // key from sttErrMsg() in src/app.js on failure, or is empty on a clean finish).
+    private void fireSpeech(int id, String event, String text) {
+        String code = "window.__hskSTT&&window.__hskSTT(" + id + ",'" + event + "'," + JSONObject.quote(text == null ? "" : text) + ")";
+        ui.post(() -> js(code));
+    }
+
+    // Maps SpeechRecognizer's int error codes onto the string keys sttErrMsg() in src/app.js already
+    // knows how to word for someone reading them, so this list and that one should be read together.
+    private static String speechErrorKey(int error) {
+        switch (error) {
+            case SpeechRecognizer.ERROR_NETWORK:
+            case SpeechRecognizer.ERROR_NETWORK_TIMEOUT: return "network";
+            case SpeechRecognizer.ERROR_AUDIO: return "audio-capture";
+            case SpeechRecognizer.ERROR_SPEECH_TIMEOUT:
+            case SpeechRecognizer.ERROR_NO_MATCH: return "no-speech";
+            case SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS: return "permission-denied";
+            default: return "error"; // client shows a generic "please try again"
+        }
+    }
+
+    // Must run on the main thread — the Android API requires the thread that created a SpeechRecognizer
+    // to be the one that drives it. RECORD_AUDIO permission is assumed already granted by the caller.
+    private void startListening(int id) {
+        pendingSpeechId = id;
+        if (speechRecognizer == null) {
+            if (!SpeechRecognizer.isRecognitionAvailable(this)) {
+                fireSpeech(id, "end", "unavailable");
+                return;
+            }
+            speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
+        }
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "zh-CN");
+        intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1);
+        intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, getPackageName());
+        speechRecognizer.setRecognitionListener(new RecognitionListener() {
+            @Override public void onReadyForSpeech(Bundle params) { }
+            @Override public void onBeginningOfSpeech() { }
+            @Override public void onRmsChanged(float rmsdB) { }
+            @Override public void onBufferReceived(byte[] buffer) { }
+            @Override public void onEndOfSpeech() { }
+
+            @Override
+            public void onError(int error) {
+                fireSpeech(id, "end", speechErrorKey(error));
+            }
+
+            @Override
+            public void onResults(Bundle results) {
+                ArrayList<String> matches = results == null ? null
+                        : results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                String text = (matches == null || matches.isEmpty()) ? null : matches.get(0);
+                if (text != null) text = text.trim();
+                if (text == null || text.isEmpty()) {
+                    fireSpeech(id, "end", "no-speech");
+                    return;
+                }
+                fireSpeech(id, "result", text);
+                fireSpeech(id, "end", "");
+            }
+
+            @Override public void onPartialResults(Bundle partialResults) { }
+            @Override public void onEvent(int eventType, Bundle params) { }
+        });
+        speechRecognizer.startListening(intent);
     }
 
     private void openOutside(Uri uri) {
@@ -277,6 +368,31 @@ public class MainActivity extends Activity {
         @JavascriptInterface
         public void stop() {
             if (tts != null) tts.stop();
+        }
+
+        @JavascriptInterface
+        public boolean sttAvailable() {
+            return SpeechRecognizer.isRecognitionAvailable(MainActivity.this);
+        }
+
+        @JavascriptInterface
+        public void listen(int id) {
+            ui.post(() -> {
+                if (checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+                    pendingSpeechId = id; // resumed from onRequestPermissionsResult once the user answers
+                    requestPermissions(new String[]{Manifest.permission.RECORD_AUDIO}, REQ_RECORD_AUDIO);
+                    return;
+                }
+                startListening(id);
+            });
+        }
+
+        @JavascriptInterface
+        public void stopListening() {
+            ui.post(() -> {
+                if (speechRecognizer != null) speechRecognizer.cancel(); // cancel() fires no listener callback itself
+                if (pendingSpeechId >= 0) fireSpeech(pendingSpeechId, "end", "aborted");
+            });
         }
     }
 }

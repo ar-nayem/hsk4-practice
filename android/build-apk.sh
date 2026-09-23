@@ -7,8 +7,8 @@
 # Bump VERSION_CODE (whole number) and VERSION_NAME for every release you hand out,
 # otherwise phones won't offer the new file as an update.
 set -euo pipefail
-VERSION_CODE=1
-VERSION_NAME=1.0
+VERSION_CODE=2
+VERSION_NAME=1.1
 MIN_SDK=24
 TARGET_SDK=36
 

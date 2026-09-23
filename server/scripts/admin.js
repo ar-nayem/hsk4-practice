@@ -4,6 +4,9 @@
 //   node scripts/admin.js verify <email>          mark an email as verified (if the code email never arrives)
 //   node scripts/admin.js reset-password <email>  set a random temporary password and sign out all sessions
 //   node scripts/admin.js delete <email>          remove the account and its history
+//   node scripts/admin.js make-admin <email>      grant access to the in-app Admin dashboard (/api/admin/*)
+//   node scripts/admin.js revoke-admin <email>    remove that access
+//   node scripts/admin.js lb-ban <email>          remove someone from the leaderboards (cheating); lb-unban reverses it
 const path = require('path');
 const crypto = require('crypto');
 try { process.loadEnvFile(path.join(__dirname, '..', '.env')); } catch (e) { /* no .env */ }
@@ -18,10 +21,10 @@ const day = ms => (ms ? new Date(ms).toISOString().slice(0, 16).replace('T', ' '
 
 switch (cmd) {
   case 'list': {
-    const rows = db.prepare(`SELECT u.id, u.email, u.name, u.email_verified AS v, u.created_at, p.updated_at
+    const rows = db.prepare(`SELECT u.id, u.email, u.name, u.email_verified AS v, u.is_admin AS a, u.created_at, p.updated_at
       FROM users u LEFT JOIN progress p ON p.user_id = u.id ORDER BY u.id`).all();
     for (const r of rows) {
-      console.log(`${r.id}\t${r.v ? 'verified  ' : 'UNVERIFIED'}\t${r.email}\t${r.name}\tjoined ${day(r.created_at)}\tlast save ${day(r.updated_at)}`);
+      console.log(`${r.id}\t${r.v ? 'verified  ' : 'UNVERIFIED'}${r.a ? ' (admin)' : ''}\t${r.email}\t${r.name}\tjoined ${day(r.created_at)}\tlast save ${day(r.updated_at)}`);
     }
     console.log(`${rows.length} user(s)`);
     break;
@@ -47,6 +50,30 @@ switch (cmd) {
     console.log(`Deleted ${u.email}`);
     break;
   }
+  case 'make-admin': {
+    const u = find(arg); need(u);
+    db.prepare('UPDATE users SET is_admin = 1 WHERE id = ?').run(u.id);
+    console.log(`${u.email} can now see the Admin dashboard (Settings appears after they next sign in, or reload if already signed in).`);
+    break;
+  }
+  case 'revoke-admin': {
+    const u = find(arg); need(u);
+    db.prepare('UPDATE users SET is_admin = 0 WHERE id = ?').run(u.id);
+    console.log(`Revoked admin access for ${u.email}.`);
+    break;
+  }
+  case 'lb-ban': {
+    const u = find(arg); need(u);
+    db.prepare('UPDATE users SET lb_banned = 1 WHERE id = ?').run(u.id);
+    console.log(`${u.email} no longer appears on the leaderboards.`);
+    break;
+  }
+  case 'lb-unban': {
+    const u = find(arg); need(u);
+    db.prepare('UPDATE users SET lb_banned = 0 WHERE id = ?').run(u.id);
+    console.log(`${u.email} can appear on the leaderboards again.`);
+    break;
+  }
   default:
-    console.log('Usage: node scripts/admin.js list | verify <email> | reset-password <email> | delete <email>');
+    console.log('Usage: node scripts/admin.js list | verify <email> | reset-password <email> | delete <email> | make-admin <email> | revoke-admin <email> | lb-ban <email> | lb-unban <email>');
 }
