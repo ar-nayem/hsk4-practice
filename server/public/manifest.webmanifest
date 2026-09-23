@@ -1,0 +1,30 @@
+{
+  "name": "HSK 4 Prep",
+  "short_name": "HSK 4 Prep",
+  "description": "HSK 4 exam practice: mock exams, 1,200 words, sentences, speaking and a leaderboard.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f2ec",
+  "theme_color": "#b3302a",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
